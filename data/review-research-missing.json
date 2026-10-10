@@ -1,0 +1,120 @@
+[
+  {
+    "id": "dalaocloud",
+    "searchedAt": "2026-10-10",
+    "records": [],
+    "searchQueries": ["大佬云 机场 测速 实测 MiaoKo", "\"大佬云\" \"实测\"", "\"大佬云\" \"MiaoKo\"", "\"大佬云\" \"Mbps\""],
+    "searchNote": "本轮仍未发现可核对日期、环境和原始证据的大佬云量化测试。大哥云是其他品牌，不得移用其测试。机场YYDS品牌列表将大佬云标为待实测。",
+    "searchedSources": ["https://www.jichangyyds.com/brands/", "https://www.jichangpk.com/pk/dalaoyun-vs-yifanyun/"],
+    "exclusions": [{"url":"https://clashx.pro/dageyun-review/","reason":"被测品牌为大哥云，非大佬云。"}],
+    "siteRetested": false
+  },
+  {
+    "id": "flyv",
+    "searchedAt": "2026-10-10",
+    "records": [],
+    "searchQueries": ["飞V 机场 实测 测速", "\"飞V\" \"MB/s\"", "\"飞V\" \"MiaoKo\"", "\"FlyV\" \"测速\" \"截图\""],
+    "searchNote": "找到性能宣传页，但没有通过证据筛选的真实测试。机场探原页明确暂无本站实测。懂哥机看板标注模拟宽带，其1000M环境854.6 MB/s数值与带宽上限明显冲突，不采用。",
+    "searchedSources": ["https://jichangtan.com/airports/flyv/", "https://jichangknow.com/reviews/flyv", "https://shidajichang.vip/data-sources/", "https://www.clashwiki.blog/data/"],
+    "exclusions": [
+      {"url":"https://jichangknow.com/reviews/flyv","reason":"看板写模拟宽带；1000M环境却列854.6 MB/s，证据与单位冲突。"},
+      {"url":"https://shidajichang.vip/data-sources/","reason":"页脚标注静态SEO内容框架示范，未提供可核验的逐项原始测试。"},
+      {"url":"https://www.clashwiki.blog/data/","reason":"搜索摘要有2026-10-03飞V记录，但实际打开原页只展示8月12/13日且没有飞V，不从摘要录入。"}
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "wavenet",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airporttizi.com/posts/langwang-review-2026/",
+        "publisher": "梯子猫 AirportTizi",
+        "title": "浪网机场怎么样？2026 套餐价格、节点与线路稳定性评测",
+        "publishedDate": "2026-09-19",
+        "testDate": null,
+        "classification": "来源声明",
+        "summary": "作者页面列出晚高峰下载、上传和MTR数据；未给出具体测试日期与本地运营商，本页作为待核验的来源声明，不认定独立实测。",
+        "environment": "作者描述千兆宽带、20:30—23:00、多轮测速，MTR发包500次；所在地、运营商、测速工具版本与具体测试日期未完整提供。",
+        "metrics": [
+          {"metric":"作者表列下载带宽","value":870.5,"unit":"Mbps","node":"香港 IEPL 01 [旗舰极速]","sampleCount":null},
+          {"metric":"作者表列上传带宽","value":193.8,"unit":"Mbps","node":"香港 IEPL 01 [旗舰极速]","sampleCount":null},
+          {"metric":"作者表列 Ping 延迟","value":28.5,"unit":"ms","node":"香港 IEPL 01 [旗舰极速]","sampleCount":null}
+        ],
+        "limitations": ["具体采样日期、所在地、运营商、样本次数未完整公开。", "页面存在IPLC/IEPL及原生IP相关结论，本站未进行线路或IP独立核验。", "只有作者网页表格与文本终端输出，未找到可下载原始日志；不得用于稳定性排名或跨环境速度比较。"],
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false,
+        "evidenceExcerpt": "晚高峰下载带宽 (Mbps) / 上传带宽 (Mbps) / Ping 延迟 (ms)",
+        "license": "CC BY-NC-SA 4.0；只重新记录数值事实并链接来源，未复制文章",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "recommendedUse": "仅展示为来源声明，暂不升级第三方实测。"
+      }
+    ],
+    "searchQueries": ["浪网 WaveNet 机场 实测 测速", "\"浪网\" \"MiaoKo\""],
+    "exclusions": [
+      {"url":"https://bestjichang.com/blog/review-19-wavenet/","reason":"搜索文本明确表格为官方标称理论模拟/架构演示，且原页获取失败，不能作为测试。"},
+      {"url":"https://jkjichang.com/review-langwang","reason":"原页连续获取失败，不从摘要采数字。"},
+      {"url":"https://tizimy.org/tuijian/wavenet/","reason":"明确尚未实测，只是价格资料。"}
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "invisible",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url":"https://www.ermao.net/blog/invisible-airport/",
+        "publisher":"二毛 · ermaozi",
+        "title":"2026 隐形人机场推荐：24 元月付 144GB，IEPL 纯专线宣传",
+        "publishedDate":"2026-07-28",
+        "testDate":"2026-07-20 20:54:55 CST",
+        "classification":"来源声明",
+        "summary":"二毛公开了服务商提供的60节点截图。本站已目视核对截图日期、环境和选定行数值；测试由服务商提供，不能视为独立第三方或本站自测。",
+        "environment":"截图标注珠海联通9Gbps测试线程32；MiaoKo 4.3.3(696)，核心4.7.0(A11-32)；用户实际接入所在地、运营商及设备未提供。",
+        "metrics":[
+          {"metric":"截图有效节点数","value":"60/60","unit":"节点","node":"全订阅","sampleCount":60},
+          {"metric":"截图平均速度列","value":83.33,"unit":"MB（原图未写/s）","node":"美国10","sampleCount":1},
+          {"metric":"截图最高速度列","value":125.17,"unit":"MB（原图未写/s）","node":"美国10","sampleCount":1},
+          {"metric":"截图平均速度列","value":17.13,"unit":"MB（原图未写/s）","node":"新加坡07","sampleCount":1},
+          {"metric":"截图 TLS RTT","value":136,"unit":"ms","node":"香港10","sampleCount":1},
+          {"metric":"截图 HTTPS 延迟","value":1869,"unit":"ms","node":"香港10","sampleCount":1}
+        ],
+        "limitations":["服务商提交的单次截图，来源有利益关联；截图被核对不代表真实性或长期表现经过验证。", "原图平均/最高速度列单位只有MB，未明示/s；不擅自换算MB/s或Mbps。", "60/60只是当次画面，不是长期在线率；TLS RTT与HTTPS延迟是不同指标，不能混写为Ping。", "9Gbps是测试后端标记，不能外推普通家庭宽带。"],
+        "hasRawEvidence":true,
+        "rawEvidenceInspected":true,
+        "independentlyVerifiedBySite":false,
+        "evidenceUrl":"https://image.ermao.net/images/blog/invisible-airport/20260728_145938-b61322.png",
+        "evidenceExcerpt":"测试时间: 2026-07-20 20:54:55 (CST)",
+        "recommendedUse":"有原图且已核对，作为服务商测试截图/来源声明收录，不能称本站实测。"
+      },
+      {
+        "url":"https://nodebar.net/yinxingren/",
+        "publisher":"Nodebar.net",
+        "title":"隐形人 Cloud怎么样？2026 隐形人 Cloud深度测评、价格与套餐解析",
+        "publishedDate":null,
+        "testDate":"2026-09-12",
+        "classification":"来源声明",
+        "summary":"作者自述广州电信单次抽样测试，并列出峰值、平均延迟及丢包率；未提供逐节点原始记录，暂按来源声明保存。",
+        "environment":"作者标注广州电信1000M FTTH、单次抽样；页面通用测试基准20:30—22:30，具体测试时刻、工具、节点及样本量未公开。",
+        "metrics":[
+          {"metric":"作者自述晚高峰下行峰值","value":920,"unit":"Mbps","node":"未明确","sampleCount":null},
+          {"metric":"作者自述核心节点平均延迟","value":20,"unit":"ms","node":"未明确","sampleCount":null},
+          {"metric":"作者自述丢包率采样","value":0,"unit":"%","node":"未明确","sampleCount":null}
+        ],
+        "limitations":["缺少原始截图、发包次数、节点名称、工具版本和可下载日志。", "页面自述100%节点全绿及专线属性，未独立核验，不作为所有节点或长期服务承诺。", "第三方作者自述有单次抽样，本站没有复测。"],
+        "hasRawEvidence":false,
+        "rawEvidenceInspected":false,
+        "independentlyVerifiedBySite":false,
+        "evidenceExcerpt":"样本类型: 单次抽样测试 (SINGLE_SAMPLE)",
+        "recommendedUse":"作为带日期、环境的作者自述，不升级已核验实测。"
+      }
+    ],
+    "searchQueries":["隐形人 机场 实测 测速", "\"隐形人机场\" \"测速\""],
+    "exclusions":[
+      {"url":"https://yxr.homes/index.html","reason":"营销首页性能标称、没有具体日期工具与可核对原始测试，且当前域名是否官方未核验。"},
+      {"url":"https://jichangdog.com/jichang/yinxingren/","reason":"未公开明确测试日期、本地运营商带宽及原始截图；不将夸张性能叙述升级实测。"}
+    ],
+    "siteRetested":false
+  }
+]

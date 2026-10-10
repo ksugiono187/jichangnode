@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://bestjichang.com/blog/review-08-wuyou/",
+    "checkedAt": "2026-10-10",
+    "reason": "正文明确标注理论模拟与架构演示，不能作为独立实测收录。"
+  },
+  {
+    "url": "https://jichangnet.net/posts/worryfree-link-review/",
+    "checkedAt": "2026-10-10",
+    "reason": "正文声明测速仍在队列采集中，没有转录跑分。"
+  },
+  {
+    "url": "https://clashx.pro/dageyun-review/",
+    "reason": "被测品牌为大哥云，非大佬云。",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "url": "https://jichangknow.com/reviews/flyv",
+    "reason": "看板写模拟宽带；1000M环境却列854.6 MB/s，证据与单位冲突。",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "url": "https://shidajichang.vip/data-sources/",
+    "reason": "页脚标注静态SEO内容框架示范，未提供可核验的逐项原始测试。",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "url": "https://www.clashwiki.blog/data/",
+    "reason": "搜索摘要有2026-10-03飞V记录，但实际打开原页只展示8月12/13日且没有飞V，不从摘要录入。",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "url": "https://bestjichang.com/blog/review-19-wavenet/",
+    "reason": "搜索文本明确表格为官方标称理论模拟/架构演示，且原页获取失败，不能作为测试。",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "url": "https://jkjichang.com/review-langwang",
+    "reason": "原页连续获取失败，不从摘要采数字。",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "url": "https://tizimy.org/tuijian/wavenet/",
+    "reason": "明确尚未实测，只是价格资料。",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "url": "https://yxr.homes/index.html",
+    "reason": "营销首页性能标称、没有具体日期工具与可核对原始测试，且当前域名是否官方未核验。",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "url": "https://jichangdog.com/jichang/yinxingren/",
+    "reason": "未公开明确测试日期、本地运营商带宽及原始截图；不将夸张性能叙述升级实测。",
+    "checkedAt": "2026-10-10"
+  }
+]

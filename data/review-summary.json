@@ -1,13 +1,11 @@
 {
   "brands": 29,
-  "records": 27,
-  "testReports": 20,
-  "sourceStatements": 7,
+  "records": 35,
+  "testReports": 22,
+  "sourceStatements": 13,
   "brandsWithoutRecords": [
     "dalaocloud",
-    "flyv",
-    "wavenet",
-    "invisible"
+    "flyv"
   ],
-  "metrics": 86
+  "metrics": 117
 }

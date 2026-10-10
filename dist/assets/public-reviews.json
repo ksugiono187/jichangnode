@@ -104,7 +104,49 @@
         "limitations": "作者声明亲自测试，机场node未复测；9Gbps32线程单轮不可代表家宽单连接或长期表现，未做AI/流媒体专项检测；正文套餐与拓扑明确为商家提供，不能混作独立验证。原图未由本次研究核验。",
         "hasRawEvidence": true,
         "rawEvidenceInspected": false,
-        "independentlyVerifiedBySite": false
+        "independentlyVerifiedBySite": false,
+        "sourceUpdatedDate": "2026-07-12"
+      },
+      {
+        "url": "https://airpick.help/brands/feimao/",
+        "publisher": "AirPick",
+        "title": "飞猫云：2026年7月长沙电信文字测试记录",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-07（未公布具体日与时刻）",
+        "classification": "第三方实测",
+        "summary": "作者记录另一组长沙电信样本：49个节点测速、48个检测解锁；美国、香港和韩国吞吐较高，日本延迟偏高。本轮只有文字，不能核原始输出。",
+        "metrics": [
+          {
+            "metric": "下载区间（作者文字摘要）",
+            "value": "约130–158",
+            "unit": "MB/s",
+            "node": "美国 / 香港 / 韩国；未拆分各地区样本",
+            "sampleCount": null,
+            "testEnvironment": "长沙电信2Gbps；具体工具、线程、日时未披露"
+          },
+          {
+            "metric": "测速节点数",
+            "value": 49,
+            "unit": "节点",
+            "node": "该批次订阅",
+            "sampleCount": 49,
+            "testEnvironment": "长沙电信2Gbps；具体工具、线程、日时未披露"
+          },
+          {
+            "metric": "解锁检测节点数",
+            "value": 48,
+            "unit": "节点",
+            "node": "该批次订阅；不等于48个全部通过",
+            "sampleCount": 48,
+            "testEnvironment": "长沙电信2Gbps；脚本和逐项结果未公开"
+          }
+        ],
+        "environment": "长沙电信2Gbps；49节点测速、48节点解锁；原页没有披露设备、工具、线程与准确测试时刻。",
+        "limitations": "作者自述，未提供截图或逐次日志，机场node未复测。不同地区未拆开，不能用该范围作某个香港节点的保证速度。不要与该页8月11日另一份珠海联通截图混合：后者的平均列高于最大列、日期与订阅信息亦有矛盾，本文没有摘录其速度。解锁只有概述，不代表每个节点或每项服务成功。",
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false,
+        "checkedAt": "2026-10-10"
       }
     ],
     "siteRetested": false
@@ -160,11 +202,17 @@
     "id": "dalaocloud",
     "searchedAt": "2026-10-10",
     "records": [],
-    "searchNote": "已搜索大佬云+测速/实测/ms，未找到环境与原始记录齐备的原创量化实测。机场YYDS便宜榜明确该品牌尚未完成实测。不得将大哥云混同大佬云；不录入价目介绍或匿名营销性能承诺。",
+    "searchNote": "本轮仍未发现可核对日期、环境和原始证据的大佬云量化测试。大哥云是其他品牌，不得移用其测试。机场YYDS品牌列表将大佬云标为待实测。",
     "searchedSources": [
       "https://www.jichangyyds.com/topics/cheap/"
     ],
-    "siteRetested": false
+    "siteRetested": false,
+    "searchQueries": [
+      "大佬云 机场 测速 实测 MiaoKo",
+      "\"大佬云\" \"实测\"",
+      "\"大佬云\" \"MiaoKo\"",
+      "\"大佬云\" \"Mbps\""
+    ]
   },
   {
     "id": "firefly",
@@ -327,6 +375,47 @@
         "hasRawEvidence": true,
         "rawEvidenceInspected": false,
         "independentlyVerifiedBySite": false
+      },
+      {
+        "url": "https://yifenjichang.net/brands/flashleap/",
+        "publisher": "一分机场",
+        "title": "闪跃2026年10月4日非晚高峰测速卡片",
+        "publishedDate": "2026-10-04（页面更新日）",
+        "testDate": "2026-10-04（时刻未披露）",
+        "classification": "来源声明",
+        "summary": "页面提供10月4日香港、日本、美国等地区测速卡片，明确非晚高峰。接入环境与原始结果缺失，只作为有待复核的来源记录。",
+        "metrics": [
+          {
+            "metric": "下载",
+            "value": 542,
+            "unit": "Mbps",
+            "node": "香港；具体节点未标",
+            "sampleCount": null,
+            "testEnvironment": "非晚高峰；运营商、所在地、带宽、设备与工具未披露"
+          },
+          {
+            "metric": "延迟（方法未定义）",
+            "value": 24,
+            "unit": "ms",
+            "node": "香港；具体节点未标",
+            "sampleCount": null,
+            "testEnvironment": "非晚高峰；运营商、所在地、带宽、设备与工具未披露"
+          },
+          {
+            "metric": "下载",
+            "value": 15,
+            "unit": "Mbps",
+            "node": "美国；具体节点未标",
+            "sampleCount": null,
+            "testEnvironment": "非晚高峰；运营商、所在地、带宽、设备与工具未披露"
+          }
+        ],
+        "environment": "作者仅注明2026-10-04及非晚高峰，其他测试条件未披露。",
+        "limitations": "来源页面卡片自称实测，但没有原始输出、工具与接入环境，暂标来源声明。搜索索引仍显示9月14日517Mbps，打开原页已是10月4日542Mbps，因此仅按本次原页保存，不混成两次独立样本。解锁一节明确来自商家资料，不属于这次测速。",
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false,
+        "checkedAt": "2026-10-10"
       }
     ],
     "siteRetested": false
@@ -382,6 +471,70 @@
         "hasRawEvidence": true,
         "rawEvidenceInspected": false,
         "independentlyVerifiedBySite": false
+      },
+      {
+        "url": "https://jckevin.org/airport/reviews/wuyou-benchmark/",
+        "title": "无忧链接深夜实测：最低年付档的速度会打折吗",
+        "publisher": "JCKevin 编辑部",
+        "publishedDate": "2026-09-21",
+        "testDate": "2026-09-21 23:45（原文未注明时区）",
+        "classification": "第三方实测",
+        "summary": "同一报告中，美国节点下载为172 Mbps，香港为530.4 Mbps。地区间差异提示应优先验证实际要用的节点；不能用香港结果代表美国，也不能把深夜结果当晚高峰保证。",
+        "environment": "作者披露 Clash Verge Rev、Speedtest；五节点深夜样本。本地运营商、带宽、测速服务器和重复次数未完整披露。",
+        "metrics": [
+          {
+            "metric": "下载速度",
+            "value": 530.4,
+            "unit": "Mbps",
+            "node": "香港 IPLC 01",
+            "sampleCount": null
+          },
+          {
+            "metric": "下载速度",
+            "value": 448,
+            "unit": "Mbps",
+            "node": "台湾 IPLC 01",
+            "sampleCount": null
+          },
+          {
+            "metric": "下载速度",
+            "value": 419.2,
+            "unit": "Mbps",
+            "node": "日本 东京 IPLC",
+            "sampleCount": null
+          },
+          {
+            "metric": "下载速度",
+            "value": 384.8,
+            "unit": "Mbps",
+            "node": "新加坡 IPLC 01",
+            "sampleCount": null
+          },
+          {
+            "metric": "下载速度",
+            "value": 172,
+            "unit": "Mbps",
+            "node": "美国 洛杉矶 IPLC",
+            "sampleCount": null
+          },
+          {
+            "metric": "丢包率",
+            "value": 0.4,
+            "unit": "%",
+            "node": "美国 洛杉矶 IPLC",
+            "sampleCount": null
+          }
+        ],
+        "limitations": [
+          "原作者自述，本站未复测或验证数据真实性；未见原始逐次测量日志。",
+          "报告另列全天六时点采样，但未明确对应节点，不能与五节点深夜样本合并统计。",
+          "缺少运营商与带宽信息，不能用于跨品牌排名；丢包比例没有探测包总数，不解释为长期故障率。"
+        ],
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false,
+        "checkedAt": "2026-10-10",
+        "sourceUpdatedDate": "2026-09-21"
       }
     ],
     "siteRetested": false
@@ -704,6 +857,55 @@
         "hasRawEvidence": true,
         "independentlyVerifiedBySite": false,
         "rawEvidenceInspected": false
+      },
+      {
+        "url": "https://jichangyyds.net/brands/edgenova/",
+        "publisher": "机场数据库 jichangyyds.net",
+        "title": "EdgeNova地区中位数测速公开表",
+        "publishedDate": "2026-08-17（数据快照生成日）",
+        "testDate": "2026-07-21 21:40",
+        "classification": "来源声明",
+        "summary": "原页自称测试，并按各地区节点中位数列结果；香港10节点和美国4节点均有具体值。但测试接入环境与原始记录未提供，只收录为来源声明。",
+        "metrics": [
+          {
+            "metric": "下载中位数",
+            "value": 114.16,
+            "unit": "MB/s",
+            "node": "香港10节点",
+            "sampleCount": 10,
+            "testEnvironment": "原页未披露地区、运营商、带宽、设备、工具及线程"
+          },
+          {
+            "metric": "延迟中位数（方法未定义）",
+            "value": 39,
+            "unit": "ms",
+            "node": "香港10节点",
+            "sampleCount": 10,
+            "testEnvironment": "原页未披露地区、运营商、带宽、设备、工具及线程"
+          },
+          {
+            "metric": "下载中位数",
+            "value": 108.04,
+            "unit": "MB/s",
+            "node": "美国4节点",
+            "sampleCount": 4,
+            "testEnvironment": "原页未披露地区、运营商、带宽、设备、工具及线程"
+          },
+          {
+            "metric": "延迟中位数（方法未定义）",
+            "value": 167.5,
+            "unit": "ms",
+            "node": "美国4节点",
+            "sampleCount": 4,
+            "testEnvironment": "原页未披露地区、运营商、带宽、设备、工具及线程"
+          }
+        ],
+        "environment": "原页有时间和地区取中位数口径；接入城市、运营商、基准带宽、工具、并发与原始日志未披露。",
+        "limitations": "原页自称执行，但无法检查原始数据与测试环境，暂不计作具备测试条件的第三方实测。来源解锁只有五个勾选，未说明检测节点和脚本，未摘录成通过率。来源价格与优惠不替换用户品牌资料。",
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false,
+        "checkedAt": "2026-10-10"
       }
     ],
     "siteRetested": false
@@ -878,6 +1080,47 @@
         "hasRawEvidence": true,
         "independentlyVerifiedBySite": false,
         "rawEvidenceInspected": false
+      },
+      {
+        "url": "https://ygjc.cc/vpn/kuaili-review",
+        "publisher": "一个机场科学上网",
+        "title": "快狸2026年5月移动千兆晚间测速表",
+        "publishedDate": null,
+        "testDate": "2026-05 22:00（具体日未披露）",
+        "classification": "来源声明",
+        "summary": "来源有移动千兆、Clash Verge Rev和晚间时刻，列港日美地区上下行，但缺具体日期、地点、测速工具及原始输出，作为待核来源记录。",
+        "metrics": [
+          {
+            "metric": "下载",
+            "value": 850,
+            "unit": "Mbps",
+            "node": "香港；具体节点未标",
+            "sampleCount": null,
+            "testEnvironment": "移动1000M；Clash Verge Rev；城市和具体日未披露"
+          },
+          {
+            "metric": "上传",
+            "value": 140,
+            "unit": "Mbps",
+            "node": "香港；具体节点未标",
+            "sampleCount": null,
+            "testEnvironment": "移动1000M；Clash Verge Rev；城市和具体日未披露"
+          },
+          {
+            "metric": "Ping延迟",
+            "value": 28,
+            "unit": "ms",
+            "node": "香港；具体节点未标",
+            "sampleCount": null,
+            "testEnvironment": "移动1000M；Clash Verge Rev；Ping工具/目标/次数未披露"
+          }
+        ],
+        "environment": "移动1000M；Clash Verge Rev；2026年5月22:00；城市、设备、测速服务器、并发和重复次数未披露。",
+        "limitations": "网页表格可核对，测试过程未核。没有原图、日志、Speedtest结果链接或详细采样方法；不能用五月表格判断当前性能、三网表现或长期稳定。解锁章节只有勾选及作者概述，未纳入量化通过率。",
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false,
+        "checkedAt": "2026-10-10"
       }
     ],
     "siteRetested": false
@@ -1335,8 +1578,14 @@
     "id": "flyv",
     "searchedAt": "2026-10-10",
     "records": [],
-    "searchNote": "搜索飞V实测、MiaoKo与测试时间。机场探原页https://jichangtan.com/airports/flyv/明确当前无本站实测依据；未找到能核对日期、环境和数据的原创性能报告。",
-    "siteRetested": false
+    "searchNote": "找到性能宣传页，但没有通过证据筛选的真实测试。机场探原页明确暂无本站实测。懂哥机看板标注模拟宽带，其1000M环境854.6 MB/s数值与带宽上限明显冲突，不采用。",
+    "siteRetested": false,
+    "searchQueries": [
+      "飞V 机场 实测 测速",
+      "\"飞V\" \"MB/s\"",
+      "\"飞V\" \"MiaoKo\"",
+      "\"FlyV\" \"测速\" \"截图\""
+    ]
   },
   {
     "id": "laddercloud",
@@ -1381,9 +1630,60 @@
   {
     "id": "wavenet",
     "searchedAt": "2026-10-10",
-    "records": [],
+    "records": [
+      {
+        "url": "https://airporttizi.com/posts/langwang-review-2026/",
+        "publisher": "梯子猫 AirportTizi",
+        "title": "浪网机场怎么样？2026 套餐价格、节点与线路稳定性评测",
+        "publishedDate": "2026-09-19",
+        "testDate": null,
+        "classification": "来源声明",
+        "summary": "作者页面列出晚高峰下载、上传和MTR数据；未给出具体测试日期与本地运营商，本页作为待核验的来源声明，不认定独立实测。",
+        "environment": "作者描述千兆宽带、20:30—23:00、多轮测速，MTR发包500次；所在地、运营商、测速工具版本与具体测试日期未完整提供。",
+        "metrics": [
+          {
+            "metric": "作者表列下载带宽",
+            "value": 870.5,
+            "unit": "Mbps",
+            "node": "香港 IEPL 01 [旗舰极速]",
+            "sampleCount": null
+          },
+          {
+            "metric": "作者表列上传带宽",
+            "value": 193.8,
+            "unit": "Mbps",
+            "node": "香港 IEPL 01 [旗舰极速]",
+            "sampleCount": null
+          },
+          {
+            "metric": "作者表列 Ping 延迟",
+            "value": 28.5,
+            "unit": "ms",
+            "node": "香港 IEPL 01 [旗舰极速]",
+            "sampleCount": null
+          }
+        ],
+        "limitations": [
+          "具体采样日期、所在地、运营商、样本次数未完整公开。",
+          "页面存在IPLC/IEPL及原生IP相关结论，本站未进行线路或IP独立核验。",
+          "只有作者网页表格与文本终端输出，未找到可下载原始日志；不得用于稳定性排名或跨环境速度比较。"
+        ],
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false,
+        "evidenceExcerpt": "晚高峰下载带宽 (Mbps) / 上传带宽 (Mbps) / Ping 延迟 (ms)",
+        "license": "CC BY-NC-SA 4.0；只重新记录数值事实并链接来源，未复制文章",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "recommendedUse": "仅展示为来源声明，暂不升级第三方实测。",
+        "checkedAt": "2026-10-10"
+      }
+    ],
     "searchNote": "梯子去哪买原页https://tizimy.org/tuijian/wavenet/明确未实测。其他声称千兆实测页原页获取失败，未采用摘要数值；未找到满足核对要求的原创测评。",
-    "siteRetested": false
+    "siteRetested": false,
+    "searchQueries": [
+      "浪网 WaveNet 机场 实测 测速",
+      "\"浪网\" \"MiaoKo\""
+    ]
   },
   {
     "id": "lingdong",
@@ -1412,8 +1712,124 @@
   {
     "id": "invisible",
     "searchedAt": "2026-10-10",
-    "records": [],
+    "records": [
+      {
+        "url": "https://www.ermao.net/blog/invisible-airport/",
+        "publisher": "二毛 · ermaozi",
+        "title": "2026 隐形人机场推荐：24 元月付 144GB，IEPL 纯专线宣传",
+        "publishedDate": "2026-07-28",
+        "testDate": "2026-07-20 20:54:55 CST",
+        "classification": "来源声明",
+        "summary": "二毛公开了服务商提供的60节点截图。本站已目视核对截图日期、环境和选定行数值；测试由服务商提供，不能视为独立第三方或本站自测。",
+        "environment": "截图标注珠海联通9Gbps测试线程32；MiaoKo 4.3.3(696)，核心4.7.0(A11-32)；用户实际接入所在地、运营商及设备未提供。",
+        "metrics": [
+          {
+            "metric": "截图有效节点数",
+            "value": "60/60",
+            "unit": "节点",
+            "node": "全订阅",
+            "sampleCount": 60
+          },
+          {
+            "metric": "截图平均速度列",
+            "value": 83.33,
+            "unit": "MB（原图未写/s）",
+            "node": "美国10",
+            "sampleCount": 1
+          },
+          {
+            "metric": "截图最高速度列",
+            "value": 125.17,
+            "unit": "MB（原图未写/s）",
+            "node": "美国10",
+            "sampleCount": 1
+          },
+          {
+            "metric": "截图平均速度列",
+            "value": 17.13,
+            "unit": "MB（原图未写/s）",
+            "node": "新加坡07",
+            "sampleCount": 1
+          },
+          {
+            "metric": "截图 TLS RTT",
+            "value": 136,
+            "unit": "ms",
+            "node": "香港10",
+            "sampleCount": 1
+          },
+          {
+            "metric": "截图 HTTPS 延迟",
+            "value": 1869,
+            "unit": "ms",
+            "node": "香港10",
+            "sampleCount": 1
+          }
+        ],
+        "limitations": [
+          "服务商提交的单次截图，来源有利益关联；截图被核对不代表真实性或长期表现经过验证。",
+          "原图平均/最高速度列单位只有MB，未明示/s；不擅自换算MB/s或Mbps。",
+          "60/60只是当次画面，不是长期在线率；TLS RTT与HTTPS延迟是不同指标，不能混写为Ping。",
+          "9Gbps是测试后端标记，不能外推普通家庭宽带。"
+        ],
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": true,
+        "independentlyVerifiedBySite": false,
+        "evidenceUrl": "https://image.ermao.net/images/blog/invisible-airport/20260728_145938-b61322.png",
+        "evidenceExcerpt": "测试时间: 2026-07-20 20:54:55 (CST)",
+        "recommendedUse": "有原图且已核对，作为服务商测试截图/来源声明收录，不能称本站实测。",
+        "checkedAt": "2026-10-10"
+      },
+      {
+        "url": "https://nodebar.net/yinxingren/",
+        "publisher": "Nodebar.net",
+        "title": "隐形人 Cloud怎么样？2026 隐形人 Cloud深度测评、价格与套餐解析",
+        "publishedDate": null,
+        "testDate": "2026-09-12",
+        "classification": "来源声明",
+        "summary": "作者自述广州电信单次抽样测试，并列出峰值、平均延迟及丢包率；未提供逐节点原始记录，暂按来源声明保存。",
+        "environment": "作者标注广州电信1000M FTTH、单次抽样；页面通用测试基准20:30—22:30，具体测试时刻、工具、节点及样本量未公开。",
+        "metrics": [
+          {
+            "metric": "作者自述晚高峰下行峰值",
+            "value": 920,
+            "unit": "Mbps",
+            "node": "未明确",
+            "sampleCount": null
+          },
+          {
+            "metric": "作者自述核心节点平均延迟",
+            "value": 20,
+            "unit": "ms",
+            "node": "未明确",
+            "sampleCount": null
+          },
+          {
+            "metric": "作者自述丢包率采样",
+            "value": 0,
+            "unit": "%",
+            "node": "未明确",
+            "sampleCount": null
+          }
+        ],
+        "limitations": [
+          "缺少原始截图、发包次数、节点名称、工具版本和可下载日志。",
+          "页面自述100%节点全绿及专线属性，未独立核验，不作为所有节点或长期服务承诺。",
+          "第三方作者自述有单次抽样，本站没有复测。"
+        ],
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false,
+        "evidenceExcerpt": "样本类型: 单次抽样测试 (SINGLE_SAMPLE)",
+        "recommendedUse": "作为带日期、环境的作者自述，不升级已核验实测。",
+        "checkedAt": "2026-10-10"
+      }
+    ],
     "searchNote": "搜索隐形人机场实测/测速/原始截图。Nodebar、AI科学机场、机场探原页本轮获取失败；未找到可核对原始证据与完整环境的原创测评，不用摘要补数字。",
-    "siteRetested": false
+    "siteRetested": false,
+    "searchQueries": [
+      "隐形人 机场 实测 测速",
+      "\"隐形人机场\" \"测速\""
+    ]
   }
 ]

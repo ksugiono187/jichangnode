@@ -1,0 +1,110 @@
+[
+  {
+    "id": "flycat",
+    "record": {
+      "url": "https://airpick.help/brands/feimao/",
+      "publisher": "AirPick",
+      "title": "飞猫云：2026年7月长沙电信文字测试记录",
+      "publishedDate": "2026-09-29",
+      "testDate": "2026-07（未公布具体日与时刻）",
+      "classification": "第三方实测",
+      "summary": "作者记录另一组长沙电信样本：49个节点测速、48个检测解锁；美国、香港和韩国吞吐较高，日本延迟偏高。本轮只有文字，不能核原始输出。",
+      "metrics": [
+        { "metric": "下载区间（作者文字摘要）", "value": "约130–158", "unit": "MB/s", "node": "美国 / 香港 / 韩国；未拆分各地区样本", "sampleCount": null, "testEnvironment": "长沙电信2Gbps；具体工具、线程、日时未披露" },
+        { "metric": "测速节点数", "value": 49, "unit": "节点", "node": "该批次订阅", "sampleCount": 49, "testEnvironment": "长沙电信2Gbps；具体工具、线程、日时未披露" },
+        { "metric": "解锁检测节点数", "value": 48, "unit": "节点", "node": "该批次订阅；不等于48个全部通过", "sampleCount": 48, "testEnvironment": "长沙电信2Gbps；脚本和逐项结果未公开" }
+      ],
+      "environment": "长沙电信2Gbps；49节点测速、48节点解锁；原页没有披露设备、工具、线程与准确测试时刻。",
+      "limitations": "作者自述，未提供截图或逐次日志，机场node未复测。不同地区未拆开，不能用该范围作某个香港节点的保证速度。不要与该页8月11日另一份珠海联通截图混合：后者的平均列高于最大列、日期与订阅信息亦有矛盾，本文没有摘录其速度。解锁只有概述，不代表每个节点或每项服务成功。",
+      "hasRawEvidence": false,
+      "rawEvidenceInspected": false,
+      "independentlyVerifiedBySite": false
+    },
+    "briefEvidence": "已读原页107–140行：明确2026-07站长文字实测，长沙电信2Gbps，49/48节点，130–158MB/s；112行明确无截图。8月另一批次147行平均595.9MB大于最大64.95MB，不能升级为可靠速度。原图点击Cache miss。"
+  },
+  {
+    "id": "edgenova",
+    "record": {
+      "url": "https://jichangyyds.net/brands/edgenova/",
+      "publisher": "机场数据库 jichangyyds.net",
+      "title": "EdgeNova地区中位数测速公开表",
+      "publishedDate": "2026-08-17（数据快照生成日）",
+      "testDate": "2026-07-21 21:40",
+      "classification": "来源声明",
+      "summary": "原页自称测试，并按各地区节点中位数列结果；香港10节点和美国4节点均有具体值。但测试接入环境与原始记录未提供，只收录为来源声明。",
+      "metrics": [
+        { "metric": "下载中位数", "value": 114.16, "unit": "MB/s", "node": "香港10节点", "sampleCount": 10, "testEnvironment": "原页未披露地区、运营商、带宽、设备、工具及线程" },
+        { "metric": "延迟中位数（方法未定义）", "value": 39, "unit": "ms", "node": "香港10节点", "sampleCount": 10, "testEnvironment": "原页未披露地区、运营商、带宽、设备、工具及线程" },
+        { "metric": "下载中位数", "value": 108.04, "unit": "MB/s", "node": "美国4节点", "sampleCount": 4, "testEnvironment": "原页未披露地区、运营商、带宽、设备、工具及线程" },
+        { "metric": "延迟中位数（方法未定义）", "value": 167.5, "unit": "ms", "node": "美国4节点", "sampleCount": 4, "testEnvironment": "原页未披露地区、运营商、带宽、设备、工具及线程" }
+      ],
+      "environment": "原页有时间和地区取中位数口径；接入城市、运营商、基准带宽、工具、并发与原始日志未披露。",
+      "limitations": "原页自称执行，但无法检查原始数据与测试环境，暂不计作具备测试条件的第三方实测。来源解锁只有五个勾选，未说明检测节点和脚本，未摘录成通过率。来源价格与优惠不替换用户品牌资料。",
+      "hasRawEvidence": false,
+      "rawEvidenceInspected": false,
+      "independentlyVerifiedBySite": false
+    },
+    "briefEvidence": "已读完整52行原页。25行测试时刻与中位数；31行香港114.16MB/s、39ms、10节点；35行美国108.04MB/s、167.5ms、4节点；没有原始图/日志。方法页点击失败。"
+  },
+  {
+    "id": "flashleap",
+    "record": {
+      "url": "https://yifenjichang.net/brands/flashleap/",
+      "publisher": "一分机场",
+      "title": "闪跃2026年10月4日非晚高峰测速卡片",
+      "publishedDate": "2026-10-04（页面更新日）",
+      "testDate": "2026-10-04（时刻未披露）",
+      "classification": "来源声明",
+      "summary": "页面提供10月4日香港、日本、美国等地区测速卡片，明确非晚高峰。接入环境与原始结果缺失，只作为有待复核的来源记录。",
+      "metrics": [
+        { "metric": "下载", "value": 542, "unit": "Mbps", "node": "香港；具体节点未标", "sampleCount": null, "testEnvironment": "非晚高峰；运营商、所在地、带宽、设备与工具未披露" },
+        { "metric": "延迟（方法未定义）", "value": 24, "unit": "ms", "node": "香港；具体节点未标", "sampleCount": null, "testEnvironment": "非晚高峰；运营商、所在地、带宽、设备与工具未披露" },
+        { "metric": "下载", "value": 15, "unit": "Mbps", "node": "美国；具体节点未标", "sampleCount": null, "testEnvironment": "非晚高峰；运营商、所在地、带宽、设备与工具未披露" }
+      ],
+      "environment": "作者仅注明2026-10-04及非晚高峰，其他测试条件未披露。",
+      "limitations": "来源页面卡片自称实测，但没有原始输出、工具与接入环境，暂标来源声明。搜索索引仍显示9月14日517Mbps，打开原页已是10月4日542Mbps，因此仅按本次原页保存，不混成两次独立样本。解锁一节明确来自商家资料，不属于这次测速。",
+      "hasRawEvidence": false,
+      "rawEvidenceInspected": false,
+      "independentlyVerifiedBySite": false
+    },
+    "briefEvidence": "已读216行原页，70行测试日期10月4日，72行香港542Mbps/24ms，80行美国15Mbps/122ms，82行非晚高峰，130行解锁来自官方。注意搜索摘要9月14日值已过时。"
+  },
+  {
+    "id": "kuaili",
+    "record": {
+      "url": "https://ygjc.cc/vpn/kuaili-review",
+      "publisher": "一个机场科学上网",
+      "title": "快狸2026年5月移动千兆晚间测速表",
+      "publishedDate": null,
+      "testDate": "2026-05 22:00（具体日未披露）",
+      "classification": "来源声明",
+      "summary": "来源有移动千兆、Clash Verge Rev和晚间时刻，列港日美地区上下行，但缺具体日期、地点、测速工具及原始输出，作为待核来源记录。",
+      "metrics": [
+        { "metric": "下载", "value": 850, "unit": "Mbps", "node": "香港；具体节点未标", "sampleCount": null, "testEnvironment": "移动1000M；Clash Verge Rev；城市和具体日未披露" },
+        { "metric": "上传", "value": 140, "unit": "Mbps", "node": "香港；具体节点未标", "sampleCount": null, "testEnvironment": "移动1000M；Clash Verge Rev；城市和具体日未披露" },
+        { "metric": "Ping延迟", "value": 28, "unit": "ms", "node": "香港；具体节点未标", "sampleCount": null, "testEnvironment": "移动1000M；Clash Verge Rev；Ping工具/目标/次数未披露" }
+      ],
+      "environment": "移动1000M；Clash Verge Rev；2026年5月22:00；城市、设备、测速服务器、并发和重复次数未披露。",
+      "limitations": "网页表格可核对，测试过程未核。没有原图、日志、Speedtest结果链接或详细采样方法；不能用五月表格判断当前性能、三网表现或长期稳定。解锁章节只有勾选及作者概述，未纳入量化通过率。",
+      "hasRawEvidence": false,
+      "rawEvidenceInspected": false,
+      "independentlyVerifiedBySite": false
+    },
+    "briefEvidence": "已读337行原页，272–274行测试环境，280行香港28ms、850Mbps、140Mbps；正文没有原始图或日志。机场烧饼及JICC搜索有漂亮表但打开原页Cache miss，未采摘要。"
+  },
+  {
+    "id": "breezenet",
+    "record": null,
+    "briefEvidence": "搜索微风网络+Breezenet+实测/Mbps/500M。机场笔记原页与已有记录重复；JCTJ榜只有连续三日时段，没有具体测试日、逐次日志或城市，不能独立建立新样本。梯子推荐latency-jitter-loss页面搜索有家宽表，但原页两次Cache miss，未录摘要数字。"
+  },
+  {
+    "id": "twilight",
+    "record": null,
+    "briefEvidence": "搜索暮光网络+实测+MiaoKo及测速2026。取得JCKevin四节点来源，已在现有数据；未找到新增同时具备可核原始表和环境的原创记录。"
+  },
+  {
+    "id": "2mao",
+    "record": null,
+    "briefEvidence": "新检索机场Z、VPN推荐、机场NET、梯子猫、JCKevin、一个机场科学上网。机场Z称千兆环境却给香港2380Mbps均值2560Mbps峰值，未解释后端；VPN推荐写8月11日晚间而已有同工具原图在上午；机场NET平均330Mbps但没有清晰原值/计算；一个机场5月千兆表缺地区和具体日且没有原始输出；未追加这些弱证据，以免重复营销表充数。"
+  }
+]
