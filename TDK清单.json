@@ -14,6 +14,13 @@
     "noindex": false
   },
   {
+    "file": "reviews/index.html",
+    "canonical": "https://jichangnode.wiki/reviews/",
+    "title": "29品牌公开机场测评资料：测试条件、速度延迟与来源",
+    "desc": "收录29品牌检索结果，整理第三方测试报告、来源声明、节点速度与延迟，并保留原文链接、日期、环境和判断范围。",
+    "noindex": false
+  },
+  {
     "file": "plans/index.html",
     "canonical": "https://jichangnode.wiki/plans/",
     "title": "29品牌价格流量总表：全部套餐、付款周期与公开来源",
@@ -24,203 +31,203 @@
     "file": "brands/breezenet/index.html",
     "canonical": "https://jichangnode.wiki/brands/breezenet/",
     "title": "微风网络 Breezenet机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "微风网络 Breezenet套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "微风网络 Breezenet套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/flycat/index.html",
     "canonical": "https://jichangnode.wiki/brands/flycat/",
     "title": "飞猫云机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "飞猫云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "飞猫云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/twilight/index.html",
     "canonical": "https://jichangnode.wiki/brands/twilight/",
     "title": "暮光网络机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "暮光网络套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "暮光网络套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/dalaocloud/index.html",
     "canonical": "https://jichangnode.wiki/brands/dalaocloud/",
     "title": "大佬云机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "大佬云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "大佬云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/firefly/index.html",
     "canonical": "https://jichangnode.wiki/brands/firefly/",
     "title": "Firefly机场机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "Firefly机场套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "Firefly机场套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/civet/index.html",
     "canonical": "https://jichangnode.wiki/brands/civet/",
     "title": "灵猫机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "灵猫套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "灵猫套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/flashleap/index.html",
     "canonical": "https://jichangnode.wiki/brands/flashleap/",
     "title": "闪跃 FlashLeap机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "闪跃 FlashLeap套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "闪跃 FlashLeap套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/worryfree/index.html",
     "canonical": "https://jichangnode.wiki/brands/worryfree/",
     "title": "无忧链接机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "无忧链接套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "无忧链接套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/kuajie/index.html",
     "canonical": "https://jichangnode.wiki/brands/kuajie/",
     "title": "跨界云机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "跨界云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "跨界云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/2mao/index.html",
     "canonical": "https://jichangnode.wiki/brands/2mao/",
     "title": "二猫云 2mao机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "二猫云 2mao套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "二猫云 2mao套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/sogo/index.html",
     "canonical": "https://jichangnode.wiki/brands/sogo/",
     "title": "Sogo云机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "Sogo云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "Sogo云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/yuzhou/index.html",
     "canonical": "https://jichangnode.wiki/brands/yuzhou/",
     "title": "宇宙云 YuZhou机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "宇宙云 YuZhou套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "宇宙云 YuZhou套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/1fly/index.html",
     "canonical": "https://jichangnode.wiki/brands/1fly/",
     "title": "一翻云 1fly机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "一翻云 1fly套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "一翻云 1fly套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/edgenova/index.html",
     "canonical": "https://jichangnode.wiki/brands/edgenova/",
     "title": "边缘节点 EdgeNova机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "边缘节点 EdgeNova套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "边缘节点 EdgeNova套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/kosing/index.html",
     "canonical": "https://jichangnode.wiki/brands/kosing/",
     "title": "可信云机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "可信云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "可信云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/sujie/index.html",
     "canonical": "https://jichangnode.wiki/brands/sujie/",
     "title": "速界 SuJie机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "速界 SuJie套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "速界 SuJie套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/kuaili/index.html",
     "canonical": "https://jichangnode.wiki/brands/kuaili/",
     "title": "快狸 KuaiLi机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "快狸 KuaiLi套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "快狸 KuaiLi套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/stardream/index.html",
     "canonical": "https://jichangnode.wiki/brands/stardream/",
     "title": "星岛梦 StarDream机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "星岛梦 StarDream套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "星岛梦 StarDream套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/lightspeed/index.html",
     "canonical": "https://jichangnode.wiki/brands/lightspeed/",
     "title": "光速云 LightSpeed机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "光速云 LightSpeed套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "光速云 LightSpeed套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/v2yun/index.html",
     "canonical": "https://jichangnode.wiki/brands/v2yun/",
     "title": "唯兔云（V2云）机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "唯兔云（V2云）套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "唯兔云（V2云）套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/u1s1/index.html",
     "canonical": "https://jichangnode.wiki/brands/u1s1/",
     "title": "U1S1（有一说一）机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "U1S1（有一说一）套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "U1S1（有一说一）套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/jilian/index.html",
     "canonical": "https://jichangnode.wiki/brands/jilian/",
     "title": "极连云机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "极连云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "极连云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/globalcloud/index.html",
     "canonical": "https://jichangnode.wiki/brands/globalcloud/",
     "title": "全球云机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "全球云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "全球云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/guangnianti/index.html",
     "canonical": "https://jichangnode.wiki/brands/guangnianti/",
     "title": "光年梯机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "光年梯套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "光年梯套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/flyv/index.html",
     "canonical": "https://jichangnode.wiki/brands/flyv/",
     "title": "飞V机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "飞V套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "飞V套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/laddercloud/index.html",
     "canonical": "https://jichangnode.wiki/brands/laddercloud/",
     "title": "梯子云 LadderCloud机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "梯子云 LadderCloud套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "梯子云 LadderCloud套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/wavenet/index.html",
     "canonical": "https://jichangnode.wiki/brands/wavenet/",
     "title": "浪网 WaveNet机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "浪网 WaveNet套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "浪网 WaveNet套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/lingdong/index.html",
     "canonical": "https://jichangnode.wiki/brands/lingdong/",
     "title": "灵动云机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "灵动云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "灵动云套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {
     "file": "brands/invisible/index.html",
     "canonical": "https://jichangnode.wiki/brands/invisible/",
     "title": "隐形人机场测评资料：价格、流量、优惠与选购分析",
-    "desc": "隐形人套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。使用表现待实测，不提供虚构评分。",
+    "desc": "隐形人套餐与价格流量参考，整理官方入口、优惠码、付款周期和来源疑点。收录公开测评资料，标明来源、测试条件与判断范围。",
     "noindex": false
   },
   {

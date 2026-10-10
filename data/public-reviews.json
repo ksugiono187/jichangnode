@@ -1,0 +1,1419 @@
+[
+  {
+    "id": "breezenet",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://jichangnote.com/reviews/weifeng-network/",
+        "publisher": "机场笔记编辑部",
+        "title": "微风网络机场怎么样？套餐价格、节点速度与解锁实测",
+        "publishedDate": "2026-08-21",
+        "testDate": "2026-07-19 18:38:20 CST",
+        "classification": "第三方实测",
+        "summary": "作者记录50节点单次测试，港新下载较高，美区较低；48个取得有效结果，不能转写为长期96%可用率。",
+        "metrics": [
+          {
+            "metric": "平均下载",
+            "value": 530.21,
+            "unit": "MB/s",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "平均TLS RTT",
+            "value": 113.4,
+            "unit": "ms",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "平均下载",
+            "value": 14.23,
+            "unit": "MB/s",
+            "node": "美国10节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 10
+          },
+          {
+            "metric": "有效节点",
+            "value": "48/50",
+            "unit": "节点",
+            "node": "整轮",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 50
+          }
+        ],
+        "environment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+        "limitations": "第三方作者报告，机场node未复测。32线程速度不能代表普通家宽单连接；TLS RTT不是ICMP ping；单次有效节点数不是长期在线率。上传与丢包未采集。页面发布原始图链接，但本次数字仅摘自正文，未独立鉴定图片真实性。",
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "flycat",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://jichangtuijiancn.co/reviews/feimaoyun/",
+        "publisher": "老白 · 机场中文网",
+        "title": "飞猫云机场怎么样？晚高峰实测测速、完整套餐价格与线路资料（2026）",
+        "publishedDate": "2026-07-02",
+        "testDate": "2026-07-11 21:34 CST",
+        "classification": "第三方实测",
+        "summary": "作者自有订阅晚间测试59节点，香港下载区间高于美国；日本、土耳其等有异常。解锁尚未实测。",
+        "metrics": [
+          {
+            "metric": "节点平均下载区间",
+            "value": "56–93",
+            "unit": "MB/s",
+            "node": "香港20节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 20
+          },
+          {
+            "metric": "TLS RTT区间",
+            "value": "123–359",
+            "unit": "ms",
+            "node": "香港20节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 20
+          },
+          {
+            "metric": "节点平均下载区间",
+            "value": "12–17",
+            "unit": "MB/s",
+            "node": "美国10节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 10
+          },
+          {
+            "metric": "TLS RTT区间",
+            "value": "247–273",
+            "unit": "ms",
+            "node": "美国10节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 10
+          }
+        ],
+        "environment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+        "limitations": "作者声明亲自测试，机场node未复测；9Gbps32线程单轮不可代表家宽单连接或长期表现，未做AI/流媒体专项检测；正文套餐与拓扑明确为商家提供，不能混作独立验证。原图未由本次研究核验。",
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "twilight",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://jckevin.org/airport/reviews/muguang-benchmark/",
+        "publisher": "JCKevin 编辑部",
+        "title": "暮光网络深夜实测：四节点数据与三网BGP入口验证",
+        "publishedDate": "2026-09-21",
+        "testDate": "2026-09-21 23:20",
+        "classification": "来源声明",
+        "summary": "来源自称四节点测试，但缺少宽带运营商、所在地和带宽，套餐介绍亦与已收录表不一致，暂不作确证实测。",
+        "metrics": [
+          {
+            "metric": "下载",
+            "value": 558.4,
+            "unit": "Mbps",
+            "node": "香港IEPL01",
+            "testEnvironment": "Clash Verge Rev / Speedtest；所在地运营商带宽未披露",
+            "sampleCount": 1
+          },
+          {
+            "metric": "延迟",
+            "value": 45,
+            "unit": "ms",
+            "node": "香港IEPL01",
+            "testEnvironment": "Clash Verge Rev / Speedtest；所在地运营商带宽未披露",
+            "sampleCount": 1
+          },
+          {
+            "metric": "丢包",
+            "value": 0.4,
+            "unit": "%",
+            "node": "美国西海岸BGP",
+            "testEnvironment": "Clash Verge Rev / Speedtest；所在地运营商带宽未披露",
+            "sampleCount": 1
+          }
+        ],
+        "environment": "Clash Verge Rev、Speedtest，23:20；所在地、宽带、运营商、服务器与重复次数未披露",
+        "limitations": "原页仅列测试卡片/表格，未发现可追溯逐次原始日志。页面称三档最高600GB、无不限时，与其他品牌资料显著冲突，是否同一订阅配置待核实；单点数据不能推断物理BGP/IEPL或长期稳定。",
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "dalaocloud",
+    "searchedAt": "2026-10-10",
+    "records": [],
+    "searchNote": "已搜索大佬云+测速/实测/ms，未找到环境与原始记录齐备的原创量化实测。机场YYDS便宜榜明确该品牌尚未完成实测。不得将大哥云混同大佬云；不录入价目介绍或匿名营销性能承诺。",
+    "searchedSources": [
+      "https://www.jichangyyds.com/topics/cheap/"
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "firefly",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://jichangnote.com/reviews/firefly/",
+        "publisher": "机场笔记编辑部",
+        "title": "Firefly机场怎么样？套餐价格、节点速度与解锁实测",
+        "publishedDate": "2026-08-22",
+        "testDate": "2026-07-18 20:35:24 CST",
+        "classification": "第三方实测",
+        "summary": "作者单轮50节点测试中49个取得有效速度；香港和新加坡高于美国。零速节点原样保留，不代表长期状态。",
+        "metrics": [
+          {
+            "metric": "平均下载",
+            "value": 494.39,
+            "unit": "MB/s",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "平均TLS RTT",
+            "value": 106.9,
+            "unit": "ms",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "平均下载",
+            "value": 10.72,
+            "unit": "MB/s",
+            "node": "美国10节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 10
+          },
+          {
+            "metric": "有效节点",
+            "value": "49/50",
+            "unit": "节点",
+            "node": "整轮",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 50
+          }
+        ],
+        "environment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+        "limitations": "第三方作者报告，机场node未复测。32线程速度不能代表普通家宽单连接；TLS RTT不是ICMP ping；单次有效节点数不是长期在线率。上传与丢包未采集。页面发布原始图链接，但本次数字仅摘自正文，未独立鉴定图片真实性。",
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "civet",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://jichangnote.com/reviews/lingmao/",
+        "publisher": "机场笔记编辑部",
+        "title": "灵猫机场怎么样？套餐价格、节点速度与解锁实测",
+        "publishedDate": "2026-08-22",
+        "testDate": "2026-07-19 17:24:44 CST",
+        "classification": "第三方实测",
+        "summary": "作者50节点均取得非零结果，香港高于美国；这只反映该轮测试，不能据此宣布100%长期可用。",
+        "metrics": [
+          {
+            "metric": "平均下载",
+            "value": 519.36,
+            "unit": "MB/s",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "平均TLS RTT",
+            "value": 104.1,
+            "unit": "ms",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "平均下载",
+            "value": 11.27,
+            "unit": "MB/s",
+            "node": "美国10节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 10
+          },
+          {
+            "metric": "有效节点",
+            "value": "50/50",
+            "unit": "节点",
+            "node": "整轮",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 50
+          }
+        ],
+        "environment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+        "limitations": "第三方作者报告，机场node未复测。32线程速度不能代表普通家宽单连接；TLS RTT不是ICMP ping；单次有效节点数不是长期在线率。上传与丢包未采集。页面发布原始图链接，但本次数字仅摘自正文，未独立鉴定图片真实性。",
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "flashleap",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://tizilab.net/paihang/flashleap/",
+        "publisher": "梯子实验室站长",
+        "title": "闪跃机场怎么样：测评、价格与在线检测",
+        "publishedDate": null,
+        "testDate": "2026-07-18 21:18（下载）/21:19（流媒体）CST",
+        "classification": "第三方实测",
+        "summary": "来源50节点一次测试，香港下载区间整齐，美国偏低，新加坡08仅9.60KB/s；三个流媒体检查格显示通过。",
+        "metrics": [
+          {
+            "metric": "节点平均下载区间",
+            "value": "505–551",
+            "unit": "MB/s",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "节点平均下载区间",
+            "value": "8.63–13.89",
+            "unit": "MB/s",
+            "node": "美国10节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 10
+          },
+          {
+            "metric": "平均下载",
+            "value": 9.6,
+            "unit": "KB/s",
+            "node": "Singapore08",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 1
+          },
+          {
+            "metric": "YouTube/Netflix/Disney+检查格通过",
+            "value": "150/150",
+            "unit": "检测格",
+            "node": "50节点×3平台",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 150
+          }
+        ],
+        "environment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+        "limitations": "本页只标更新9月25日，无首次发布日期。第三方单轮32线程结果；流媒体检查不等于4K播放/全片库，不涵盖AI；测速与解锁截图的新加坡08表现矛盾，原因未定位。原图未由本次研究核验。",
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "worryfree",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://jichangnote.com/reviews/wuyou-link/",
+        "publisher": "机场笔记编辑部",
+        "title": "无忧链接机场怎么样？套餐价格、节点速度与解锁实测",
+        "publishedDate": "2026-08-22",
+        "testDate": "2026-07-18 21:40:48 CST",
+        "classification": "第三方实测",
+        "summary": "作者50节点有非零结果，但新加坡SIN02只有17.59KB/s；平均值会掩盖异常节点，应保留异常并自己补测。",
+        "metrics": [
+          {
+            "metric": "平均下载",
+            "value": 524.41,
+            "unit": "MB/s",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "平均TLS RTT",
+            "value": 108.1,
+            "unit": "ms",
+            "node": "香港15节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 15
+          },
+          {
+            "metric": "平均下载",
+            "value": 13.96,
+            "unit": "MB/s",
+            "node": "美国10节点",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 10
+          },
+          {
+            "metric": "平均下载",
+            "value": 17.59,
+            "unit": "KB/s",
+            "node": "SIN02",
+            "testEnvironment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+            "sampleCount": 1
+          }
+        ],
+        "environment": "珠海中国联通9Gbps测速服务器，MiaoKo，32线程，单次采样",
+        "limitations": "第三方作者报告，机场node未复测。32线程速度不能代表普通家宽单连接；TLS RTT不是ICMP ping；单次有效节点数不是长期在线率。上传与丢包未采集。页面发布原始图链接，但本次数字仅摘自正文，未独立鉴定图片真实性。",
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "kuajie",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://jichangliubai.com/vpn/kuajieyun/",
+        "publisher": "LiuBai 柳白（转录运营方自测）",
+        "title": "跨界云怎么样？套餐价格与评测",
+        "publishedDate": null,
+        "testDate": "2026-07-19 16:18（下载）/16:07（解锁）CST",
+        "classification": "来源声明",
+        "summary": "页面明确报告由运营方提供，使用运营方机器；港区速度区间与解锁结果只能作为商家自述，不属独立测评。",
+        "metrics": [
+          {
+            "metric": "节点平均下载区间",
+            "value": "424–548",
+            "unit": "MB/s",
+            "node": "香港15节点",
+            "testEnvironment": "珠海联通9Gbps32线程；运营方自有机器",
+            "sampleCount": 15
+          },
+          {
+            "metric": "TLS延迟区间",
+            "value": "97–194",
+            "unit": "ms",
+            "node": "香港15节点",
+            "testEnvironment": "珠海联通9Gbps32线程；运营方自有机器",
+            "sampleCount": 15
+          },
+          {
+            "metric": "YouTube/Netflix/Disney+通过",
+            "value": "50/50",
+            "unit": "节点/平台",
+            "node": "50节点三个平台",
+            "testEnvironment": "珠海联通9Gbps；运营方自有机器",
+            "sampleCount": 50
+          }
+        ],
+        "environment": "珠海联通9Gbps32线程，运营方自有机器",
+        "limitations": "非独立测试且存在利益关系；单轮下午快照，不能据此比较他牌速度或长期可靠性。台湾TWN03零速与解锁通过并存；AI未列检测项目。原图未由本次研究核验。",
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "2mao",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airpick.help/brands/ermao/",
+        "publisher": "AirPick",
+        "title": "二猫云怎么样？2026评测：20元130GB、VLESS+IEPL月付机场",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-08-11 10:45:27 CST",
+        "classification": "第三方实测",
+        "summary": "作者公开63行原图与转录，保留英国低速、土耳其零速和泰国异常；测试在上午，不证明晚高峰或解锁。",
+        "metrics": [
+          {
+            "metric": "RTT区间",
+            "value": "24–31",
+            "unit": "ms",
+            "node": "香港20节点",
+            "testEnvironment": "珠海联通5Gbps后端，32线程，Ping5次，MAI-TEST-BOT2.0.0-dev",
+            "sampleCount": 20
+          },
+          {
+            "metric": "平均速度区间（照录原列）",
+            "value": "66.94–91.19",
+            "unit": "MB（原表显示）",
+            "node": "香港20节点",
+            "testEnvironment": "珠海联通5Gbps后端，32线程，Ping5次",
+            "sampleCount": 20
+          },
+          {
+            "metric": "平均速度（照录原列）",
+            "value": 0,
+            "unit": "B（原表显示）",
+            "node": "土耳其01",
+            "testEnvironment": "珠海联通5Gbps后端，32线程，Ping5次",
+            "sampleCount": 1
+          }
+        ],
+        "environment": "珠海联通5Gbps后端，32线程，Ping5次；工具MAI-TEST-BOT2.0.0-dev；单轮耗时439秒、消耗26.0GB",
+        "limitations": "正文引用截图哈希且逐行转录；本次未查看原图，只摘正文明确数字，MB原列未自行转换成MB/s。不同品牌不同时间不可严格排名；不证明AI/流媒体解锁、IEPL物理线路或长期稳定。",
+        "hasRawEvidence": true,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "sogo",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airpick.help/brands/sogo/",
+        "publisher": "AirPick",
+        "title": "SOGO 云怎么样？2026 评测：2026 年新品牌，25 元 150GB 综合型",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-08-11T18:57:59+08:00",
+        "classification": "第三方实测",
+        "summary": "作者公布傍晚节点测速表和原图。香港11、马来01/02当次为0B；日本01 HTTP延迟显著高于RTT。",
+        "metrics": [
+          {
+            "metric": "平均速度",
+            "value": 60.76,
+            "unit": "MB（原图）",
+            "node": "HK | 香港 | 12",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "RTT",
+            "value": 22,
+            "unit": "ms",
+            "node": "HK | 香港 | 12",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "平均速度",
+            "value": 0,
+            "unit": "B（原图）",
+            "node": "HK | 香港 | 11",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "HTTP延迟",
+            "value": 1999,
+            "unit": "ms",
+            "node": "JP | 日本 | 01",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          }
+        ],
+        "environment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+        "limitations": [
+          "单日单次截图，不能证明长期稳定性。",
+          "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
+          "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
+          "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。",
+          "原页表共65行，其中3行为信息行，真实节点62；页脚后端字形“球速?通5Gbps”，README环境与原图字形不能视为完全吻合。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "yuzhou",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airpick.help/brands/yuzhou/",
+        "publisher": "AirPick",
+        "title": "宇宙云怎么样？2026 评测：14.9 元 100GB、VLESS + IEPL 入门月付机场",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-08-11T21:04:24+08:00",
+        "classification": "第三方实测",
+        "summary": "作者披露晚间单次测速，使用另一套工具；香港01为0B，香港02吞吐高但HTTPS延迟525ms，指标须分开理解。",
+        "metrics": [
+          {
+            "metric": "平均速度",
+            "value": 550,
+            "unit": "MB（原图）",
+            "node": "〖香港〗02",
+            "testEnvironment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS",
+            "sampleCount": null
+          },
+          {
+            "metric": "RTT",
+            "value": 113,
+            "unit": "ms",
+            "node": "〖香港〗02",
+            "testEnvironment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS",
+            "sampleCount": null
+          },
+          {
+            "metric": "HTTPS延迟",
+            "value": 525,
+            "unit": "ms",
+            "node": "〖香港〗02",
+            "testEnvironment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS",
+            "sampleCount": null
+          },
+          {
+            "metric": "平均速度",
+            "value": 0,
+            "unit": "B（原图）",
+            "node": "〖香港〗01",
+            "testEnvironment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS",
+            "sampleCount": null
+          }
+        ],
+        "environment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS",
+        "limitations": [
+          "单日单次截图，不能证明长期稳定性。",
+          "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
+          "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
+          "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。",
+          "测试界面为TLS RTT/HTTPS延迟，与其他品牌MAI-TEST-BOT列名口径不同。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "1fly",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airpick.help/brands/yifan/",
+        "publisher": "AirPick",
+        "title": "一翻云怎么样？2026 评测：20 元 150GB 大流量 VLESS + IEPL",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-08-11T00:21:30+08:00",
+        "classification": "第三方实测",
+        "summary": "凌晨测速表含55个节点，香港01为0B；香港02平均速度91.96MB，不能把凌晨单次表现作为晚高峰结论。",
+        "metrics": [
+          {
+            "metric": "平均速度",
+            "value": 91.96,
+            "unit": "MB（原图）",
+            "node": "HK | 香港 | 02",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "RTT",
+            "value": 23,
+            "unit": "ms",
+            "node": "HK | 香港 | 02",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "平均速度",
+            "value": 0,
+            "unit": "B（原图）",
+            "node": "HK | 香港 | 01",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          }
+        ],
+        "environment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+        "limitations": [
+          "单日单次截图，不能证明长期稳定性。",
+          "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
+          "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
+          "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。",
+          "方法页说明截图页脚第一行被表格遮挡，测试工具版本与后端部分无法从图中独立辨认。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "edgenova",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://aidengta.blog/review/bianyuanjiedian/",
+        "publisher": "AI灯塔",
+        "title": "边缘节点机场评测(2026):57 节点全量实测、延迟波动与真实定位",
+        "publishedDate": "2026-07-31",
+        "testDate": "2026-07-31",
+        "classification": "来源声明",
+        "summary": "作者称对57个节点首轮批量测试，香港19节点速度约37–53MB；日本和新加坡延迟范围较宽，未逐项测试解锁。",
+        "metrics": [
+          {
+            "metric": "延迟范围",
+            "value": "92–266",
+            "unit": "ms",
+            "node": "香港19节点",
+            "testEnvironment": "未披露运营商、地区、带宽、工具；VLESS",
+            "sampleCount": 19
+          },
+          {
+            "metric": "速度区间",
+            "value": "约37–53",
+            "unit": "MB（原页）",
+            "node": "香港19节点",
+            "testEnvironment": "未披露运营商、地区、带宽、工具；VLESS",
+            "sampleCount": 19
+          },
+          {
+            "metric": "延迟范围",
+            "value": "130–378",
+            "unit": "ms",
+            "node": "新加坡9节点",
+            "testEnvironment": "未披露运营商、地区、带宽、工具；VLESS",
+            "sampleCount": 9
+          }
+        ],
+        "environment": "原页未披露测试端地区、运营商、带宽、并发、耗时；称全节点VLESS",
+        "limitations": [
+          "作者自称测试，但运营商、地区、带宽与工具信息缺漏，因此作为来源声明展示，不计入本页第三方测试报告数量。",
+          "单时段首轮快照；测试环境缺失，不可直接横比。",
+          "原页有测速截图链接，但未独立检查图像。",
+          "MB是否每秒未解释，保持原单位。",
+          "流媒体和AI解锁未逐项实测。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "kosing",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://jichangcloud.com/brands/kosing/",
+        "publisher": "机场云",
+        "title": "可信云 (Kosing) 资料与实测：25元档套餐、专线节点与核验状态",
+        "publishedDate": "2026-08-14",
+        "testDate": null,
+        "classification": "第三方实测",
+        "summary": "作者保留55节点截图，但页脚仅15:32:35、无年月日，标记日期待复核。日本07和美国05吞吐仅KB级，不可作当前状态。",
+        "metrics": [
+          {
+            "metric": "平均速度范围",
+            "value": "28.64–53.40",
+            "unit": "MB/s",
+            "node": "香港20节点",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": 20
+          },
+          {
+            "metric": "平均速度",
+            "value": 12.61,
+            "unit": "KB（原图）",
+            "node": "日本07",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": 1
+          },
+          {
+            "metric": "平均速度",
+            "value": 688.93,
+            "unit": "KB（原图）",
+            "node": "美国05",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": 1
+          }
+        ],
+        "environment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks；55个节点；耗时889秒；消耗10.5GB",
+        "limitations": [
+          "截图缺年月日，原作者review-required，不能写成2026-08-11已验证测试。",
+          "AirPick同组截图按批次记2026-08-11，存在日期裁定分歧；本站保留未知。",
+          "单日单次截图，不能证明长期稳定性。",
+          "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
+          "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
+          "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "sujie",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airpick.help/brands/sujie/",
+        "publisher": "AirPick",
+        "title": "速界怎么样？2026 评测：主打 AI 场景的 25 元 150GB VLESS + IEPL",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-08-11T15:39:36+08:00",
+        "classification": "第三方实测",
+        "summary": "下午单次截图中香港20为0B；香港01平均速度68.80MB、RTT29ms，另有日本02 HTTP延迟948ms。",
+        "metrics": [
+          {
+            "metric": "平均速度",
+            "value": 68.8,
+            "unit": "MB（原图）",
+            "node": "香港01",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "RTT",
+            "value": 29,
+            "unit": "ms",
+            "node": "香港01",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "平均速度",
+            "value": 0,
+            "unit": "B（原图）",
+            "node": "香港20",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "HTTP延迟",
+            "value": 948,
+            "unit": "ms",
+            "node": "日本-02",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          }
+        ],
+        "environment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+        "limitations": [
+          "单日单次截图，不能证明长期稳定性。",
+          "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
+          "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
+          "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "kuaili",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://cuanmu.com/blog/kuaili-vpn-review/",
+        "publisher": "川沐",
+        "title": "快狸机场评测：Vless 大带宽新机场、节点测速与套餐解析",
+        "publishedDate": "2026-06-17",
+        "testDate": null,
+        "classification": "来源声明",
+        "summary": "作者分析MiaoKo提供的一张测速图，明确不是本站多时段实测。美国吞吐较高，但HTTPS延迟1000–1763ms，日期和后端未披露。",
+        "metrics": [
+          {
+            "metric": "平均速度范围",
+            "value": "约243–357",
+            "unit": "MB/s",
+            "node": "美国10节点",
+            "testEnvironment": "MiaoKo自定义测试；VLESS；后端/带宽未披露",
+            "sampleCount": 10
+          },
+          {
+            "metric": "HTTPS延迟范围",
+            "value": "1000–1763",
+            "unit": "ms",
+            "node": "美国10节点",
+            "testEnvironment": "MiaoKo自定义测试；VLESS；后端/带宽未披露",
+            "sampleCount": 10
+          },
+          {
+            "metric": "TLS RTT",
+            "value": 641,
+            "unit": "ms",
+            "node": "新加坡1",
+            "testEnvironment": "MiaoKo自定义测试；VLESS；后端/带宽未披露",
+            "sampleCount": 1
+          },
+          {
+            "metric": "平均速度",
+            "value": 0,
+            "unit": "B（原图）",
+            "node": "美国10",
+            "testEnvironment": "MiaoKo自定义测试；VLESS；后端/带宽未披露",
+            "sampleCount": 1
+          }
+        ],
+        "environment": "MiaoKo自定义单次测试截图；测试时间、地区、运营商、带宽、线程未知",
+        "limitations": [
+          "原文说明截图来自MiaoKo，不认定川沐原创执行。",
+          "缺准确测试日期与环境，不作为最新性能判断。",
+          "截图单次，无法推断长期掉线概率。",
+          "有图像链接但没有独立验证图像或测试过程。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "stardream",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airpick.help/brands/xingdaomeng/",
+        "publisher": "AirPick",
+        "title": "星岛梦怎么样？2026 评测：2020 年运营的老牌机场，年付 60G 与不限时套餐",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-08-11T01:48:13+08:00",
+        "classification": "第三方实测",
+        "summary": "作者记录凌晨55节点批量测速，香港01为0B、香港02平均69.76MB；另有六月文字摘要，不能合并不同批次。",
+        "metrics": [
+          {
+            "metric": "平均速度",
+            "value": 69.76,
+            "unit": "MB（原图）",
+            "node": "HK | 香港 | 02",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "RTT",
+            "value": 26,
+            "unit": "ms",
+            "node": "HK | 香港 | 02",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "平均速度",
+            "value": 0,
+            "unit": "B（原图）",
+            "node": "HK | 香港 | 01",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          }
+        ],
+        "environment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+        "limitations": [
+          "单日单次截图，不能证明长期稳定性。",
+          "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
+          "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
+          "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。",
+          "原页还列2026年6月另一批珠海联通9Gbps测试，无截图，不与本条合并。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "lightspeed",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airpick.help/brands/gsy/",
+        "publisher": "AirPick",
+        "title": "光速云怎么样？2026 评测：2020 年运营的 IEPL + VLESS 综合型机场",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-08-11T14:32:56+08:00",
+        "classification": "第三方实测",
+        "summary": "下午单次节点表，香港02为0B；香港03平均速度73.96MB、RTT16ms；不能从测速证明专线或平台解锁。",
+        "metrics": [
+          {
+            "metric": "平均速度",
+            "value": 73.96,
+            "unit": "MB（原图）",
+            "node": "HK | 香港 | 03",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "RTT",
+            "value": 16,
+            "unit": "ms",
+            "node": "HK | 香港 | 03",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "平均速度",
+            "value": 0,
+            "unit": "B（原图）",
+            "node": "HK | 香港 | 02",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          }
+        ],
+        "environment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+        "limitations": [
+          "单日单次截图，不能证明长期稳定性。",
+          "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
+          "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
+          "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "v2yun",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://airpick.help/brands/weitu/",
+        "publisher": "AirPick",
+        "title": "唯兔云怎么样？2026 评测：VLESS、60+ 节点与三网优化",
+        "publishedDate": "2026-09-29",
+        "testDate": "2026-08-11T13:55:08+08:00",
+        "classification": "第三方实测",
+        "summary": "作者转录53个节点与2条订阅信息；香港BGP-IEPL01平均65.38MB、RTT30ms，马来西亚01/02均0B。",
+        "metrics": [
+          {
+            "metric": "平均速度",
+            "value": 65.38,
+            "unit": "MB（原图）",
+            "node": "ss-HK-香港BGP-IEPL01",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "RTT",
+            "value": 30,
+            "unit": "ms",
+            "node": "ss-HK-香港BGP-IEPL01",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          },
+          {
+            "metric": "平均速度",
+            "value": 0,
+            "unit": "B（原图）",
+            "node": "ss-马来西亚 01",
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+            "sampleCount": null
+          }
+        ],
+        "environment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
+        "limitations": [
+          "单日单次截图，不能证明长期稳定性。",
+          "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
+          "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
+          "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。",
+          "剩余流量/套餐到期两行为信息，不能算节点速度。",
+          "节点名含BGP-IEPL不能用来验证真实线路类型。"
+        ],
+        "hasRawEvidence": true,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "siteRetested": false
+  },
+  {
+    "id": "u1s1",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://github.com/qweqwe98698-tech/jichang-speedtest",
+        "publisher": "机场知库 / qweqwe98698-tech",
+        "title": "机场节点测速公开数据集",
+        "publishedDate": null,
+        "testDate": "2026-08-05 20:35 CST",
+        "classification": "第三方实测",
+        "summary": "公开分区数据、工具版本和测试方法。数据仅代表单点、单日样本；保留来源原单位，不能跨不同测试时段直接排名。",
+        "metrics": [
+          {
+            "metric": "节点平均速度范围",
+            "value": "470–550",
+            "unit": "MB（来源工具原样标注）",
+            "node": "香港",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 15
+          },
+          {
+            "metric": "TLS RTT范围",
+            "value": "91–121",
+            "unit": "ms",
+            "node": "香港",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 15
+          },
+          {
+            "metric": "节点平均速度范围",
+            "value": "8.3–12.4",
+            "unit": "MB（来源工具原样标注）",
+            "node": "美国",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 10
+          },
+          {
+            "metric": "TLS RTT范围",
+            "value": "241–247",
+            "unit": "ms",
+            "node": "美国",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 10
+          }
+        ],
+        "environment": "珠海联通；MiaoKo；32线程；单日批量订阅测速；工具v4.7.0；设备硬件与线路基准带宽未在此摘要明确。",
+        "limitations": "各品牌测试时段不同；两个工具版本混用；单点结果不能代表全网、长期表现；合作推广关系；截图未在本轮查看。",
+        "hasRawEvidence": true,
+        "rawEvidenceViewed": false,
+        "evidenceUrls": [
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/data/2026-08/regions.csv",
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/data/2026-08/brands.csv",
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/METHODOLOGY.md"
+        ],
+        "license": "CC BY 4.0（原仓库明确；使用时保留出处与测试条件）",
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false,
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "searchNote": "原页与公开数据集均取得；Petnooko原页502、AirPick原页获取失败，未将其搜索摘要数字录入；知库数据与单篇评测均有推广关系。",
+    "siteRetested": false
+  },
+  {
+    "id": "jilian",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://github.com/qweqwe98698-tech/jichang-speedtest",
+        "publisher": "机场知库 / qweqwe98698-tech",
+        "title": "机场节点测速公开数据集",
+        "publishedDate": null,
+        "testDate": "2026-08-05 22:13 CST",
+        "classification": "第三方实测",
+        "summary": "公开分区数据、工具版本和测试方法。数据仅代表单点、单日样本；保留来源原单位，不能跨不同测试时段直接排名。",
+        "metrics": [
+          {
+            "metric": "节点平均速度范围",
+            "value": "80–124",
+            "unit": "MB（来源工具原样标注）",
+            "node": "香港",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 20
+          },
+          {
+            "metric": "TLS RTT范围",
+            "value": "43–148",
+            "unit": "ms",
+            "node": "香港",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 20
+          },
+          {
+            "metric": "节点平均速度范围",
+            "value": "28.5–78.6",
+            "unit": "MB（来源工具原样标注）",
+            "node": "美国",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 10
+          },
+          {
+            "metric": "TLS RTT范围",
+            "value": "193–206",
+            "unit": "ms",
+            "node": "美国",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 10
+          }
+        ],
+        "environment": "珠海联通；MiaoKo；32线程；单日批量订阅测速；工具v4.6.4；设备硬件与线路基准带宽未在此摘要明确。",
+        "limitations": "工具声明61节点、分区合计58节点，3个差额；两个工具版本混用；所有品牌测试时段不同；合作推广关系；截图未在本轮查看。",
+        "hasRawEvidence": true,
+        "rawEvidenceViewed": false,
+        "evidenceUrls": [
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/data/2026-08/regions.csv",
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/data/2026-08/brands.csv",
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/METHODOLOGY.md"
+        ],
+        "license": "CC BY 4.0（原仓库明确；使用时保留出处与测试条件）",
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false,
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "searchNote": "公开知库数据集有方法、日期、分区原值。另AirportMatrix原页有截图链接与测试时间，但缺明确网络环境/文本性能原值，未采用其解锁营销矩阵。",
+    "siteRetested": false
+  },
+  {
+    "id": "globalcloud",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://github.com/qweqwe98698-tech/jichang-speedtest",
+        "publisher": "机场知库 / qweqwe98698-tech",
+        "title": "机场节点测速公开数据集",
+        "publishedDate": null,
+        "testDate": "2026-08-05 18:21 CST",
+        "classification": "第三方实测",
+        "summary": "公开分区数据、工具版本和测试方法。数据仅代表单点、单日样本；保留来源原单位，不能跨不同测试时段直接排名。",
+        "metrics": [
+          {
+            "metric": "节点平均速度范围",
+            "value": "216–320",
+            "unit": "MB（来源工具原样标注）",
+            "node": "香港",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 20
+          },
+          {
+            "metric": "TLS RTT范围",
+            "value": "126–153",
+            "unit": "ms",
+            "node": "香港",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 20
+          },
+          {
+            "metric": "节点平均速度范围",
+            "value": "231–424",
+            "unit": "MB（来源工具原样标注）",
+            "node": "日本",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 10
+          },
+          {
+            "metric": "TLS RTT范围",
+            "value": "79–182",
+            "unit": "ms",
+            "node": "日本",
+            "testEnvironment": "珠海联通；MiaoKo；32线程；单日批量订阅测速",
+            "sampleCount": 10
+          }
+        ],
+        "environment": "珠海联通；MiaoKo；32线程；单日批量订阅测速；工具v4.6.4；设备硬件与线路基准带宽未在此摘要明确。",
+        "limitations": "各品牌测试时段不同；两个工具版本混用；单点结果不能代表全网、长期表现；合作推广关系；截图未在本轮查看。",
+        "hasRawEvidence": true,
+        "rawEvidenceViewed": false,
+        "evidenceUrls": [
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/data/2026-08/regions.csv",
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/data/2026-08/brands.csv",
+          "https://github.com/qweqwe98698-tech/jichang-speedtest/blob/main/METHODOLOGY.md"
+        ],
+        "license": "CC BY 4.0（原仓库明确；使用时保留出处与测试条件）",
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false,
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "url": "https://siilas.com/airport/globalcloud/",
+        "publisher": "Siilas",
+        "title": "全球云机场评测｜价格、套餐、节点速度与稳定性",
+        "publishedDate": null,
+        "testDate": "2026-10-08 21:05 CST",
+        "classification": "第三方实测",
+        "summary": "原页按次列出上下行、延迟及目标服务状态。香港该次下载424.58Mbps，但ChatGPT不可用；不能将速度和平台解锁合并判断。",
+        "metrics": [
+          {
+            "metric": "下载",
+            "value": 424.58,
+            "unit": "Mbps",
+            "node": "香港节点",
+            "testEnvironment": "MacBook；Wi-Fi；全球云客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录",
+            "sampleCount": 1
+          },
+          {
+            "metric": "上传",
+            "value": 91.34,
+            "unit": "Mbps",
+            "node": "香港节点",
+            "testEnvironment": "MacBook；Wi-Fi；全球云客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录",
+            "sampleCount": 1
+          },
+          {
+            "metric": "空闲延迟",
+            "value": 326,
+            "unit": "ms",
+            "node": "香港节点",
+            "testEnvironment": "MacBook；Wi-Fi；全球云客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录",
+            "sampleCount": 1
+          },
+          {
+            "metric": "上传负载延迟",
+            "value": 4159,
+            "unit": "ms",
+            "node": "香港节点",
+            "testEnvironment": "MacBook；Wi-Fi；全球云客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录",
+            "sampleCount": 1
+          }
+        ],
+        "environment": "MacBook；Wi-Fi；全球云客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录；测试服务器Club SIM by HKT · Hong Kong。",
+        "limitations": "本地运营商和城市未记录；不同节点/日期表现不同；丢包与抖动未记录；原始截图及结果链接未逐一查看；不能把本页历史评分转成本博客评分。",
+        "hasRawEvidence": true,
+        "rawEvidenceViewed": false,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "searchNote": "Siilas逐次记录和知库公开数据集取得。两来源工具、日期、环境不同，不能混成一个平均速度。",
+    "siteRetested": false
+  },
+  {
+    "id": "guangnianti",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://siilas.com/airport/guangnianti/",
+        "publisher": "Siilas",
+        "title": "光年梯机场评测｜价格、套餐、节点速度与稳定性",
+        "publishedDate": null,
+        "testDate": "2026-10-08 20:43 CST",
+        "classification": "第三方实测",
+        "summary": "公开香港晚高峰样本下载121.46Mbps、上传7.83Mbps，当次ChatGPT不可用而流媒体流畅。仅引用原页文字记录，未自行复测。",
+        "metrics": [
+          {
+            "metric": "下载",
+            "value": 121.46,
+            "unit": "Mbps",
+            "node": "香港节点",
+            "testEnvironment": "MacBook；Wi-Fi；光年梯客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录",
+            "sampleCount": 1
+          },
+          {
+            "metric": "上传",
+            "value": 7.83,
+            "unit": "Mbps",
+            "node": "香港节点",
+            "testEnvironment": "MacBook；Wi-Fi；光年梯客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录",
+            "sampleCount": 1
+          },
+          {
+            "metric": "空闲延迟",
+            "value": 179,
+            "unit": "ms",
+            "node": "香港节点",
+            "testEnvironment": "MacBook；Wi-Fi；光年梯客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录",
+            "sampleCount": 1
+          }
+        ],
+        "environment": "MacBook；Wi-Fi；光年梯客户端；Speedtest Desktop；基准下载1000Mbps；所在地/本地运营商未记录；测试服务器1010 · Hong Kong。",
+        "limitations": "单次香港样本；城市、运营商、抖动、丢包率缺失；结果不代表其他地区及长期在线率；截图及结果链接本轮未逐一查看。",
+        "hasRawEvidence": true,
+        "rawEvidenceViewed": false,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "searchNote": "Siilas原页取得；选择晚高峰香港单次数据，不用跨日期峰值代表日常体验。",
+    "siteRetested": false
+  },
+  {
+    "id": "flyv",
+    "searchedAt": "2026-10-10",
+    "records": [],
+    "searchNote": "搜索飞V实测、MiaoKo与测试时间。机场探原页https://jichangtan.com/airports/flyv/明确当前无本站实测依据；未找到能核对日期、环境和数据的原创性能报告。",
+    "siteRetested": false
+  },
+  {
+    "id": "laddercloud",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://www.ermao.net/blog/laddercloud/",
+        "publisher": "二毛 / ermaozi",
+        "title": "2026 梯子云机场推荐：25元125GB起，IEPL 与自研客户端",
+        "publishedDate": null,
+        "testDate": "2026-07-20 20:54:55 CST",
+        "classification": "来源声明",
+        "summary": "页面明确测速图由服务商提供，未做独立测速。图证缺少接入地区、运营商、基准带宽、设备与重复次数，不摘录性能数字。",
+        "metrics": [],
+        "environment": null,
+        "limitations": "服务商供图；非独立测试；截图未在本轮查看；测试时间与另一品牌资料接近，品牌归属需核原图，不作推断。",
+        "hasRawEvidence": true,
+        "rawEvidenceViewed": false,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      },
+      {
+        "url": "https://github.com/LadderCloudOfficial/Speed-Test",
+        "publisher": "LadderCloudOfficial（账号自称官方，归属未核验）",
+        "title": "梯子云 (LadderCloud) 2026 全球节点实测与性能分析报告",
+        "publishedDate": "2026-08-11（页面报告更新时间）",
+        "testDate": null,
+        "classification": "来源声明",
+        "summary": "账号自称品牌官方，文字声称珠海联通9Gbps、32线程测速，列出地区速度。原页未提供能核对具体测试时间的原始图，不摘录速度。",
+        "metrics": [],
+        "environment": "来源声称珠海联通9Gbps、32线程、MiaoKo；未独立复核。",
+        "limitations": "账号官方身份未经核验；报告更新时间并非测试时间；原始截图缺失；营销声称不得升级为第三方实测。",
+        "hasRawEvidence": false,
+        "rawEvidenceViewed": false,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "searchNote": "公开材料主要是服务商截图和自称官方账号报告。梯子去哪买搜索摘要称旧图归属有争议，但原页本轮获取失败；没有核原图，因此不录入独立性能数字。",
+    "siteRetested": false
+  },
+  {
+    "id": "wavenet",
+    "searchedAt": "2026-10-10",
+    "records": [],
+    "searchNote": "梯子去哪买原页https://tizimy.org/tuijian/wavenet/明确未实测。其他声称千兆实测页原页获取失败，未采用摘要数值；未找到满足核对要求的原创测评。",
+    "siteRetested": false
+  },
+  {
+    "id": "lingdong",
+    "searchedAt": "2026-10-10",
+    "records": [
+      {
+        "url": "https://towernav.com/airports/lingdong/",
+        "publisher": "塔台 TowerNav",
+        "title": "灵动云机场实测评测：速度、解锁、线路与套餐怎么样",
+        "publishedDate": "2026-07-23",
+        "testDate": "2026-07-20 20:54 CST",
+        "classification": "来源声明",
+        "summary": "发布者自述测60节点，正文给分区范围与不利观察。时间与梯子云服务商图接近，原图归属未核，暂只记录其测试声明。",
+        "metrics": [],
+        "environment": "页面标注MiaoKo；珠海联通9Gbps；32线程；60节点；VLESS。",
+        "limitations": "本轮未查看原始截图；不能确认测试归属；与梯子云服务商图时间接近仅作待核线索，不能断言盗图；性能数值暂不采用。",
+        "hasRawEvidence": null,
+        "rawEvidenceViewed": false,
+        "independentlyVerifiedBySite": false,
+        "rawEvidenceInspected": false
+      }
+    ],
+    "searchNote": "塔台原页取得，但先保留来源声明等级。其2026-07-20 20:54和二毛梯子云服务商图日期接近，未完成原始图归属核验。",
+    "siteRetested": false
+  },
+  {
+    "id": "invisible",
+    "searchedAt": "2026-10-10",
+    "records": [],
+    "searchNote": "搜索隐形人机场实测/测速/原始截图。Nodebar、AI科学机场、机场探原页本轮获取失败；未找到可核对原始证据与完整环境的原创测评，不用摘要补数字。",
+    "siteRetested": false
+  }
+]

@@ -33,3 +33,7 @@
 ## 价格真实性与内容研究更新
 
 29品牌的网络核查、366条报价及版本记录保存在 data/brand-research.json；每行保留来源，原始研究底稿保存在 data/research-raw.json。品牌的旧价目不会被第三方新版静默覆盖。scripts/evidence-editorial.mjs 生成87篇品牌研究、63篇指南的数据对照和全部价目页。
+
+## 公开测评资料
+
+本轮29品牌检索和27条记录位于 data/public-reviews.json，包含作者自述测试、来源声明与未找到的状态。scripts/public-reviews.mjs 生成品牌报告和公开测评索引。不将第三方报告转换为本站实测评分。
