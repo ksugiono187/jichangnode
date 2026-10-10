@@ -1,0 +1,709 @@
+{
+  "checkedDate": "2026-10-05",
+  "method": "重新读取已有资料来源和10月3日发现的面板公开配置。HTTP可访问性只说明读取成功；套餐数值沿用10月3日转录的参考资料，不表示现价或购买页已确认。未登录、注册、购买或测速。 大佬云为本轮新增：通过浏览器核对官方线路检测与登录页面，未采集HTTP状态或登录后价目。",
+  "records": [
+    {
+      "id": "breezenet",
+      "source": {
+        "url": "https://jichangtan.com/airports/breezenet/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/breezenet/",
+        "checkedAt": "2026-10-05T04:54:56.118Z",
+        "kind": "reference-page",
+        "title": "微风网络 Breezenet 机场评测与套餐资料｜机场探",
+        "sha256": "f7e6f5c60e8b5bf63819d3376667e01e0ca61d7b19efbc6d1ba8044e392ce011"
+      },
+      "publicConfig": {
+        "url": "https://downloadshare.breezenetttt.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://downloadshare.breezenetttt.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:54.849Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "乘微风，览世界"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "flycat",
+      "source": {
+        "url": "https://jichangtan.com/airports/flycat/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/flycat/",
+        "checkedAt": "2026-10-05T04:54:56.655Z",
+        "kind": "reference-page",
+        "title": "飞猫云机场评测与套餐资料｜机场探",
+        "sha256": "fd1cd154f2f841a9fe34a9795b631c11848f95d73090b27172ec3e134d8f667e"
+      },
+      "publicConfig": {
+        "url": "https://asdbmn.civetnetfttt1.homes/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://asdbmn.civetnetfttt1.homes/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:54.839Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "轻盈飞跃，快速稳定"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "twilight",
+      "source": {
+        "url": "https://jichangtan.com/airports/twilight/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/twilight/",
+        "checkedAt": "2026-10-05T04:54:56.206Z",
+        "kind": "reference-page",
+        "title": "暮光网络机场评测与套餐资料｜机场探",
+        "sha256": "78c590767c70e618f23456be3683ee6f0e88e14544a864ee7e03cc48bfdab868"
+      },
+      "publicConfig": {
+        "url": "https://wfsdaz.twilightttt.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://wfsdaz.twilightttt.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:54.821Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "这里是暮光加速"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "dalaocloud",
+      "source": {
+        "url": "https://vip.dalaocloud.com/#/?code=Cp2sfYZg",
+        "status": null,
+        "finalUrl": "https://www2.dalaoyuntt.xyz/#/login",
+        "checkedDate": "2026-10-05",
+        "kind": "official-entry-browser",
+        "title": "大佬云线路检测 → 大佬云",
+        "browserVerified": true,
+        "observation": "官网线路检测后跳转至大佬云登录页；未展示公开套餐价格。"
+      },
+      "publicConfig": null,
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false,
+      "ownerProvidedEvidence": {
+        "providedAt": "2026-10-05",
+        "ownerConfirmed": true,
+        "presentation": "text-only",
+        "planRecords": 6,
+        "serviceStatements": 47,
+        "coupon": "dly888",
+        "couponTerms": "新用户首次购买订阅套餐享7折",
+        "capacityLabels": [
+          130,
+          120
+        ],
+        "checkoutVerified": false
+      }
+    },
+    {
+      "id": "worryfree",
+      "source": {
+        "url": "https://jichangtan.com/airports/worryfree/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/worryfree/",
+        "checkedAt": "2026-10-05T04:54:56.761Z",
+        "kind": "reference-page",
+        "title": "无忧机场评测与套餐资料｜机场探",
+        "sha256": "e384e43eb9e2b40617fbc6bf51cc1bee0ef035e7651b4a18631193f33a2ed075"
+      },
+      "publicConfig": {
+        "url": "https://iwerer.worryfreettt.xyz/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://iwerer.worryfreettt.xyz/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:54.994Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "心无忧，链世界"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "civet",
+      "source": {
+        "url": "https://jichangtan.com/airports/civet/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/civet/",
+        "checkedAt": "2026-10-05T04:54:56.610Z",
+        "kind": "reference-page",
+        "title": "灵猫机场评测与套餐资料｜机场探",
+        "sha256": "c5dbe049df000c6be221a6c1a8ba0feedc7e94cca4bce6f28e6f98041bec4641"
+      },
+      "publicConfig": {
+        "url": "https://kshare.civetnettttt.homes/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://kshare.civetnettttt.homes/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:56.615Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "时刻敏锐，时刻在线"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "flashleap",
+      "source": {
+        "url": "https://jichangtan.com/airports/flashleap/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/flashleap/",
+        "checkedAt": "2026-10-05T04:54:56.716Z",
+        "kind": "reference-page",
+        "title": "闪跃 FlashLeap 机场评测与套餐资料｜机场探",
+        "sha256": "a4820e589b54402bc3d8a5942c20cae460e23dcda36b46c756222e1c3f799209"
+      },
+      "publicConfig": {
+        "url": "https://fb.fla-df1c.wiki/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://fb.fla-df1c.wiki/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:56.491Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "闪跃，让每一次连接都快人一步"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "firefly",
+      "source": {
+        "url": "https://jichangtan.com/airports/firefly/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/firefly/",
+        "checkedAt": "2026-10-05T04:54:57.119Z",
+        "kind": "reference-page",
+        "title": "飞为（Firefly）机场评测与套餐资料｜机场探",
+        "sha256": "6435e9a4f4abe6526bdcc9388955181d025a60458bf1ce307f027a489347f717"
+      },
+      "publicConfig": {
+        "url": "https://fly.fireflyxx.cfd/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://fly.fireflyxx.cfd/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:56.903Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "点亮你的每一次对话"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "kuajie",
+      "source": {
+        "url": "https://jichangtan.com/airports/kuajie/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/kuajie/",
+        "checkedAt": "2026-10-05T04:54:57.173Z",
+        "kind": "reference-page",
+        "title": "跨界机场评测与套餐资料｜机场探",
+        "sha256": "5ad735b56feb519cece20e4182cc9a0fd18702639791d748ba221a4a28e0bf7f"
+      },
+      "publicConfig": {
+        "url": "https://iwassf.kuajiecloudtttt.xyz/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://iwassf.kuajiecloudtttt.xyz/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:57.148Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "跨越边界，云游全球"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "flyv",
+      "source": {
+        "url": "https://jichangtan.com/airports/flyv/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/flyv/",
+        "checkedAt": "2026-10-05T04:54:57.217Z",
+        "kind": "reference-page",
+        "title": "飞 V 机场评测与套餐资料｜机场探",
+        "sha256": "0597e30e4c25975934e7557e88cce14fe00b7fe48fe1b83415d1fc85557e46f7"
+      },
+      "publicConfig": {
+        "url": "https://neskg.flyvttt.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://neskg.flyvttt.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:56.839Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "这里是FlyV"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "laddercloud",
+      "source": {
+        "url": "https://jichangtan.com/airports/laddercloud/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/laddercloud/",
+        "checkedAt": "2026-10-05T04:54:57.334Z",
+        "kind": "reference-page",
+        "title": "梯子云 LadderCloud 机场评测与套餐资料｜机场探",
+        "sha256": "27a239783cbba1faac2b826b465256947552a6a95069039f44a0ce5cf973affd"
+      },
+      "publicConfig": {
+        "url": "https://wbkhf.ladderttt.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://wbkhf.ladderttt.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:56.885Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "这里是梯子云"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "wavenet",
+      "source": {
+        "url": "https://jichangtan.com/airports/wavenet/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/wavenet/",
+        "checkedAt": "2026-10-05T04:54:57.602Z",
+        "kind": "reference-page",
+        "title": "浪网 WaveNet 机场评测与套餐资料｜机场探",
+        "sha256": "3b877c206177a7cfa0834ca0f33a114c7c22f939a2de06d70d84f054808725fd"
+      },
+      "publicConfig": {
+        "url": "https://nasitj.wavenetttt.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://nasitj.wavenetttt.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:57.226Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "这里是WaveNet"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "lingdong",
+      "source": {
+        "url": "https://jichangtan.com/airports/lingdong/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/lingdong/",
+        "checkedAt": "2026-10-05T04:54:57.699Z",
+        "kind": "reference-page",
+        "title": "灵动云机场评测与套餐资料｜机场探",
+        "sha256": "7302545677763dec25adbd8ef8681672682093e4ddd1d5b9d07376705def664b"
+      },
+      "publicConfig": {
+        "url": "https://nbqmhk.lingdongttt.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://nbqmhk.lingdongttt.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:57.283Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "这里是灵动云"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "invisible",
+      "source": {
+        "url": "https://jichangtan.com/airports/invisible/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/invisible/",
+        "checkedAt": "2026-10-05T04:54:57.704Z",
+        "kind": "reference-page",
+        "title": "隐形人机场评测与套餐资料｜机场探",
+        "sha256": "7ba729b4756042fc5a6f59216d91e109d71f1d509f989897c15d877b72b4a59f"
+      },
+      "publicConfig": {
+        "url": "https://eiyjhb.invisiblettt.homes/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://eiyjhb.invisiblettt.homes/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:57.318Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "这里是隐形人"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "stardream",
+      "source": {
+        "url": "https://jichangtan.com/airports/xingdaomeng/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/xingdaomeng/",
+        "checkedAt": "2026-10-05T04:54:57.983Z",
+        "kind": "reference-page",
+        "title": "星岛梦 StarDream 机场评测与套餐资料｜机场探",
+        "sha256": "c70e0d6ae5338bfa988a7187a1710fc4bc7769906619df10e8edf7735c0de80f"
+      },
+      "publicConfig": {
+        "url": "https://asdfb4.xingdaotatt.homes/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://asdfb4.xingdaotatt.homes/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:57.486Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "星岛梦高速专线机场"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "lightspeed",
+      "source": {
+        "url": "https://jichangtan.com/airports/guangsuyun/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/guangsuyun/",
+        "checkedAt": "2026-10-05T04:54:58.118Z",
+        "kind": "reference-page",
+        "title": "光速云 LightSpeed 机场评测与套餐资料｜机场探",
+        "sha256": "0d01d61f6b27768ebb116b5a7060aeb77f275ea7ab2152838d6f05559007f94a"
+      },
+      "publicConfig": {
+        "url": "https://buf7fuf.gsaat.my/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://buf7fuf.gsaat.my/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:57.850Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "光速连接，无限可能"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "v2yun",
+      "source": {
+        "url": "https://jichangtan.com/airports/v2/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/v2/",
+        "checkedAt": "2026-10-05T04:54:58.239Z",
+        "kind": "reference-page",
+        "title": "唯兔云（V2 云）机场评测与套餐资料｜机场探",
+        "sha256": "2e26e4866dab3188f07f59abd17e92370f6aadcbff1a5943c7459ed7ffc56a8b"
+      },
+      "publicConfig": {
+        "url": "https://hjusedi.v2saat.club/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://hjusedi.v2saat.club/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:57.904Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "轻快如兔，疾速如风"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "u1s1",
+      "source": {
+        "url": "https://jichangtan.com/airports/u1s1/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/u1s1/",
+        "checkedAt": "2026-10-05T04:54:58.219Z",
+        "kind": "reference-page",
+        "title": "U1S1（有一说一）机场评测与套餐资料｜机场探",
+        "sha256": "03c99af37b74210f5e445a69415488de6f3e8658ff8ec401647c6de53b891a73"
+      },
+      "publicConfig": {
+        "url": "https://njdsues.u1sat.homes/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://njdsues.u1sat.homes/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:58.026Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "有一说一，就是好用"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "jilian",
+      "source": {
+        "url": "https://jichangtan.com/airports/jilian/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/jilian/",
+        "checkedAt": "2026-10-05T04:54:58.554Z",
+        "kind": "reference-page",
+        "title": "极连云机场评测与套餐资料｜机场探",
+        "sha256": "4ba4e69277bb658a42235716e7a468beb286b4eb1f266a43a171888612305e3e"
+      },
+      "publicConfig": {
+        "url": "https://roasa.jilianat.homes/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://roasa.jilianat.homes/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:58.254Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "极速直连，稳定无限"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "globalcloud",
+      "source": {
+        "url": "https://jichangtan.com/airports/globalcloud/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/globalcloud/",
+        "checkedAt": "2026-10-05T04:54:58.610Z",
+        "kind": "reference-page",
+        "title": "全球云机场评测与套餐资料｜机场探",
+        "sha256": "1d9ee8138dcf60db0bdd84149f88e1242ca507873d40a3738f14660d613d72a5"
+      },
+      "publicConfig": {
+        "url": "https://dv2dsdgf.quanqiugttt1.club/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://dv2dsdgf.quanqiugttt1.club/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:58.628Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "全球专线，随时随地"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "guangnianti",
+      "source": {
+        "url": "https://jichangtan.com/airports/guangnianti/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/guangnianti/",
+        "checkedAt": "2026-10-05T04:54:58.705Z",
+        "kind": "reference-page",
+        "title": "光年梯机场评测与套餐资料｜机场探",
+        "sha256": "a38f2319146b8a7ad4878ad09fa0d4201ff1490daa960bbe984e8161de536a2b"
+      },
+      "publicConfig": {
+        "url": "https://2vhiyuh.guangnianertt1.homes/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://2vhiyuh.guangnianertt1.homes/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:58.360Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "光年梯专线机场 一个以稳定性为核心的小众专线机场"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "sogo",
+      "source": {
+        "url": "https://jichangtan.com/airports/sogo/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/sogo/",
+        "checkedAt": "2026-10-05T04:54:58.754Z",
+        "kind": "reference-page",
+        "title": "Sogo 云机场评测与套餐资料｜机场探",
+        "sha256": "c3f2881fa5a9c93ccaea3777d5a0afdf5ebe6334135350462cf2fefc6595bc29"
+      },
+      "publicConfig": {
+        "url": "https://asfdgd.sogotztz2.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://asfdgd.sogotztz2.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:58.611Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "这里是Sogo Cloud 科学上网畅通无阻、科学游戏加速响应"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "yuzhou",
+      "source": {
+        "url": "https://jichangtan.com/airports/yuzhou/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/yuzhou/",
+        "checkedAt": "2026-10-05T04:54:59.094Z",
+        "kind": "reference-page",
+        "title": "宇宙云 YuZhou 机场评测与套餐资料｜机场探",
+        "sha256": "a00fd442375bba22094d9ce6787c52381ef54f054a0274d4d14b42ae2da86374"
+      },
+      "publicConfig": {
+        "url": "https://tlsmvchy.yuzhoutttt3.click/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://tlsmvchy.yuzhoutttt3.click/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:58.941Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "链接宇宙 无限可用"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "2mao",
+      "source": {
+        "url": "https://jichangtan.com/airports/2mao/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/2mao/",
+        "checkedAt": "2026-10-05T04:54:59.114Z",
+        "kind": "reference-page",
+        "title": "二猫云 2mao 机场评测与套餐资料｜机场探",
+        "sha256": "b33f568a89dfe7c0eaae56f3498bf51a6ffc622b404d3953891d2f35f1cf93c5"
+      },
+      "publicConfig": {
+        "url": "https://shadow.ermaotztz3.homes/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://shadow.ermaotztz3.homes/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:59.009Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "二猫云"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "1fly",
+      "source": {
+        "url": "https://jichangtan.com/airports/1fly/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/1fly/",
+        "checkedAt": "2026-10-05T04:54:59.208Z",
+        "kind": "reference-page",
+        "title": "一翻云 1fly 机场评测与套餐资料｜机场探",
+        "sha256": "6686963475fc3ae0c8b78d45395b7d359f28a3bb5d28b6f99ff539b3b7268ac8"
+      },
+      "publicConfig": {
+        "url": "https://oknbg.fjumpy.mom/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://oknbg.fjumpy.mom/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:59.084Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "一翻易翻，世界尽览"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "edgenova",
+      "source": {
+        "url": "https://jichangtan.com/airports/edgenova/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/edgenova/",
+        "checkedAt": "2026-10-05T04:54:59.675Z",
+        "kind": "reference-page",
+        "title": "边缘节点 EdgeNova 机场评测与套餐资料｜机场探",
+        "sha256": "d7e6e845fd69d893dae47389c4987bce6b6fa9446e73232461d39d1995cf6058"
+      },
+      "publicConfig": {
+        "url": "https://zvbghs01.ztymforedge.lol/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://zvbghs01.ztymforedge.lol/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:59.122Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "EdgeNova"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "kosing",
+      "source": {
+        "url": "https://yp7.net/posts/jichang-heji/",
+        "status": 200,
+        "finalUrl": "https://yp7.net/posts/jichang-heji/",
+        "checkedAt": "2026-10-05T04:54:59.500Z",
+        "kind": "reference-page",
+        "title": "2026机场大全：机场价格、流量与试用对比 | yp7.net",
+        "sha256": "2f164764d5b467d993647a59f6f8c3bf79154c404c265b2db15ecd4373f34409"
+      },
+      "publicConfig": {
+        "url": "https://asfasf.kexintztz2.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://asfasf.kexintztz2.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:59.218Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "可信云"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "sujie",
+      "source": {
+        "url": "https://jichangtan.com/airports/sujie/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/sujie/",
+        "checkedAt": "2026-10-05T04:54:59.619Z",
+        "kind": "reference-page",
+        "title": "速界 SuJie 机场评测与套餐资料｜机场探",
+        "sha256": "6a9ea4a249fa8f47c8793f2d60d99698c1abff0a567ebffb194f0c6bc1a8151a"
+      },
+      "publicConfig": {
+        "url": "https://bvgjiu.azjstq.xyz/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://bvgjiu.azjstq.xyz/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:59.515Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "speedworld"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    },
+    {
+      "id": "kuaili",
+      "source": {
+        "url": "https://jichangtan.com/airports/kuaili/",
+        "status": 200,
+        "finalUrl": "https://jichangtan.com/airports/kuaili/",
+        "checkedAt": "2026-10-05T04:54:59.673Z",
+        "kind": "reference-page",
+        "title": "快狸 KuaiLi 机场评测与套餐资料｜机场探",
+        "sha256": "72abca05b17bfd9562a9d5623b2bb54d8259641bf43a396772398aa3ddc1aa88"
+      },
+      "publicConfig": {
+        "url": "https://iasfa.kuailitztz2.sbs/api/v1/guest/comm/config",
+        "status": 200,
+        "finalUrl": "https://iasfa.kuailitztz2.sbs/api/v1/guest/comm/config",
+        "checkedAt": "2026-10-05T04:54:59.584Z",
+        "kind": "config",
+        "publicName": null,
+        "publicDescription": "快狸"
+      },
+      "currentPriceVerified": false,
+      "couponCheckoutVerified": false,
+      "ownSpeedTest": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-10",
+  "domain": "https://jichangnode.wiki",
+  "brands": 29,
+  "articles": 150,
+  "topics": 27,
+  "pages": 219,
+  "recommend": [
+    "微风网络 Breezenet",
+    "飞猫云",
+    "暮光网络",
+    "大佬云",
+    "Firefly机场",
+    "灵猫",
+    "闪跃 FlashLeap",
+    "无忧链接",
+    "跨界云",
+    "二猫云 2mao"
+  ],
+  "cheap": [
+    "二猫云 2mao",
+    "Sogo云",
+    "快狸 KuaiLi",
+    "光速云 LightSpeed",
+    "光年梯",
+    "无忧链接",
+    "唯兔云（V2云）",
+    "暮光网络",
+    "跨界云",
+    "一翻云 1fly"
+  ],
+  "stable": [
+    "微风网络 Breezenet",
+    "飞猫云",
+    "暮光网络",
+    "大佬云",
+    "灵猫",
+    "闪跃 FlashLeap",
+    "无忧链接",
+    "跨界云",
+    "二猫云 2mao",
+    "Sogo云"
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "checkedDate": "2026-10-03",
+  "method": "读取品牌入口公共配置，逐项比对原第三方表；新增第三方条件保持归属和日期说明。未登录、购买或进行本站测速；同样的转录数据不计作独立验证。",
+  "records": [
+    {
+      "brandId": "breezenet",
+      "checkedAt": "2026-10-03T11:18:21.747Z",
+      "checkedDate": "2026-10-03",
+      "primaryName": "微风网络",
+      "primaryDescription": "乘微风，览世界",
+      "panelURL": "https://downloadshare.breezenetttt.sbs/",
+      "configURL": "https://downloadshare.breezenetttt.sbs/api/v1/guest/comm/config",
+      "configStatus": 200,
+      "currentPriceVerified": false,
+      "checkoutVerified": false,
+      "refundVerified": false,
+      "ownSpeedTest": false,
+      "referenceURL": "https://jichangtan.com/airports/breezenet/",
+      "referenceHeading": "微风网络 Breezenet 机场评测与套餐资料",
+      "referenceDigest": "f7e6f5c60e8b5bf63819d3376667e01e0ca61d7b19efbc6d1ba8044e392ce011",
+      "referenceMatches": [
+        {
+          "name": "清风 Breeze",
+          "price": 137,
+          "cycle": "年付",
+          "rawGb": 100,
+          "matched": true
+        },
+        {
+          "name": "乘风 Riding",
+          "price": 27,
+          "cycle": "月付",
+          "rawGb": 200,
+          "matched": true
+        },
+        {
+          "name": "破风 Breaking",
+          "price": 57,
+          "cycle": "月付",
+          "rawGb": 500,
+          "matched": true
+        },
+        {
+          "name": "御风 Mastery",
+          "price": 127,
+          "cycle": "月付",
+          "rawGb": 1200,
+          "matched": true
+        },
+        {
+          "name": "信风·不限时",
+          "price": 200,
+          "cycle": "一次性",
+          "rawGb": 270,
+          "matched": true
+        },
+        {
+          "name": "长风·不限时",
+          "price": 370,
+          "cycle": "一次性",
+          "rawGb": 570,
+          "matched": true
+        }
+      ],
+      "independentSourcesConfirmed": false,
+      "focus": 200,
+      "question": "200GB刚好够用时，要不要直接升级？",
+      "analysis": [
+        "乘风的200GB标称容量刚好等于200GB用量假设。只要实际扣量倍率或预留增加，满足条件的档位就可能改为破风；这里增加的月支出是容量阶梯造成的，不能理解为节点速度提高。",
+        "首次短期比较采用月付金额。137元年付小包与27元月包的容量口径不同；Eoht新增的第三方说法称清风每月提供100GB，但尚未取得当前购买页的重置说明，本站继续保留年包周期待核验。"
+      ],
+      "facts": [
+        [
+          "年包容量",
+          "第三方说法",
+          "Eoht列清风为100GB/月，并说明从购买日重置；官网当前订单未取得，不改写为本站确认。",
+          "https://eoht.net/serve/airport/breeze"
+        ],
+        [
+          "优惠码",
+          "有分歧",
+          "新读到的页面仍称weifeng90为七折；已有来源另称九折且有过期活动日期，未取得当前结算。",
+          "https://eoht.net/serve/airport/breeze"
+        ]
+      ],
+      "planStatus": 403,
+      "planCheckedAt": "2026-10-03T11:30:55.576Z"
+    },
+    {
+      "brandId": "flycat",
+      "checkedAt": "2026-10-03T11:18:21.792Z",
+      "checkedDate": "2026-10-03",
+      "primaryName": "飞猫云",
+      "primaryDescription": "轻盈飞跃，快速稳定",
+      "panelURL": "https://asdbmn.civetnetfttt1.homes/",
+      "configURL": "https://asdbmn.civetnetfttt1.homes/api/v1/guest/comm/config",
+      "configStatus": 200,
+      "currentPriceVerified": false,
+      "checkoutVerified": false,
+      "refundVerified": false,
+      "ownSpeedTest": false,
+      "referenceURL": "https://jichangtan.com/airports/flycat/",
+      "referenceHeading": "飞猫云 机场评测与套餐资料",
+      "referenceDigest": "fd1cd154f2f841a9fe34a9795b631c11848f95d73090b27172ec3e134d8f667e",
+      "referenceMatches": [
+        {
+          "name": "学生版",
+          "price": 84,
+          "cycle": "年付",
+          "rawGb": 50,
+          "matched": true
+        },
+        {
+          "name": "星耀版",
+          "price": 25,
+          "cycle": "月付",
+          "rawGb": 150,
+          "matched": true
+        },
+        {
+          "name": "星环版",
+          "price": 45,
+          "cycle": "月付",
+          "rawGb": 300,
+          "matched": true
+        },
+        {
+          "name": "银河版",
+          "price": 85,
+          "cycle": "月付",
+          "rawGb": 600,
+          "matched": true
+        },
+        {
+          "name": "宇宙版",
+          "price": 150,
+          "cycle": "月付",
+          "rawGb": 1000,
+          "matched": true
+        },
+        {
+          "name": "不限时",
+          "price": 680,
+          "cycle": "一次性",
+          "rawGb": 1000,
+          "matched": true
+        }
+      ],
+      "independentSourcesConfirmed": false,
+      "focus": 150,
+      "question": "150GB月包与50GB年包，哪一项约束先决定选择？",
+      "analysis": [
+        "星耀150GB在无额外扣量的假设下可覆盖150GB需求；预留10%后需要165GB，最低满足档改为300GB的星环。为了额外15GB预算而跨到更大的容量档，应比较实际月总额，而不是只看每GB价格。",
+        "学生版84元需一次支付全年，折合7元/月，并不能按7元购买单月。另一第三方页面写年付折合8元，未提供能核对到同一档位的订单；两个入口数字不能混用。flycat888的季付及以上说法也不能直接折算到25元月包。"
+      ],
+      "facts": [
+        [
+          "起步年付",
+          "来源分歧",
+          "Eoht写84元/年、50GB/月，折合7元；另一资料页写8元/月。当前官网订单未取得，保留84元的原参考表及分歧。",
+          "https://jichangdh.com/airport/brand/flycat/"
+        ],
+        [
+          "优惠门槛",
+          "第三方说法",
+          "Eoht称flycat888适用于新用户季付及以上，月付不在该说明范围；叠加与当前实付仍未验证。",
+          "https://eoht.net/serve/airport/flycat"
+        ]
+      ],
+      "planStatus": 403,
+      "planCheckedAt": "2026-10-03T11:30:55.576Z"
+    },
+    {
+      "brandId": "v2yun",
+      "checkedAt": "2026-10-03T11:18:21.794Z",
+      "checkedDate": "2026-10-03",
+      "primaryName": "唯兔云",
+      "primaryDescription": "轻快如兔，疾速如风",
+      "panelURL": "https://hjusedi.v2saat.club/",
+      "configURL": "https://hjusedi.v2saat.club/api/v1/guest/comm/config",
+      "configStatus": 200,
+      "currentPriceVerified": false,
+      "checkoutVerified": false,
+      "refundVerified": false,
+      "ownSpeedTest": false,
+      "referenceURL": "https://jichangtan.com/airports/v2/",
+      "referenceHeading": "唯兔云（V2云） 机场评测与套餐资料",
+      "referenceDigest": "2e26e4866dab3188f07f59abd17e92370f6aadcbff1a5943c7459ed7ffc56a8b",
+      "referenceMatches": [
+        {
+          "name": "唯兔云·年付加强专线",
+          "price": 120,
+          "cycle": "年付",
+          "rawGb": 75,
+          "matched": true
+        },
+        {
+          "name": "唯兔云·年付版限量款",
+          "price": 79.9,
+          "cycle": "年付",
+          "rawGb": 45,
+          "matched": true
+        },
+        {
+          "name": "唯兔云·普通版",
+          "price": 19.9,
+          "cycle": "月付",
+          "rawGb": 150,
+          "matched": true
+        },
+        {
+          "name": "唯兔云·进阶版",
+          "price": 29.9,
+          "cycle": "月付",
+          "rawGb": 200,
+          "matched": true
+        },
+        {
+          "name": "唯兔云·专业版",
+          "price": 59.9,
+          "cycle": "月付",
+          "rawGb": 500,
+          "matched": true
+        },
+        {
+          "name": "唯兔云·至尊版",
+          "price": 119.9,
+          "cycle": "月付",
+          "rawGb": 1000,
+          "matched": true
+        },
+        {
+          "name": "唯兔云·永久不限时",
+          "price": 100,
+          "cycle": "一次性",
+          "rawGb": 100,
+          "matched": true
+        },
+        {
+          "name": "唯兔云·永久不限时",
+          "price": 160,
+          "cycle": "一次性",
+          "rawGb": 200,
+          "matched": true
+        }
+      ],
+      "independentSourcesConfirmed": false,
+      "focus": 200,
+      "question": "200GB边界与限时活动包，应该怎样分开比较？",
+      "analysis": [
+        "进阶版200GB只在200GB、1倍扣量、没有预留的假设下刚好满足条件。加10%预留后需220GB，会跨至500GB专业版；月支出增长并非因为假设用量翻倍，而是中间没有更接近的收录月包。",
+        "14.9元活动档在原参考来源被列为一次性，并有名称备注；它不能替代普通版的月付起价。来源对至尊容量也有分歧，先核对当前档位与总量，不根据活动名或“永久”字样补出重置承诺。"
+      ],
+      "facts": [
+        [
+          "活动档",
+          "第三方分类",
+          "本次参考表将14.9元、100GB活动档列为一次性并注明名称备注；不是当前在售或每月100GB的证明。",
+          "https://jichangtan.com/airports/v2/"
+        ],
+        [
+          "年付与优惠",
+          "尚待核实",
+          "原参考表未提供明确年包重置条件，rabbit也未在本站完成结算验证；不预先扣减79.9元或120元年包金额。",
+          "https://jichangtan.com/airports/v2/"
+        ]
+      ],
+      "planStatus": 403,
+      "planCheckedAt": "2026-10-03T11:30:55.576Z"
+    },
+    {
+      "brandId": "1fly",
+      "checkedAt": "2026-10-03T11:18:21.795Z",
+      "checkedDate": "2026-10-03",
+      "primaryName": null,
+      "primaryDescription": "一翻易翻，世界尽览",
+      "panelURL": "https://oknbg.fjumpy.mom/",
+      "configURL": "https://oknbg.fjumpy.mom/api/v1/guest/comm/config",
+      "configStatus": 200,
+      "currentPriceVerified": false,
+      "checkoutVerified": false,
+      "refundVerified": false,
+      "ownSpeedTest": false,
+      "referenceURL": "https://jichangtan.com/airports/1fly/",
+      "referenceHeading": "一翻云 1fly 机场评测与套餐资料",
+      "referenceDigest": "6686963475fc3ae0c8b78d45395b7d359f28a3bb5d28b6f99ff539b3b7268ac8",
+      "referenceMatches": [
+        {
+          "name": "年付版",
+          "price": 98,
+          "cycle": "年付",
+          "rawGb": 60,
+          "matched": true
+        },
+        {
+          "name": "轻享版",
+          "price": 20,
+          "cycle": "月付",
+          "rawGb": 150,
+          "matched": true
+        },
+        {
+          "name": "舒享版",
+          "price": 35,
+          "cycle": "月付",
+          "rawGb": 350,
+          "matched": true
+        },
+        {
+          "name": "尊享版",
+          "price": 55,
+          "cycle": "月付",
+          "rawGb": 600,
+          "matched": true
+        },
+        {
+          "name": "极致版",
+          "price": 95,
+          "cycle": "月付",
+          "rawGb": 1200,
+          "matched": true
+        }
+      ],
+      "independentSourcesConfirmed": false,
+      "focus": 300,
+      "question": "300GB学习与影音需求，350GB档还有多少余量？",
+      "analysis": [
+        "舒享350GB、35元月付在300GB和1倍扣量下剩50GB；加10%预留后需求为330GB，仍能满足。若所用节点按2倍扣量，需求变为600GB，则需要尊享600GB、55元档。这个结论来自假设扣量条件，本站没有确认品牌当前节点倍率。",
+        "一次大文件下载可能导致某个月跨档。应比较该月的实际支付与下一周期能否降档，而不是因为55元档的标称单价较低就长期预付。98元年包的60GB重置规则仍待核实，不能拿全年总价代替350GB月包。"
+      ],
+      "facts": [
+        [
+          "月包阶梯",
+          "参考数值相符",
+          "本次原参考表仍列轻享20元150GB、舒享35元350GB、尊享55元600GB；数值一致不等于官网现价确认。",
+          "https://jichangtan.com/airports/1fly/"
+        ],
+        [
+          "年包与优惠",
+          "尚待核实",
+          "年包60GB的重置依据仍未取得；站长未提供该品牌优惠码，不添加自动优惠或折后价。",
+          "https://jichangtan.com/airports/1fly/"
+        ]
+      ],
+      "planStatus": 403,
+      "planCheckedAt": "2026-10-03T11:30:55.576Z"
+    },
+    {
+      "brandId": "u1s1",
+      "checkedAt": "2026-10-03T11:18:21.796Z",
+      "checkedDate": "2026-10-03",
+      "primaryName": "U1s1",
+      "primaryDescription": "有一说一，就是好用",
+      "panelURL": "https://njdsues.u1sat.homes/",
+      "configURL": "https://njdsues.u1sat.homes/api/v1/guest/comm/config",
+      "configStatus": 200,
+      "currentPriceVerified": false,
+      "checkoutVerified": false,
+      "refundVerified": false,
+      "ownSpeedTest": false,
+      "referenceURL": "https://jichangtan.com/airports/u1s1/",
+      "referenceHeading": "U1S1（有一说一） 机场评测与套餐资料",
+      "referenceDigest": "03c99af37b74210f5e445a69415488de6f3e8658ff8ec401647c6de53b891a73",
+      "referenceMatches": [
+        {
+          "name": "u1s1·就是好用包",
+          "price": 96,
+          "cycle": "年付",
+          "rawGb": 60,
+          "matched": true
+        },
+        {
+          "name": "u1s1·普通人真够了包",
+          "price": 20,
+          "cycle": "月付",
+          "rawGb": 120,
+          "matched": true
+        },
+        {
+          "name": "u1s1·你以为用不到包",
+          "price": 40,
+          "cycle": "月付",
+          "rawGb": 300,
+          "matched": true
+        },
+        {
+          "name": "u1s1·瘾大就拉满包",
+          "price": 100,
+          "cycle": "月付",
+          "rawGb": 700,
+          "matched": true
+        },
+        {
+          "name": "u1s1·我全都要包",
+          "price": 180,
+          "cycle": "月付",
+          "rawGb": 1500,
+          "matched": true
+        }
+      ],
+      "independentSourcesConfirmed": false,
+      "focus": 120,
+      "question": "120GB用量为什么会跳到300GB档？",
+      "analysis": [
+        "120GB普通人包是一个紧贴假设需求的边界。预留10%意味着132GB，最低满足档改为300GB、40元月付；每月多付20元换来180GB标称额度，其中大部分可能并未实际使用。",
+        "96元年包与20元月包不是同容量同周期方案。年包原资料的60GB重置周期仍未明确，不能把96除12后与120GB月包直接下结论。大档增量便宜也不能替代对个人预算与真实消耗的核对。"
+      ],
+      "facts": [
+        [
+          "年包口径",
+          "尚待核实",
+          "参考表列96元年付、60GB，但有效期及条件未说明；仅有容量数字不能证明每月刷新。",
+          "https://jichangtan.com/airports/u1s1/"
+        ],
+        [
+          "优惠入口",
+          "第三方说法",
+          "本站保留站长提供的U1S1原码；已有第三方历史条件仍不是当前结算承诺。",
+          "https://eoht.net/serve/airport/u1s1"
+        ]
+      ],
+      "planStatus": 403,
+      "planCheckedAt": "2026-10-03T11:30:55.576Z"
+    },
+    {
+      "brandId": "firefly",
+      "checkedAt": "2026-10-03T11:18:21.798Z",
+      "checkedDate": "2026-10-03",
+      "primaryName": "Firefly",
+      "primaryDescription": "点亮你的每一次对话",
+      "panelURL": "https://fly.fireflyxx.cfd/",
+      "configURL": "https://fly.fireflyxx.cfd/api/v1/guest/comm/config",
+      "configStatus": 200,
+      "currentPriceVerified": false,
+      "checkoutVerified": false,
+      "refundVerified": false,
+      "ownSpeedTest": false,
+      "referenceURL": "https://jichangtan.com/airports/firefly/",
+      "referenceHeading": "飞为（Firefly） 机场评测与套餐资料",
+      "referenceDigest": "6435e9a4f4abe6526bdcc9388955181d025a60458bf1ce307f027a489347f717",
+      "referenceMatches": [
+        {
+          "name": "Firefly年付版",
+          "price": 96,
+          "cycle": "年付",
+          "rawGb": 60,
+          "matched": true
+        },
+        {
+          "name": "Firefly Lite",
+          "price": 25,
+          "cycle": "月付",
+          "rawGb": 150,
+          "matched": true
+        },
+        {
+          "name": "Firefly Plus",
+          "price": 45,
+          "cycle": "月付",
+          "rawGb": 300,
+          "matched": true
+        },
+        {
+          "name": "Firefly Blaze",
+          "price": 85,
+          "cycle": "月付",
+          "rawGb": 600,
+          "matched": true
+        },
+        {
+          "name": "Firefly Nova",
+          "price": 150,
+          "cycle": "月付",
+          "rawGb": 1000,
+          "matched": true
+        },
+        {
+          "name": "Firefly不限时",
+          "price": 100,
+          "cycle": "一次性",
+          "rawGb": 100,
+          "matched": true
+        }
+      ],
+      "independentSourcesConfirmed": false,
+      "facts": [
+        [
+          "名称对应",
+          "归属待核实",
+          "入口公共配置显示Firefly；参考来源标题写飞为（Firefly）。名称差异可能只是称呼不同，本次没有取得套餐页来确认对应关系。",
+          "https://jichangtan.com/airports/firefly/"
+        ],
+        [
+          "引用价格",
+          "停止报价比较",
+          "原参考来源仍列Firefly系列档位；历史引用保留供追溯，首页及价格比较不展示为已确认属于该入口的报价。",
+          "https://jichangtan.com/airports/firefly/"
+        ]
+      ],
+      "planStatus": 403,
+      "planCheckedAt": "2026-10-03T11:30:55.576Z"
+    },
+    {
+      "brandId": "jilian",
+      "checkedAt": "2026-10-03T11:18:21.798Z",
+      "checkedDate": "2026-10-03",
+      "primaryName": "极连云",
+      "primaryDescription": "极速直连，稳定无限",
+      "panelURL": "https://roasa.jilianat.homes/",
+      "configURL": "https://roasa.jilianat.homes/api/v1/guest/comm/config",
+      "configStatus": 200,
+      "currentPriceVerified": false,
+      "checkoutVerified": false,
+      "refundVerified": false,
+      "ownSpeedTest": false,
+      "referenceURL": "https://jichangtan.com/airports/jilian/",
+      "referenceHeading": "极连云 机场评测与套餐资料",
+      "referenceDigest": "4ba4e69277bb658a42235716e7a468beb286b4eb1f266a43a171888612305e3e",
+      "referenceMatches": [
+        {
+          "name": "限时年付套餐体验",
+          "price": 96,
+          "cycle": "年付",
+          "rawGb": 60,
+          "matched": true
+        },
+        {
+          "name": "极速云·基础套餐",
+          "price": 18,
+          "cycle": "月付",
+          "rawGb": 100,
+          "matched": true
+        },
+        {
+          "name": "极速云·进阶套餐",
+          "price": 32,
+          "cycle": "月付",
+          "rawGb": 200,
+          "matched": true
+        },
+        {
+          "name": "极速云·旗舰套餐",
+          "price": 61,
+          "cycle": "月付",
+          "rawGb": 500,
+          "matched": true
+        },
+        {
+          "name": "极速云·尊享套餐",
+          "price": 122,
+          "cycle": "月付",
+          "rawGb": 1000,
+          "matched": true
+        },
+        {
+          "name": "极速云·不限时套餐",
+          "price": 399,
+          "cycle": "一次性",
+          "rawGb": 600,
+          "matched": true
+        }
+      ],
+      "independentSourcesConfirmed": false,
+      "facts": [
+        [
+          "套餐名称",
+          "归属待核实",
+          "入口公共配置显示极连云，参考表中的常规套餐仍冠名极速云；不能仅凭相同价格认定两者对应。",
+          "https://jichangtan.com/airports/jilian/"
+        ],
+        [
+          "引用价格",
+          "停止报价比较",
+          "原表仍保留极速云命名，当前官网套餐页未取得。首页及价格比较留待核实，原始引用折叠保存。",
+          "https://jichangtan.com/airports/jilian/"
+        ]
+      ],
+      "planStatus": 403,
+      "planCheckedAt": "2026-10-03T11:30:55.576Z"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "checkedDate": "2026-10-03",
+  "method": "站长提供原码；历史条件为第三方转述，不是当前官网优惠或本站结算验证，不用于折后价计算。",
+  "records": [
+    {
+      "id": "breezenet",
+      "code": "weifeng90",
+      "checkoutVerified": false,
+      "summary": "折扣和适用范围有分歧，引用活动日期已过",
+      "sources": [
+        [
+          "机场数据库",
+          "https://jichangyyds.net/brands/weifengwangluo/",
+          "2026-08-03",
+          "记录七折、新购/续费/升级，活动截至2026-08-31。"
+        ],
+        [
+          "梯子翻",
+          "https://tizifan.com/jichang/weifeng/",
+          "2026-08-24",
+          "记录同一个weifeng90为九折。"
+        ],
+        [
+          "Eoht · 第三方转述",
+          "https://eoht.net/serve/airport/breeze",
+          null,
+          "页面称七折且覆盖新老用户；未给出可确认当前活动的结算证据，不能消除原有折扣分歧。"
+        ]
+      ],
+      "decision": "两份资料的折扣不同；历史截止日期已过不等于优惠码目前一定失效。本页不计算折后价格。"
+    },
+    {
+      "id": "flycat",
+      "code": "flycat888",
+      "checkoutVerified": false,
+      "summary": "第三方记录有付款周期门槛",
+      "sources": [
+        [
+          "机场指南",
+          "https://www.jichangzhinan.homes/youhui/",
+          null,
+          "记录flycat888为新用户八折、季付及以上，月付不可用。"
+        ],
+        [
+          "Eoht · 第三方转述",
+          "https://eoht.net/serve/airport/flycat",
+          null,
+          "页面称新用户季付及以上可用，月付排除；当前实付及叠加未验证。"
+        ]
+      ],
+      "decision": "先确认当前订单是否符合周期和用户资格，不能将历史八折套用到最低月包。"
+    },
+    {
+      "id": "worryfree",
+      "code": "wuyou666",
+      "checkoutVerified": false,
+      "summary": "引用活动日期已过，MINI年包适用范围需核对",
+      "sources": [
+        [
+          "Now加速",
+          "https://nowjiasu.cyou/index.html",
+          null,
+          "记录wuyou666六八折，MINI年付不参与，活动截至2026-08-31。"
+        ]
+      ],
+      "decision": "历史活动已超过其记录日期；当前是否延续、是否只限首购，仍需同一订单结算确认。"
+    },
+    {
+      "id": "flashleap",
+      "code": "shanyue",
+      "checkoutVerified": false,
+      "summary": "第三方记录新用户条件，期限不明",
+      "sources": [
+        [
+          "机场探",
+          "https://jichangtan.com/airports/flashleap/",
+          "2026-08-08",
+          "记录shanyue为新用户八折，未给出明确有效期。"
+        ]
+      ],
+      "decision": "不从优惠码名称推断折扣；续费、年包、活动叠加均未结算确认。"
+    },
+    {
+      "id": "firefly",
+      "code": "firefly",
+      "checkoutVerified": false,
+      "summary": "第三方记录首购及年包限制，资料归属有疑点",
+      "sources": [
+        [
+          "clashhubs公开资料",
+          "https://github.com/clashhubs/jichang-shiyong",
+          "2026-08-03",
+          "记录firefly为新用户首单八折，96元年付版不适用。"
+        ]
+      ],
+      "decision": "现有套餐来源标题另写飞为（Firefly）；品牌归属和优惠条件均未通过当前订单确认。"
+    },
+    {
+      "id": "stardream",
+      "code": "nmw888",
+      "checkoutVerified": false,
+      "summary": "第三方记录新人九折，叠加规则待核验",
+      "sources": [
+        [
+          "机场探",
+          "https://jichangtan.com/airports/xingdaomeng/",
+          "2026-08-09",
+          "记录nmw888为新人九折，并提及长周期折扣。"
+        ]
+      ],
+      "decision": "未取得当前叠加结算依据，不生成折上折或最终实付承诺。"
+    },
+    {
+      "id": "lightspeed",
+      "code": "jichangcha09",
+      "checkoutVerified": false,
+      "summary": "第三方记录月付九折及其他周期限制",
+      "sources": [
+        [
+          "机场达人",
+          "https://jichangdaren.com/jichang/guangsuyun-pingce/",
+          "2026-08-24",
+          "记录jichangcha09月付九折，年付与一次性通常不支持叠加。"
+        ]
+      ],
+      "decision": "“通常”不是确定规则；应在所选周期核对订单，不从另一版本套餐继承优惠条件。"
+    },
+    {
+      "id": "v2yun",
+      "code": "rabbit",
+      "checkoutVerified": false,
+      "summary": "尚未取得该码的可核对适用条件",
+      "sources": [],
+      "decision": "本轮未取得当前结算记录及明确的用户、周期、期限条件。保留站长提供的原码，不推断折扣。"
+    },
+    {
+      "id": "u1s1",
+      "code": "U1S1",
+      "checkoutVerified": false,
+      "summary": "第三方记录新人条件及96元年包排除",
+      "sources": [
+        [
+          "clashhubs公开资料",
+          "https://github.com/clashhubs/jichang-shiyong",
+          "2026-07-31",
+          "记录U1S1为新人八五折，96元年包不适用。"
+        ]
+      ],
+      "decision": "历史记录未验证当前适用范围；大小写保留为U1S1，不能按品牌名称推断自动优惠。"
+    },
+    {
+      "id": "globalcloud",
+      "code": "tt88",
+      "checkoutVerified": false,
+      "summary": "尚未取得该码的可核对适用条件",
+      "sources": [],
+      "decision": "本轮未取得当前结算记录及明确的用户、周期、期限条件。保留站长提供的原码，不推断折扣。"
+    },
+    {
+      "id": "yuzhou",
+      "code": "YUZHOU553",
+      "checkoutVerified": false,
+      "summary": "第三方记录新用户条件，期限不明",
+      "sources": [
+        [
+          "机场探",
+          "https://jichangtan.com/airports/yuzhou/",
+          "2026-08-09",
+          "记录YUZHOU553为新用户八折，未提供明确期限。"
+        ]
+      ],
+      "decision": "复制或填写成功不等于价格变化；同一订单的优惠前后金额才是结算证据。"
+    },
+    {
+      "id": "dalaocloud",
+      "code": "dly888",
+      "providedAt": "2026-10-05",
+      "checkoutVerified": false,
+      "summary": "新用户首次购买订阅套餐享7折",
+      "discount": 0.7,
+      "scope": "新用户首次购买订阅套餐",
+      "iosIdentifier": "dly",
+      "decision": "保留公告中的新用户首次订阅7折条件；截止时间、活动叠加和实际订单生效未确认。不替换入口邀请码。",
+      "sourceType": "owner-provided",
+      "ownerConfirmed": true
+    }
+  ]
+}
