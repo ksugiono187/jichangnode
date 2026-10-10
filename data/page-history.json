@@ -1,0 +1,890 @@
+{
+  "index.html": {
+    "hash": "a75ac6ad4d657696b79c15beda1dc3c663d26c491a2e323bb79b148cdca85204",
+    "lastmod": "2026-10-10"
+  },
+  "brands/index.html": {
+    "hash": "92299c74be7807828ebc4c88f2f84c8cc24c2329eb67ef737ea8e91eb181935e",
+    "lastmod": "2026-10-10"
+  },
+  "reviews/index.html": {
+    "hash": "bbda271e69ea50064a719d963d8b2268f5fc7dbb0a163310e8c2a4b9007cec50",
+    "lastmod": "2026-10-10"
+  },
+  "plans/index.html": {
+    "hash": "055b4f6c8c260fd858570e1e6950b05f7135ad39871b9ee87f7ae3685fd679f7",
+    "lastmod": "2026-10-10"
+  },
+  "brands/breezenet/index.html": {
+    "hash": "83956158e3b1fc9d1af7f8c4d5ca90c495a7d2d7770ac0b05a5590f569c78f6d",
+    "lastmod": "2026-10-10"
+  },
+  "brands/flycat/index.html": {
+    "hash": "a63be47fb98759ec089af7f57bdbc8bd1457456c5b542ca869dea6b1d24782c6",
+    "lastmod": "2026-10-10"
+  },
+  "brands/twilight/index.html": {
+    "hash": "ac855270b0a677f744458160bfeacc9c6e0cd737487e618913d13a02e68f24ba",
+    "lastmod": "2026-10-10"
+  },
+  "brands/dalaocloud/index.html": {
+    "hash": "3bdb0d68a8b7fefb9679808868236e53853da61cdf419d9afc04ff454e98e39e",
+    "lastmod": "2026-10-10"
+  },
+  "brands/firefly/index.html": {
+    "hash": "06d43920eb185a38229e9a669e1b2c87b61934d534c90ca4e476d2e4cbc7ce0a",
+    "lastmod": "2026-10-10"
+  },
+  "brands/civet/index.html": {
+    "hash": "55b22249b7f98fa9e21a2eaf1f69698d87187b6726081e319f3e60104a41eab5",
+    "lastmod": "2026-10-10"
+  },
+  "brands/flashleap/index.html": {
+    "hash": "9fea60bbc2624ea674d0a43b20944f8e1ba74db3ff43f2877c5c64f2dad4a419",
+    "lastmod": "2026-10-10"
+  },
+  "brands/worryfree/index.html": {
+    "hash": "49fe8365adfeb9c655a18d8ddb74b23a5db9539c433ade8fd7a22e7d634552f4",
+    "lastmod": "2026-10-10"
+  },
+  "brands/kuajie/index.html": {
+    "hash": "eda58e0d8a5e627886379b473cf4f71dbf59acceed25f2dd2afd771b63e6bd77",
+    "lastmod": "2026-10-10"
+  },
+  "brands/2mao/index.html": {
+    "hash": "160127bbe55351c275de1720a013c910bd6e8eda0c787f9aa6adff7324eeb6e5",
+    "lastmod": "2026-10-10"
+  },
+  "brands/sogo/index.html": {
+    "hash": "9990b19e88e99b1c559f837cb91694f105d89ae458cd2f88ad49f4274aa79bf6",
+    "lastmod": "2026-10-10"
+  },
+  "brands/yuzhou/index.html": {
+    "hash": "972e48bc26f277c0cc4e2b57f905d1b0bc707fae8c96e25974f01abfa6c58472",
+    "lastmod": "2026-10-10"
+  },
+  "brands/1fly/index.html": {
+    "hash": "d2355a0ed6ece73e2deca29ec1c66f6bfdc6637a2be28f890438c85f7d299157",
+    "lastmod": "2026-10-10"
+  },
+  "brands/edgenova/index.html": {
+    "hash": "d098993ad2efd52555f26e0b411319336a7becd568937c301d6493e3fb5f341f",
+    "lastmod": "2026-10-10"
+  },
+  "brands/kosing/index.html": {
+    "hash": "1e4ff2d81583ebc98e84137efc5e47a5f3848f4df0a12635e25012ed6152d6c3",
+    "lastmod": "2026-10-10"
+  },
+  "brands/sujie/index.html": {
+    "hash": "4d82cbe9d7d9cdca468a5501b56cee1c758e0908b2cffeb0396f913742ea5fb0",
+    "lastmod": "2026-10-10"
+  },
+  "brands/kuaili/index.html": {
+    "hash": "d92682097305b57f36a9997be2c74cce635d08ff2d6fb868b8b353eb58eed5aa",
+    "lastmod": "2026-10-10"
+  },
+  "brands/stardream/index.html": {
+    "hash": "92811c90d5be09b65b07c21ca66e92276482d78276f91082f68ae48ba7c31aa2",
+    "lastmod": "2026-10-10"
+  },
+  "brands/lightspeed/index.html": {
+    "hash": "ebe0403113fe14968462df861f53aab5d9ffd0d170f6e37118ac8ff82d83427c",
+    "lastmod": "2026-10-10"
+  },
+  "brands/v2yun/index.html": {
+    "hash": "ce8aba34923570a56e953c7842c07a62ae07e86524603cb069b297b24818edbe",
+    "lastmod": "2026-10-10"
+  },
+  "brands/u1s1/index.html": {
+    "hash": "a3ccdd1b48c4baf530df3b6c3f03db2cb368668fee0ad58f3c090fdd1ef61e5f",
+    "lastmod": "2026-10-10"
+  },
+  "brands/jilian/index.html": {
+    "hash": "5079125249f56d12fb9956b6e9bbe409a307a3f88efbb46e52beba3de75102fc",
+    "lastmod": "2026-10-10"
+  },
+  "brands/globalcloud/index.html": {
+    "hash": "adc6f41e5736241981379d891292675c890a7e5d9cfd576138b2a355a744db6f",
+    "lastmod": "2026-10-10"
+  },
+  "brands/guangnianti/index.html": {
+    "hash": "5f5a4799968a018f5186d90634dc7ebfef9eaaf476e8213e833168e8cbd678a4",
+    "lastmod": "2026-10-10"
+  },
+  "brands/flyv/index.html": {
+    "hash": "07750400bafd29e0dc929bddfa6f52d4ce873f5a52b3e7900f57b2f2c2a68215",
+    "lastmod": "2026-10-10"
+  },
+  "brands/laddercloud/index.html": {
+    "hash": "73651c741dda97ae15c50bb6164d438c893aa86bc76160062764619c0025495d",
+    "lastmod": "2026-10-10"
+  },
+  "brands/wavenet/index.html": {
+    "hash": "f13daf19227280b59503dee5c297c7beeb2f581a72b0cb9bc403f703154ce86d",
+    "lastmod": "2026-10-10"
+  },
+  "brands/lingdong/index.html": {
+    "hash": "fbc477265f48329053526eafb39491dd1af8a8ece5d8a116e939ff424d82da89",
+    "lastmod": "2026-10-10"
+  },
+  "brands/invisible/index.html": {
+    "hash": "ca1641e20bebd2c7c49e6416578376b33452e420146b016f306fe080c8733186",
+    "lastmod": "2026-10-10"
+  },
+  "rankings/index.html": {
+    "hash": "05b8b824f436dee6447c6902d32ae7c7a10c5a1e23409132343106afba5297c3",
+    "lastmod": "2026-10-10"
+  },
+  "topics/recommend/index.html": {
+    "hash": "cc90c364e8c7678bb9d9c703a97c544a7c42387bcaef3c16a9a2d7da5af5b606",
+    "lastmod": "2026-10-10"
+  },
+  "topics/cheap/index.html": {
+    "hash": "297fe81f03eec077fe25b429ca8a1fe4105a52e3683db30fcce5255c8ecc280e",
+    "lastmod": "2026-10-10"
+  },
+  "topics/stable/index.html": {
+    "hash": "cb236ae39b99017ba9a4c0642f1ae502a9be867570332d67632dd8ab0c5b979e",
+    "lastmod": "2026-10-10"
+  },
+  "topics/budget/index.html": {
+    "hash": "c3c77159a83b57c62ac0651784ca820296b4e4587f1139b350909d239c64a3fa",
+    "lastmod": "2026-10-10"
+  },
+  "topics/light/index.html": {
+    "hash": "c960882e1e7f924e02c3028a157f3712fa9aa9d4b0cb2444affe5328207ec0eb",
+    "lastmod": "2026-10-10"
+  },
+  "topics/monthly/index.html": {
+    "hash": "43bc63b6b54c0a7d6453eb5bb1161518f5fdab38f9495d9b7a317e5854b00d2a",
+    "lastmod": "2026-10-10"
+  },
+  "topics/annual/index.html": {
+    "hash": "1f7f992e58531803a583f65cc255d3e8435777082383f49ed473429d9fe98cc9",
+    "lastmod": "2026-10-10"
+  },
+  "topics/payg/index.html": {
+    "hash": "f3b4219cd459dcef5bd082921e041247f9adbd1039f0bbe72fdfeb32360ba615",
+    "lastmod": "2026-10-10"
+  },
+  "topics/capacity/index.html": {
+    "hash": "c6fe5ab1da558d485e3d10f2da1325e6a3e6c70b57b8a0ed6bc9f438800f6341",
+    "lastmod": "2026-10-10"
+  },
+  "topics/traffic/index.html": {
+    "hash": "89b9829a7085c840070cdd7d7c9f1cec06ee4d3cfe10b3993ef2ce25c6dcd02c",
+    "lastmod": "2026-10-10"
+  },
+  "topics/coupons/index.html": {
+    "hash": "46e7c8632daf6d1294e91f356f76b09361a931f9e94335448ad07807ab43b88f",
+    "lastmod": "2026-10-10"
+  },
+  "topics/lines/index.html": {
+    "hash": "9b32305de56dd9e77b712b8e161d8aa235db5b69b423f40fbbe7bc4239b07d4d",
+    "lastmod": "2026-10-10"
+  },
+  "topics/devices/index.html": {
+    "hash": "c996ffefcdfab32f648b30ac0368a16697fd96c83d8e4a76cfae177341d78e07",
+    "lastmod": "2026-10-10"
+  },
+  "topics/clients/index.html": {
+    "hash": "9ebfd1ec2357b57ef8c3d98c8abc9f5b84f88f2b5181ffa3e37d89c0b64ae5db",
+    "lastmod": "2026-10-10"
+  },
+  "topics/ai/index.html": {
+    "hash": "2375a270f05c503d09b09585036f7beae0bb23bd0f397b3301dd6e22d0ee63fc",
+    "lastmod": "2026-10-10"
+  },
+  "topics/work/index.html": {
+    "hash": "1ee93358278278fe7bf3f7c19cbc9813d478de35cfe93cf46455639776f25494",
+    "lastmod": "2026-10-10"
+  },
+  "topics/downloads/index.html": {
+    "hash": "85e85737ae4a04c3fbcc478a60f5fca2770bf3eb16fcabef06617a954f91979b",
+    "lastmod": "2026-10-10"
+  },
+  "topics/travel/index.html": {
+    "hash": "eddb7ccdefaa6ec6acd6ba518a0463e1d916237b45fc86c27a0eccb2e553fcde",
+    "lastmod": "2026-10-10"
+  },
+  "topics/household/index.html": {
+    "hash": "c9d5a3d6e53f840169b55e8611a70028155129cf3de2b371392a49b0ce4cb752",
+    "lastmod": "2026-10-10"
+  },
+  "topics/latency/index.html": {
+    "hash": "e3da47552806deb76f09a61ca14f44106578d969f239cde4811946af2ec927aa",
+    "lastmod": "2026-10-10"
+  },
+  "topics/renewals/index.html": {
+    "hash": "6ef417a1618c7095b6b131019b0e485ae392ed9041198338421723b376e27c4d",
+    "lastmod": "2026-10-10"
+  },
+  "topics/privacy/index.html": {
+    "hash": "30226bd524c4754d5c581403279112bba851bd842d5eb03c3cfa2f17cf1913ce",
+    "lastmod": "2026-10-10"
+  },
+  "topics/support/index.html": {
+    "hash": "3cdb07da3e86728a5142c7d284583a960fa89423f2c69288e45a2d0bf4f86890",
+    "lastmod": "2026-10-10"
+  },
+  "topics/asia/index.html": {
+    "hash": "22bf86e49747cccf6f478e119cf49179e7e219643160fcf906bcc1c6ae719340",
+    "lastmod": "2026-10-10"
+  },
+  "topics/subscriptions/index.html": {
+    "hash": "fd0833e4c98a6de616e6f500fcc3c8c580da3f5ce549b61a6d9f2bb2c38bfd3f",
+    "lastmod": "2026-10-10"
+  },
+  "topics/evidence/index.html": {
+    "hash": "3e8d9153e121a793437f1655ca896a1d6d70e0405b885fe432f2a23bc266864e",
+    "lastmod": "2026-10-10"
+  },
+  "topics/promotions/index.html": {
+    "hash": "e2c14ec67679f5c25de8b76672c69799a6df4e4305b715294b0477b197e439f3",
+    "lastmod": "2026-10-10"
+  },
+  "topics/index.html": {
+    "hash": "b6b73e0285675bb8c9f9dfd8836737b9f467084c4e35362212997182700f5be2",
+    "lastmod": "2026-10-10"
+  },
+  "blog/index.html": {
+    "hash": "71b3867e3085d9248384873384cf3c1c73f62124c0574619df40949fc0b1ca76",
+    "lastmod": "2026-10-10"
+  },
+  "blog/idle-quota-cost/index.html": {
+    "hash": "cf47916e611d78ba5da066f484c95a8edf76e87d23ede945a36287c8341bfb25",
+    "lastmod": "2026-10-10"
+  },
+  "blog/annual-three-numbers/index.html": {
+    "hash": "5392679a6e602e1531e2e50bcec5bf8a5c5bf33195691e263958599d3a8904f3",
+    "lastmod": "2026-10-10"
+  },
+  "blog/identity-chain/index.html": {
+    "hash": "d2c843210560b8cc8355db6b9ade85e6bca7508cd18db9c85d7b1cc347391c9c",
+    "lastmod": "2026-10-10"
+  },
+  "blog/budget-first-month/index.html": {
+    "hash": "efbdc72369215ea0b821b1dc21407a274a9b9fc32ca69cfcd72fe9dc40e7f753",
+    "lastmod": "2026-10-10"
+  },
+  "blog/light-use-boundary/index.html": {
+    "hash": "00e73a0815c98de63a747e063c4a961d42a09cf9b2a9d743fe87dd7fcd8cde14",
+    "lastmod": "2026-10-10"
+  },
+  "blog/light-annual-vs-monthly/index.html": {
+    "hash": "6ab122cee6bfdd78ee8c821aca8dd5b1ad0f25a60630589bbd18a42a58eefe60",
+    "lastmod": "2026-10-10"
+  },
+  "blog/monthly-observation/index.html": {
+    "hash": "baf1c5d0af3d3142b155cc04d03c1cce4f7d62f1b3c19f9e20c36f43e5e87302",
+    "lastmod": "2026-10-10"
+  },
+  "blog/monthly-reset-calendar/index.html": {
+    "hash": "944a14f378920956618ec5140e46f759a8372213237d38053736d2d1bd34d36f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/annual-cash-commitment/index.html": {
+    "hash": "d309ef0f2c5751eaa5da92167aeba0f8f4785a0a63dd75b8e018673242e88037",
+    "lastmod": "2026-10-10"
+  },
+  "blog/payg-consumption-horizon/index.html": {
+    "hash": "916f77e2b39b7e00067288c34e52b566dc0685d89eb5ca564d0d337637e78db4",
+    "lastmod": "2026-10-10"
+  },
+  "blog/payg-backup-balance/index.html": {
+    "hash": "ff28404b765add0f4e882d029381d84c312c94949c143a482c7e30bd87eb9420",
+    "lastmod": "2026-10-10"
+  },
+  "blog/upgrade-incremental-cost/index.html": {
+    "hash": "af34ef61e2e99aab8ec918ba2329847cc67bb498f15e63a80a7aac6dc51ea299",
+    "lastmod": "2026-10-10"
+  },
+  "blog/capacity-safety-margin/index.html": {
+    "hash": "de9ac5fcc8c728463c1132536a11508a8a809b79664a65f9440801cc33f6be09",
+    "lastmod": "2026-10-10"
+  },
+  "blog/quota-units/index.html": {
+    "hash": "1099b0ea91895fd8fdcb280734bc5a41185100edda8cc073c4f8e1fd0211b2f8",
+    "lastmod": "2026-10-10"
+  },
+  "blog/node-multiplier/index.html": {
+    "hash": "8678807605c36d44f00d34311f5fce7b2a5f1629486233a9d4e7b64fb2403b6a",
+    "lastmod": "2026-10-10"
+  },
+  "blog/coupon-final-order/index.html": {
+    "hash": "7e092990bfc74a07f0db87bda4ce587eeae9b1eb8fa17cc2b8c25e8a70507f8f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/coupon-renewal-price/index.html": {
+    "hash": "10ac76d123285d0d751e69080fb5d18a7741b660aec40e4ea33af8656b1a00f7",
+    "lastmod": "2026-10-10"
+  },
+  "blog/line-label-evidence/index.html": {
+    "hash": "3675f9d64ee7cb73c2a963d43152e810d36395635dec1189234feaccad04265e",
+    "lastmod": "2026-10-10"
+  },
+  "blog/device-vs-concurrency/index.html": {
+    "hash": "60dd31b9c902bb7d818e5c4118d393946298a7eafeed9cba1556cb097890ee12",
+    "lastmod": "2026-10-10"
+  },
+  "blog/client-before-payment/index.html": {
+    "hash": "bf789775f6e7d81c17598b308d62199313cd7bcb2f70a7a1fdd83faae5a0911a",
+    "lastmod": "2026-10-10"
+  },
+  "blog/ai-task-checklist/index.html": {
+    "hash": "03045a2ff1bc6c2ad8a55b8ee3eba5acd0a6311f78ef7da557ecf58b70eaaa75",
+    "lastmod": "2026-10-10"
+  },
+  "blog/work-task-baseline/index.html": {
+    "hash": "9fe2ac753c0a8d6ea47b5b071319e22ee97f238532dbde461103a257eb29d7bc",
+    "lastmod": "2026-10-10"
+  },
+  "blog/download-monthly-estimate/index.html": {
+    "hash": "2e25ac28831e0378cdeb57b0baccf920fc49182e2a52e43629887c0829056e7f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/travel-preparation/index.html": {
+    "hash": "735a2854e5dbd70279a2d804f30de43909d977bec022cf1e4c12d4d8e274da3c",
+    "lastmod": "2026-10-10"
+  },
+  "blog/household-budget/index.html": {
+    "hash": "1e36d76acc84d57b621db994879f206b159d20bb415d5af438298cc0a96c48d5",
+    "lastmod": "2026-10-10"
+  },
+  "blog/latency-observation-log/index.html": {
+    "hash": "2e35d198216ca3657967afd06ec9a286c93909b3e00da4a30f4e4e725894db12",
+    "lastmod": "2026-10-10"
+  },
+  "blog/renewal-state-check/index.html": {
+    "hash": "1185d698ac21d68a97bd91ad45fcf78cb63b4f2e7b7fa69993f022bcbe38aa63",
+    "lastmod": "2026-10-10"
+  },
+  "blog/upgrade-reset-risk/index.html": {
+    "hash": "4f5ab108e609d11269bd53a243b443446ff9d23624d113e44e1612b894039016",
+    "lastmod": "2026-10-10"
+  },
+  "blog/subscription-secret/index.html": {
+    "hash": "c6e19e1a7a7473d7f60f3ccf68eb066c9dea8c36b7dc828db98e35a643deffc2",
+    "lastmod": "2026-10-10"
+  },
+  "blog/local-reader-privacy/index.html": {
+    "hash": "580df7f965ff2777c75cd6636ee8268a14870683e66ef041b517b10f304ea507",
+    "lastmod": "2026-10-10"
+  },
+  "blog/support-reproducible-ticket/index.html": {
+    "hash": "f7ed72d098b324593ee9b206e24a8d133ba48431ccd3771af655dc9298252be2",
+    "lastmod": "2026-10-10"
+  },
+  "blog/asia-region-selection/index.html": {
+    "hash": "d86461651f4844828274c70235ab18c14bd93e74078911a069a014050f6ffa63",
+    "lastmod": "2026-10-10"
+  },
+  "blog/subscription-vs-plan-status/index.html": {
+    "hash": "2f314e121b76d410d3c56f2697f3e6be5647bc799d4c89acf9f4441194f03853",
+    "lastmod": "2026-10-10"
+  },
+  "blog/unknown-field-treatment/index.html": {
+    "hash": "8d4f764db89880b4d7b99931bb4b65b85b1e32795843e1b41304f7f1d1c8e0b8",
+    "lastmod": "2026-10-10"
+  },
+  "blog/reference-version-conflict/index.html": {
+    "hash": "016e11b8ac8907060c94aac58d95abf43220f97142cf038f3b38ebdd7897fbb2",
+    "lastmod": "2026-10-10"
+  },
+  "blog/promotional-expiry/index.html": {
+    "hash": "f5ca47b6c0a2f5a12a522c3058354da0678aab75102c30422a13c58d9d18e22c",
+    "lastmod": "2026-10-10"
+  },
+  "blog/breezenet-monthly-research/index.html": {
+    "hash": "954192b807818af8acb12cb47c0729379b65e294706948173e616fd1b086c345",
+    "lastmod": "2026-10-10"
+  },
+  "blog/breezenet-payment-research/index.html": {
+    "hash": "fcfed1689811e88f169565a4a68f7fb54e8da6f3f458ab6164952a2bf964c45c",
+    "lastmod": "2026-10-10"
+  },
+  "blog/breezenet-evidence-research/index.html": {
+    "hash": "cff38a5f63cd0a433f9bc4bf9bb80bea530c385fab7987c657742b9d360e34cf",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flycat-monthly-research/index.html": {
+    "hash": "af507a1c529e1bbad6a273af70a9579d0e68faf5b716aa18a89f4d27e6707fc3",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flycat-payment-research/index.html": {
+    "hash": "c2811c17206978f61b4e9512ee2d680d24298db55ead66d731621ca088daecdf",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flycat-evidence-research/index.html": {
+    "hash": "615b62d77c3ae7576fa27710cf20771e25477302cf9b1fdce7cf659ab8854d01",
+    "lastmod": "2026-10-10"
+  },
+  "blog/twilight-monthly-research/index.html": {
+    "hash": "cc90d4ff45bb45caf03c4b96c2407c5324f79cca9f75e2b5e041954dc74e8718",
+    "lastmod": "2026-10-10"
+  },
+  "blog/twilight-payment-research/index.html": {
+    "hash": "928e5795fe17e4b56107e1b6d3d44cb5e7f5f131aa3946e999b1c907cb985884",
+    "lastmod": "2026-10-10"
+  },
+  "blog/twilight-evidence-research/index.html": {
+    "hash": "c40aa86e62a88f990fed28508e73993bb43bb877fff47c3cc3fd9b3b2269e99f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/dalaocloud-monthly-research/index.html": {
+    "hash": "99041c3fc902c49ce9bf87ce9def600ad1afe109523883c4e595e4fe12f7ff0a",
+    "lastmod": "2026-10-10"
+  },
+  "blog/dalaocloud-payment-research/index.html": {
+    "hash": "d19ae73a88212c1751be61bbdb01f218a43e3d9ea6014fbcbf6305899c8baaa1",
+    "lastmod": "2026-10-10"
+  },
+  "blog/dalaocloud-evidence-research/index.html": {
+    "hash": "1490b12336a52a57a720ce8638065f1474c95e27a1c1092043e85b6636a157c2",
+    "lastmod": "2026-10-10"
+  },
+  "blog/worryfree-monthly-research/index.html": {
+    "hash": "cf22342ca9d96a7d6d1ddbfb1367e9272c038dd9141f492e4cf6fde100c74b2d",
+    "lastmod": "2026-10-10"
+  },
+  "blog/worryfree-payment-research/index.html": {
+    "hash": "4e51092d863a19f0bf0e29d8b9d675d450d8bf9c0153b057a4ec530664411776",
+    "lastmod": "2026-10-10"
+  },
+  "blog/worryfree-evidence-research/index.html": {
+    "hash": "0ea1dc03b70875c2e027a24e527f57cca3e5cb3aa72bd1a70d7894c84eac7539",
+    "lastmod": "2026-10-10"
+  },
+  "blog/civet-monthly-research/index.html": {
+    "hash": "ee981d814f80f42e67d4ff9f346864cf4d6758fdab0335141f3d0cd6ee4daade",
+    "lastmod": "2026-10-10"
+  },
+  "blog/civet-payment-research/index.html": {
+    "hash": "e434e271ed3f8d8c1f8688856a708ff972bb72d85bcaa4bf900dbd2072463fbd",
+    "lastmod": "2026-10-10"
+  },
+  "blog/civet-evidence-research/index.html": {
+    "hash": "ca525657943130bffc37b0dfacfd4885cdcb7f7c6af51f5858008a907d8352b5",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flashleap-monthly-research/index.html": {
+    "hash": "1c38a8294686cddf4fe3b338e3e9eedda0a065d4ea393fec02166ea72cc2f07f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flashleap-payment-research/index.html": {
+    "hash": "f95959411577f9324b72d3e438c799f701ad0f705d6a0fc3369bd1189cfe2e05",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flashleap-evidence-research/index.html": {
+    "hash": "dde9bcd6ce2ff2449fb0fde81f9cbec3d796c8007687cfd419c07f8d9e4cac86",
+    "lastmod": "2026-10-10"
+  },
+  "blog/firefly-monthly-research/index.html": {
+    "hash": "ac34ea0d00403bba1071aeb8a6e720e313242ae900eab5513376ab940c5b4756",
+    "lastmod": "2026-10-10"
+  },
+  "blog/firefly-payment-research/index.html": {
+    "hash": "d55dd53ce0610b111722f74e73097c15b9e124e18717b2965c79b6a8ddb30c70",
+    "lastmod": "2026-10-10"
+  },
+  "blog/firefly-evidence-research/index.html": {
+    "hash": "8d01eda40aacfc3696d2a060b51041d10d2d4a8c6145305f5349c805741637b0",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kuajie-monthly-research/index.html": {
+    "hash": "53bc315f8a12e226694aa32684f8d508015ae590590b966079036c2afb9e7a0d",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kuajie-payment-research/index.html": {
+    "hash": "4183e8292bb6a769dcdf469962e153e85f03525c8884cf9bacff942d77c34493",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kuajie-evidence-research/index.html": {
+    "hash": "951fa7a67f3496b61025d3fea983654f8ee08cc99d68c861f6f74f8b8ea96481",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flyv-monthly-research/index.html": {
+    "hash": "8efa5545b7dc00a0398856a53ade18013fb34b29aea73c036f5975ba4512708e",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flyv-payment-research/index.html": {
+    "hash": "e1f861af7f557b5b22e582a6b2278e8ba3a3b0392a913511996e8eaa8441f842",
+    "lastmod": "2026-10-10"
+  },
+  "blog/flyv-evidence-research/index.html": {
+    "hash": "d4335eca21060d2ee676072b337a0b7b606bb5ea1e11221d48a4f4fccc09b664",
+    "lastmod": "2026-10-10"
+  },
+  "blog/laddercloud-monthly-research/index.html": {
+    "hash": "738ef284f4b000e9373f4a65d257f1b527797c45317ef6f8c49825bc98f6fdb1",
+    "lastmod": "2026-10-10"
+  },
+  "blog/laddercloud-payment-research/index.html": {
+    "hash": "d99762cbb7f15317b71481400a88932660a0877616324d442b2e696fd91174f6",
+    "lastmod": "2026-10-10"
+  },
+  "blog/laddercloud-evidence-research/index.html": {
+    "hash": "4ae8917f12cc6551bf3ef9d9be939c14d9f894c100bc39ca46f4745af533315e",
+    "lastmod": "2026-10-10"
+  },
+  "blog/wavenet-monthly-research/index.html": {
+    "hash": "9fef5549b6a1167aa0a2ea9bd322bec5fd6cbe24922d1a8eac23d05522e55e65",
+    "lastmod": "2026-10-10"
+  },
+  "blog/wavenet-payment-research/index.html": {
+    "hash": "04d3c26469399b15fafb0df6e7453d4752e6e997f6d160a504589ba68372769c",
+    "lastmod": "2026-10-10"
+  },
+  "blog/wavenet-evidence-research/index.html": {
+    "hash": "0e0bc106116d593eee6253f6ab32afede505931b2faed954890aade841c632ed",
+    "lastmod": "2026-10-10"
+  },
+  "blog/lingdong-monthly-research/index.html": {
+    "hash": "f5c660c04f7162d5f1e7d4c928d8e87e45ed44987522e4ab04a251aedb70d3c0",
+    "lastmod": "2026-10-10"
+  },
+  "blog/lingdong-payment-research/index.html": {
+    "hash": "207e1d52dd82ac36ec6a96a6be5bf0491523b6a283218c9bbdf9e3ad896a7998",
+    "lastmod": "2026-10-10"
+  },
+  "blog/lingdong-evidence-research/index.html": {
+    "hash": "87129f6539718bc2cc2c5c1f0bb1d5ae1a9007b910e07c4989da83475de3a3e7",
+    "lastmod": "2026-10-10"
+  },
+  "blog/invisible-monthly-research/index.html": {
+    "hash": "6f27eedf95598bc64c3956e2fe9fd20f043ae7aa96fb93863895f1456d60286c",
+    "lastmod": "2026-10-10"
+  },
+  "blog/invisible-payment-research/index.html": {
+    "hash": "4c8d189c4b4bf9bc571796d5f5fe439c6ffea38754435d3af8a70e8b6b17eab8",
+    "lastmod": "2026-10-10"
+  },
+  "blog/invisible-evidence-research/index.html": {
+    "hash": "b3b2e9a41c7a1bbb9f7c1a0867c64bdd80a5a6b3890f0003bd8199f314f16252",
+    "lastmod": "2026-10-10"
+  },
+  "blog/stardream-monthly-research/index.html": {
+    "hash": "bbade6fcac2281522ae99b1c8a222fbfc859325477a0c4a623a776ab9073143e",
+    "lastmod": "2026-10-10"
+  },
+  "blog/stardream-payment-research/index.html": {
+    "hash": "9bc9a0dc3cede1998866e306a964fe43d2c343becc44d934c26e563af436fe4c",
+    "lastmod": "2026-10-10"
+  },
+  "blog/stardream-evidence-research/index.html": {
+    "hash": "f108ecf07ce103bef320345d170d7d8ef5fe007fd952ec250a3a5c829dd0d96f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/lightspeed-monthly-research/index.html": {
+    "hash": "3a82ca9a8e29b0c51666ec2c05d1efbb41db564a5e271bc1260b351f0bc92578",
+    "lastmod": "2026-10-10"
+  },
+  "blog/lightspeed-payment-research/index.html": {
+    "hash": "c1e822133c3de4002a70b8dbcbe6a5842ae5a2ea07312d8a43d896f927317200",
+    "lastmod": "2026-10-10"
+  },
+  "blog/lightspeed-evidence-research/index.html": {
+    "hash": "5ca9d3fad7b3607665e3dfd0215b73611b069b942851c84e98c9f8ec127ae732",
+    "lastmod": "2026-10-10"
+  },
+  "blog/v2yun-monthly-research/index.html": {
+    "hash": "8e2f3c3d0cb7c630c0ca3de9dbed0a754cf77c2d4f4735ab18c0aaba2c979352",
+    "lastmod": "2026-10-10"
+  },
+  "blog/v2yun-payment-research/index.html": {
+    "hash": "c80d259de7a345df1dae600bd8297c234da9f405dad8d5b1dc2ee37187211e53",
+    "lastmod": "2026-10-10"
+  },
+  "blog/v2yun-evidence-research/index.html": {
+    "hash": "f10828a1c929c40e737605d55bad47d61dd1393c09726ace2382a87c755875ed",
+    "lastmod": "2026-10-10"
+  },
+  "blog/u1s1-monthly-research/index.html": {
+    "hash": "ed7fc51c60dbc3aaafb65356f55dac3c75c0e4adbcad9cab6c4ff1e0b8e0fb31",
+    "lastmod": "2026-10-10"
+  },
+  "blog/u1s1-payment-research/index.html": {
+    "hash": "9cc9fc4289fef80ee42f7f48f761552f5a605048af295a3506691d0d09fb8ccb",
+    "lastmod": "2026-10-10"
+  },
+  "blog/u1s1-evidence-research/index.html": {
+    "hash": "f65597d3d43e4feb48375c899f7e47282c1f1c88a093ff53df65615d954016a2",
+    "lastmod": "2026-10-10"
+  },
+  "blog/jilian-monthly-research/index.html": {
+    "hash": "3f5f5c4d030863d4126f1a0ecbaceaf2255709a1ddfaa63b04a479c68779424b",
+    "lastmod": "2026-10-10"
+  },
+  "blog/jilian-payment-research/index.html": {
+    "hash": "199b27ff45e63c1337cbc817575652e5467fa97ed8c015fddbb86d65e0acd0df",
+    "lastmod": "2026-10-10"
+  },
+  "blog/jilian-evidence-research/index.html": {
+    "hash": "6dea2a99da27d8f3cd67d799a15774d7f1e43eb0af88caf9d821333014092c0c",
+    "lastmod": "2026-10-10"
+  },
+  "blog/globalcloud-monthly-research/index.html": {
+    "hash": "474d41f7a346981d6bed2a4a7710602d89a7d25f89ab2a144f6b6ff66d62df46",
+    "lastmod": "2026-10-10"
+  },
+  "blog/globalcloud-payment-research/index.html": {
+    "hash": "c3795fc3286076e4b3b3465cc2028e13281ddccd8c1e68ed7de2dc34c9897923",
+    "lastmod": "2026-10-10"
+  },
+  "blog/globalcloud-evidence-research/index.html": {
+    "hash": "1a1d0bec9b8dcb0ebc9acc8fe4c5256d4ed9ab9e33d3b8ddc9f1e26a62e3c601",
+    "lastmod": "2026-10-10"
+  },
+  "blog/guangnianti-monthly-research/index.html": {
+    "hash": "4bf022d6184adf808008f605aefe2fe4dcdec4eeff9514e119eca2a02930f40b",
+    "lastmod": "2026-10-10"
+  },
+  "blog/guangnianti-payment-research/index.html": {
+    "hash": "2244aa99ea84fdb63f92267139cb70860d445962f9f96e5c017a13eae17fcd3a",
+    "lastmod": "2026-10-10"
+  },
+  "blog/guangnianti-evidence-research/index.html": {
+    "hash": "43a75970886599b1f380dfe9b534a5cc45c9feb9fc1a43c46b23b7e7dcbbc885",
+    "lastmod": "2026-10-10"
+  },
+  "blog/sogo-monthly-research/index.html": {
+    "hash": "cb6d3e14f9800e88f54df0a2288cf64386e4c88e1244494d6a3b62acbf97d5ca",
+    "lastmod": "2026-10-10"
+  },
+  "blog/sogo-payment-research/index.html": {
+    "hash": "0b2e99a6396340518341814d77d720550c91966e085c12abe11a5894ee4f3085",
+    "lastmod": "2026-10-10"
+  },
+  "blog/sogo-evidence-research/index.html": {
+    "hash": "b9385aa84f31ee6d75244ea1a7a612ab1a5f3e92f652ff6429e4a335ca4318c2",
+    "lastmod": "2026-10-10"
+  },
+  "blog/yuzhou-monthly-research/index.html": {
+    "hash": "f5583340d92b50476b1b0105d3c10008161c2d95939f70103b136ff43fcde6b4",
+    "lastmod": "2026-10-10"
+  },
+  "blog/yuzhou-payment-research/index.html": {
+    "hash": "994d970f52d23a54c1cd9f71de6c861eeef8f785596901acfc73d30880993da6",
+    "lastmod": "2026-10-10"
+  },
+  "blog/yuzhou-evidence-research/index.html": {
+    "hash": "07f47c3646d0de40ec60d1119d604d1c0a6c01c8f8f460810942558adbdb427a",
+    "lastmod": "2026-10-10"
+  },
+  "blog/2mao-monthly-research/index.html": {
+    "hash": "8c86af457b8bcffd4fbc127404224aafb8bf8c468ac2bf148d39843ad511e181",
+    "lastmod": "2026-10-10"
+  },
+  "blog/2mao-payment-research/index.html": {
+    "hash": "894217f26e63ce0e61fccebc66337adae639ed12afd3eb4874cc42bef0f52842",
+    "lastmod": "2026-10-10"
+  },
+  "blog/2mao-evidence-research/index.html": {
+    "hash": "433a0b40961baf500828b95e254e435984a89c32cbe258bcd6b09a20fc372676",
+    "lastmod": "2026-10-10"
+  },
+  "blog/1fly-monthly-research/index.html": {
+    "hash": "3d3aa75739b25d1ef8646cd39e40b0e99792b145c3339ddf1d62428a7f08c1fc",
+    "lastmod": "2026-10-10"
+  },
+  "blog/1fly-payment-research/index.html": {
+    "hash": "de661f091d516ab2b3d96a969147ec9295e36308e803063aec0940ea36a18de2",
+    "lastmod": "2026-10-10"
+  },
+  "blog/1fly-evidence-research/index.html": {
+    "hash": "8caa4aa74ac4507954979f52537c9548640d37230543ee890090fb3683a74477",
+    "lastmod": "2026-10-10"
+  },
+  "blog/edgenova-monthly-research/index.html": {
+    "hash": "816c1cbb307c4e6f43bf31a4d4be659f593dd48f6613891b3089f09319822e89",
+    "lastmod": "2026-10-10"
+  },
+  "blog/edgenova-payment-research/index.html": {
+    "hash": "6eaff66e81bdf7f262256f89f77e892f99cf130c24e4211948723d229433cd22",
+    "lastmod": "2026-10-10"
+  },
+  "blog/edgenova-evidence-research/index.html": {
+    "hash": "1a07cb076798966d3aabec4ae7423812e5e2064cc6b7ed893a8efb2975dbe65a",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kosing-monthly-research/index.html": {
+    "hash": "8d8f52d035a88e6ef8e174aae009081f633e3b41c286ff5990cadc38904e74d7",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kosing-payment-research/index.html": {
+    "hash": "ab901c8dae1be1e77e635223794a47b52ad495957c4df5a288485c37044eb726",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kosing-evidence-research/index.html": {
+    "hash": "3878142ae35b507bd6eadcf2b5d1abaa2f7e3913b26ac4832382042aa97d488f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/sujie-monthly-research/index.html": {
+    "hash": "31a83b0080817cbf13e72f5843a5fa07b02ffd97d44c1ac3a8df5e4e4d925dba",
+    "lastmod": "2026-10-10"
+  },
+  "blog/sujie-payment-research/index.html": {
+    "hash": "75a54528099930ffd43c5c4fc9cd393b9804043c89f2f7ac2a563280fd8f7ab4",
+    "lastmod": "2026-10-10"
+  },
+  "blog/sujie-evidence-research/index.html": {
+    "hash": "42d64e99a91c439291d2019e1238967c89ceead0e92ae8351f832e0a849fc0b5",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kuaili-monthly-research/index.html": {
+    "hash": "7139e59efc87b99b42fd066f4ac2eb1af7343ec309d11a19d34c6032095ce31d",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kuaili-payment-research/index.html": {
+    "hash": "1cf8b772b5da0b0002352fc017739e4cc7735753960121bd88c2aacf79adecf7",
+    "lastmod": "2026-10-10"
+  },
+  "blog/kuaili-evidence-research/index.html": {
+    "hash": "cbe99984440d98e564fa458f039a6b33c92f4bee5cf872271e10c0759f43ebdd",
+    "lastmod": "2026-10-10"
+  },
+  "blog/recommendation-order/index.html": {
+    "hash": "1e0364a6c11548b42ae7d61dea759d2b617dc765481f884cc69b3368fb7f18cc",
+    "lastmod": "2026-10-10"
+  },
+  "blog/cheap-unit-cost/index.html": {
+    "hash": "18f9106645bec6b998c96593cf2ba5c5065b20cf86f0138dceb1b13277b057b8",
+    "lastmod": "2026-10-10"
+  },
+  "blog/stable-observation/index.html": {
+    "hash": "19500fcf7909e0655dd2eb3c23f87763c1df25465eec992e4e5d644209ac8edd",
+    "lastmod": "2026-10-10"
+  },
+  "blog/review-reproducibility/index.html": {
+    "hash": "a0c475594e9b26322113a2df0182cd71e5fa28b6582bd2724bacf3e8a64e77fd",
+    "lastmod": "2026-10-10"
+  },
+  "blog/coupon-comparison/index.html": {
+    "hash": "c7e72673cbb351f6287cfe28d880defef8a9e737639c08f91f64ac1f84cb11db",
+    "lastmod": "2026-10-10"
+  },
+  "blog/traffic-safety-margin/index.html": {
+    "hash": "e0bf049b6f1d9b8723418d78d04c10bd0001f2b513afba5187e47d0149b86ee4",
+    "lastmod": "2026-10-10"
+  },
+  "blog/renewal-calendar/index.html": {
+    "hash": "fdfdb443fd0f34c0f3a69608eff3884d93437dca7a00900dd9ed3804adc83035",
+    "lastmod": "2026-10-10"
+  },
+  "blog/multi-device-budget/index.html": {
+    "hash": "af014b1ef86521679848fa52abc1303c1e6d260e9d5332ac287bfabb7187b3fc",
+    "lastmod": "2026-10-10"
+  },
+  "blog/monthly-before-annual/index.html": {
+    "hash": "df33eabf3cf9bc62d2537d7b7e60c7c8b16c7e3ad5a40618cd9311009d1c9de1",
+    "lastmod": "2026-10-10"
+  },
+  "blog/payg-expiry/index.html": {
+    "hash": "fb6e352a0a340a68c5b4fbc12c25ec018ae7d2acab8cfd13563a4872f37e5338",
+    "lastmod": "2026-10-10"
+  },
+  "blog/peak-hour-review/index.html": {
+    "hash": "5951ba05bbe6474dd99f7fabcc0890c4f84804825e43f470b1bb477c028cbc23",
+    "lastmod": "2026-10-10"
+  },
+  "blog/latency-vs-throughput/index.html": {
+    "hash": "8bbdf3d37e723633f7926ce040b1371b15aaaf9b2e31dddd766edf9de5e49c67",
+    "lastmod": "2026-10-10"
+  },
+  "blog/streaming-claims/index.html": {
+    "hash": "459ea77784b0ea4af38888338e09129da00f1d342efd64d92bc4b03a595c457f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/support-before-buy/index.html": {
+    "hash": "1cbc8f3a3caa727b5aafdaf1559fc1907ade16e1729ab16ba0926a09e9eb931f",
+    "lastmod": "2026-10-10"
+  },
+  "blog/client-subscription-security/index.html": {
+    "hash": "22e3ec24e3b7feb0884b200f6752f4168bd302d46d027ee6627fdb0fce145902",
+    "lastmod": "2026-10-10"
+  },
+  "blog/source-age/index.html": {
+    "hash": "f4813a45803b179b37235ffaf337ca5c23da7664eedd79d65dd75ab380e82ad9",
+    "lastmod": "2026-10-10"
+  },
+  "blog/billing-multiplier/index.html": {
+    "hash": "611486b2a81796974b546dcf6bdfdeb8d4223c69bf30c48d3a84a98c7f9bef96",
+    "lastmod": "2026-10-10"
+  },
+  "blog/backup-planning/index.html": {
+    "hash": "44a92f212570ba17a1bb00ff752d927da2a633742e8a2d035ab958320fdc8cc4",
+    "lastmod": "2026-10-10"
+  },
+  "blog/ranking-update/index.html": {
+    "hash": "e7defb7094dd85b92b90f6f85d28b2e165adb8a6a2230d998aae6ac8fdfe435d",
+    "lastmod": "2026-10-10"
+  },
+  "blog/budget-ten-twenty/index.html": {
+    "hash": "95431982b90fd840a55b6a30b0c994a75c67a1cbef351fc3f28aa77203d9b5d7",
+    "lastmod": "2026-10-10"
+  },
+  "blog/upgrade-timing/index.html": {
+    "hash": "5607a0648ee6154bc5514f5d0be32a219fe4c2762a4452c5c4622b5da30ced20",
+    "lastmod": "2026-10-10"
+  },
+  "blog/refund-terms/index.html": {
+    "hash": "513c60c037eae9a01c556daef2c9c6d5bab917e8383098867deb396697615b33",
+    "lastmod": "2026-10-10"
+  },
+  "blog/trial-evaluation/index.html": {
+    "hash": "191f0c193bc40e78604d4d124e714cba00e05ba06a6061d078353863e8b97c77",
+    "lastmod": "2026-10-10"
+  },
+  "blog/mobile-data-review/index.html": {
+    "hash": "4287802c2c634543829e071b795495b6f26f2a96b69fbd11a20d134d61e94aa9",
+    "lastmod": "2026-10-10"
+  },
+  "blog/ai-service-review/index.html": {
+    "hash": "23dc88126d3bb844cb6efd7a137027d1a0e2525e3cc84fa72efc14cb6ec64487",
+    "lastmod": "2026-10-10"
+  },
+  "blog/evidence-conflict/index.html": {
+    "hash": "f11f309c92464bf44bd0956881bcec03a858440a1e282d9c6a5c2941b5bdd793",
+    "lastmod": "2026-10-10"
+  },
+  "blog/final-selection/index.html": {
+    "hash": "256780479a8f92c66307775b2dc91244ce66353b9d753a82b399981badac811e",
+    "lastmod": "2026-10-10"
+  },
+  "coupons/index.html": {
+    "hash": "693b4a3a4bae85bca11923b71376aebfd6dc6a8ac1bdbbaf896480eef17e9c02",
+    "lastmod": "2026-10-10"
+  },
+  "compare/index.html": {
+    "hash": "909bfed32dd6459c29a49d43169bcc95735d50478bc2e41acb54576abb8e3ae5",
+    "lastmod": "2026-10-10"
+  },
+  "search/index.html": {
+    "hash": "5c6c7dec2d19e2f65d88415928b90544a445118cf88e46242ff018983fd3d884",
+    "lastmod": "2026-10-10"
+  },
+  "about/index.html": {
+    "hash": "21afb844474f658d9e99c04f1e84db6427a31dd335f49ffc0ef2690c821e86a2",
+    "lastmod": "2026-10-10"
+  },
+  "methodology/index.html": {
+    "hash": "ff18ee46c5d92b3414908aea7970c78551431360a45c1ca67f9c5a2d9209646e",
+    "lastmod": "2026-10-10"
+  },
+  "disclosure/index.html": {
+    "hash": "ac2e95f39330aa98bc0d979a3a31b16f5aa6a0e89d6bb14d1e5d3ddd5b3db5d1",
+    "lastmod": "2026-10-10"
+  },
+  "updates/index.html": {
+    "hash": "97a56466563447b65eee469ed48a423990da7f741f7676bc7c05adef00958810",
+    "lastmod": "2026-10-10"
+  },
+  "sitemap/index.html": {
+    "hash": "0c82f40c73299b9ac86dd9e49bb87c07a14f6f2dfac18c9f5e2253e9fe424122",
+    "lastmod": "2026-10-10"
+  },
+  "404/index.html": {
+    "hash": "0587861923b4c4a61376b747d6c46a148016138ed61bcf0474c886e0ac77aed3",
+    "lastmod": "2026-10-10"
+  }
+}

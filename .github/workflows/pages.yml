@@ -20,6 +20,8 @@ jobs:
           node-version: 22
       - run: npm run build
       - run: npm run check
+      - run: node scripts/check-evidence.mjs
+      - run: node scripts/check-reviews.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
