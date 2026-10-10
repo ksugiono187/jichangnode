@@ -4,7 +4,7 @@
   "brands": 29,
   "articles": 150,
   "topics": 27,
-  "pages": 219,
+  "pages": 220,
   "recommend": [
     "微风网络 Breezenet",
     "飞猫云",
@@ -18,7 +18,6 @@
     "二猫云 2mao"
   ],
   "cheap": [
-    "二猫云 2mao",
     "Sogo云",
     "快狸 KuaiLi",
     "光速云 LightSpeed",
@@ -27,6 +26,7 @@
     "唯兔云（V2云）",
     "暮光网络",
     "跨界云",
+    "二猫云 2mao",
     "一翻云 1fly"
   ],
   "stable": [

@@ -14,6 +14,13 @@
     "noindex": false
   },
   {
+    "file": "plans/index.html",
+    "canonical": "https://jichangnode.wiki/plans/",
+    "title": "29品牌价格流量总表：全部套餐、付款周期与公开来源",
+    "desc": "完整整理29个品牌已收录套餐与网络公开价目，比较金额、流量、付款周期与来源冲突。",
+    "noindex": false
+  },
+  {
     "file": "brands/breezenet/index.html",
     "canonical": "https://jichangnode.wiki/brands/breezenet/",
     "title": "微风网络 Breezenet机场测评资料：价格、流量、优惠与选购分析",
@@ -681,610 +688,610 @@
   {
     "file": "blog/breezenet-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/breezenet-monthly-research/",
-    "title": "微风网络套餐分析：200GB、500GB与1200GB如何选",
-    "desc": "微风网络提供200GB、500GB与1200GB参考月付档位，并收录独立按量包。本文重点比较容量阶梯、扩容费用与不同使用频率下的付款安排。",
+    "title": "微风网络 Breezenet月付套餐对比：¥27与容量阶梯",
+    "desc": "微风网络 Breezenet完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/breezenet-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/breezenet-payment-research/",
-    "title": "微风网络付款周期分析：年付投入与按量额度",
-    "desc": "137元年付记录的100GB重置规则待确认；200元270GB与370元570GB为独立单次包。按持续使用和稀疏备用分别比较一次投入。",
+    "title": "微风网络 Breezenet付款周期分析：年付、月付与备用成本",
+    "desc": "微风网络 Breezenet各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/breezenet-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/breezenet-evidence-research/",
-    "title": "微风网络资料核对：年包重置周期与当前套餐版本",
-    "desc": "年付清风档标有100GB，但重置规则未确认；137元是年付总额，不能把容量默认当作每月100GB。本篇重点核对年包重置周期与当前套餐版本，并对应套餐版本与公开来源。",
+    "title": "微风网络 Breezenet价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 按公开表计算，200GB月付27元=0.135元/GB，500GB57元=0.114，1200GB127元=0.106；单价下降不等于实际支出下降。清风年付137元需一次预付全年。",
     "noindex": false
   },
   {
     "file": "blog/flycat-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flycat-monthly-research/",
-    "title": "飞猫云套餐分析：四档月付与学生年包的容量边界",
-    "desc": "飞猫云的参考月付覆盖150GB至1000GB；学生年包标注84元年付、50GB/月。选择时应分别比较月容量、一次付款与预计使用期限。",
+    "title": "飞猫云月付套餐对比：¥25与容量阶梯",
+    "desc": "飞猫云完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/flycat-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flycat-payment-research/",
-    "title": "飞猫云付款周期分析：年付投入与按量额度",
-    "desc": "84元学生年包明确标注50GB/月。将年付款、实际使用月份与150GB起的月付分开比较，核对身份与节点条件。",
+    "title": "飞猫云付款周期分析：年付、月付与备用成本",
+    "desc": "飞猫云各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/flycat-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flycat-evidence-research/",
-    "title": "飞猫云资料核对：学生年包资格、节点与设备条件",
-    "desc": "年包的低月均费用需要一次付清；不能据此判断速度、节点质量或退款保障更优。本篇重点核对学生年包资格、节点与设备条件，并对应套餐版本与公开来源。",
+    "title": "飞猫云价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 25/150GB与45/300GB相比，升档多付20元、增加150GB；600GB的85元档单位成本约0.142，1000GB150元档约0.150，顶配单位成本反而升高。7元/月是84元年付折算，不是月付。",
     "noindex": false
   },
   {
     "file": "blog/twilight-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/twilight-monthly-research/",
-    "title": "暮光网络套餐分析：120GB月付与相邻档位的成本",
-    "desc": "暮光网络同时收录周期套餐与一次性流量包。20元120GB月付适合分析连续需求，按量包则需要另看总投入与预计消耗时间；标准档容量分歧保留在详情中。",
+    "title": "暮光网络月付套餐对比：¥20与容量阶梯",
+    "desc": "暮光网络完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/twilight-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/twilight-payment-research/",
-    "title": "暮光网络付款周期分析：年付投入与按量额度",
-    "desc": "20元120GB月付与219元150GB单次包承担不同使用频率。比较额度刷新和跨周期保留，再按预计消耗估算累计支出。",
+    "title": "暮光网络付款周期分析：年付、月付与备用成本",
+    "desc": "暮光网络各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/twilight-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/twilight-evidence-research/",
-    "title": "暮光网络资料核对：标准档240GB与300GB的版本差异",
-    "desc": "标准月付档存在240GB与300GB两种资料，本文以已记录的240GB分析，当前下单容量仍需确认。本篇重点核对标准档240GB与300GB的版本差异，并对应套餐版本与公开来源。",
+    "title": "暮光网络价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 标准档240与300GB两种口径会让40元单位成本从0.167变成0.133，差25%；冲突直接影响比较，应暂停该档成本排名，基础20元120GB比较才有明确共同口径。",
     "noindex": false
   },
   {
     "file": "blog/dalaocloud-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/dalaocloud-monthly-research/",
-    "title": "大佬云月付分析：23元入门、43元300GB与73元600GB",
-    "desc": "初云23元档保留130/120GB容量差异；凌云43元300GB、御云73元600GB均每30天重置。对照线路、设备及实际用量选择月付。",
+    "title": "大佬云月付套餐对比：¥43与容量阶梯",
+    "desc": "大佬云完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/dalaocloud-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/dalaocloud-payment-research/",
-    "title": "大佬云年付与按量分析：96元周期包、78GB与160GB总额",
-    "desc": "96元年付活动包每30天刷新60GB；99元78GB与199元160GB按量包为整包总额。按持续月份和备用消耗速度安排付款。",
+    "title": "大佬云付款周期分析：年付、月付与备用成本",
+    "desc": "大佬云各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/dalaocloud-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/dalaocloud-evidence-research/",
-    "title": "大佬云优惠码dly888：首购7折与订单条件",
-    "desc": "dly888适用于新用户首次购买订阅套餐，享7折。本文区分优惠码、iOS识别码dly与入口邀请码，并说明首购计算及续费预算。",
+    "title": "大佬云价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 初云23元130GB成本0.177，基础43元300GB成本0.143，高级73元600GB成本0.122。年付折算与最低月付需分开；预付96元换每月60GB不是8元月付。",
     "noindex": false
   },
   {
     "file": "blog/worryfree-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/worryfree-monthly-research/",
-    "title": "无忧链接套餐分析：100GB起月付与容量升级费用",
-    "desc": "无忧链接19元100GB起的参考月付可用于控制首次支出，按量包单独评估备用需求。79元年包的重置周期及历史按量报价差异，需要在当前购买页复核。",
+    "title": "无忧链接月付套餐对比：¥19与容量阶梯",
+    "desc": "无忧链接完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/worryfree-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/worryfree-payment-research/",
-    "title": "无忧链接付款周期分析：年付投入与按量额度",
-    "desc": "79元年包的40GB周期仍需确认；108元100GB与298元300GB是本次按量参考记录。保留历史报价差异，分别计算持续与备用预算。",
+    "title": "无忧链接付款周期分析：年付、月付与备用成本",
+    "desc": "无忧链接各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/worryfree-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/worryfree-evidence-research/",
-    "title": "无忧链接资料核对：年包额度、按量报价与优惠条件",
-    "desc": "79元年包的40GB重置口径待确认；单次包也存在两组不同报价，不能直接套用旧文章最低价。本篇重点核对年包额度、按量报价与优惠条件，并对应套餐版本与公开来源。",
+    "title": "无忧链接价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 最低真正月付19元100GB；MINI79元年付折合6.58元，容量仅40GB/月。用200GB选择33元档，买77元500GB但只用200GB会将实际单位成本升到0.385元。",
     "noindex": false
   },
   {
     "file": "blog/civet-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/civet-monthly-research/",
-    "title": "灵猫套餐分析：150GB与300GB的月付选择",
-    "desc": "灵猫的常规参考月付集中在150GB和300GB，并有对应年付记录。本文比较档位价差、全年资金投入及同容量套餐的权益差别。",
+    "title": "灵猫月付套餐对比：¥25与容量阶梯",
+    "desc": "灵猫完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/civet-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/civet-payment-research/",
-    "title": "灵猫付款周期分析：年付投入与使用期限",
-    "desc": "150GB年付195元、300GB年付295元分别折算16.25元与约24.58元/月。费用摊分之外，核对重置方式及同容量版本权益。",
+    "title": "灵猫付款周期分析：年付、月付与备用成本",
+    "desc": "灵猫各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/civet-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/civet-evidence-research/",
-    "title": "灵猫资料核对：Small、Big年付版本与节点范围",
-    "desc": "85元小年包标注45GB，重置规则未明；不应与已标注月额度的年付Small、Big合并展示。本篇重点核对Small、Big年付版本与节点范围，并对应套餐版本与公开来源。",
+    "title": "灵猫价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 Small年付195元对比25×12=300元少105元；Big年付295元对比45×12=540元少245元。差价说明预付优惠强，不能证明服务可靠；只接受短期付款时真正月付起步25元。",
     "noindex": false
   },
   {
     "file": "blog/flashleap-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flashleap-monthly-research/",
-    "title": "闪跃套餐分析：150GB至1000GB的扩容成本",
-    "desc": "闪跃的参考月付从24元150GB起，延伸至300GB、600GB和1000GB。分析以相邻档位的价差与实际计费量为主，线路描述及优惠条件另外核对。",
+    "title": "闪跃 FlashLeap月付套餐对比：¥24与容量阶梯",
+    "desc": "闪跃 FlashLeap完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/flashleap-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flashleap-payment-research/",
-    "title": "闪跃付款周期分析：年付投入与使用期限",
-    "desc": "96元年付档标注60GB，重置规则尚未确认。本文区分付款摊分与实际容量，并与150GB起常规月付分别讨论。",
+    "title": "闪跃 FlashLeap付款周期分析：年付、月付与备用成本",
+    "desc": "闪跃 FlashLeap各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/flashleap-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flashleap-evidence-research/",
-    "title": "闪跃资料核对：IPLC描述、节点规则与优惠资格",
-    "desc": "IPLC是第三方资料中的线路描述；尚无本站测速或稳定性记录，不能从标签推出实际表现。本篇重点核对IPLC描述、节点规则与优惠资格，并对应套餐版本与公开来源。",
+    "title": "闪跃 FlashLeap价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 24元150GB、44元300GB、84元600GB分别比Firefly同档低1元，节省约4%、2.2%、1.2%；这只是价差，不能推出延迟和速度更好。",
     "noindex": false
   },
   {
     "file": "blog/firefly-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/firefly-monthly-research/",
-    "title": "Firefly机场套餐分析：参考价目与品牌身份的对应关系",
-    "desc": "Firefly推广入口与“飞为（Firefly）”参考价目之间的对应关系尚未充分确认。页面保留原始记录与疑点，相关套餐暂不参与预算匹配。",
+    "title": "Firefly机场月付套餐对比：价格、流量与资料冲突",
+    "desc": "Firefly机场完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/firefly-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/firefly-payment-research/",
-    "title": "Firefly机场付款周期分析：年付投入与按量额度",
-    "desc": "年付与100GB单次包同样受套餐归属疑点影响。先取得当前购买页的品牌和价目对应，再讨论费用、有效期与备用用途。",
+    "title": "Firefly机场付款周期分析：年付、月付与备用成本",
+    "desc": "Firefly机场各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/firefly-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/firefly-evidence-research/",
-    "title": "Firefly机场资料核对：Firefly与飞为资料的归属问题",
-    "desc": "该品牌套餐归属标记为待核实，参考表只供追溯，不参加自动选购候选，也不展示可购买起价。本篇重点核对Firefly与飞为资料的归属问题，并对应套餐版本与公开来源。",
+    "title": "Firefly机场价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 Firefly与飞猫同样的25/150、45/300、85/600、150/1000月付阶梯；价格流量无法区分稳定性。100元100GB一次性单价1元，低频才可能靠跨月利用减少浪费。",
     "noindex": false
   },
   {
     "file": "blog/kuajie-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kuajie-monthly-research/",
-    "title": "跨界云套餐分析：330GB、830GB与1800GB如何比较",
-    "desc": "跨界云收录330GB、830GB和1800GB参考档位。大容量方案的判断重点是周期内实际用量、节点倍率与新增额度利用率，而非单纯追求更低每GB价格。",
+    "title": "跨界云月付套餐对比：¥20与容量阶梯",
+    "desc": "跨界云完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/kuajie-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kuajie-payment-research/",
-    "title": "跨界云付款周期分析：年付投入与使用期限",
-    "desc": "96元年包标注60GB但周期待确认；330GB起常规月档适用于另一种容量需求。明确额度口径后再评估年付是否适用。",
+    "title": "跨界云付款周期分析：年付、月付与备用成本",
+    "desc": "跨界云各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/kuajie-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kuajie-evidence-research/",
-    "title": "跨界云资料核对：高容量档的倍率与传输规则",
-    "desc": "容量不代表可持续吞吐。大文件下载场景还需核对节点倍率、限速和公平使用条件。本篇重点核对高容量档的倍率与传输规则，并对应套餐版本与公开来源。",
+    "title": "跨界云价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 40元330GB对比20元120GB，多付20元换210GB；130元1800GB标称单位0.072元，仅在接近用满时兑现。不足120GB用量不应为最低单价直接升到顶配。",
     "noindex": false
   },
   {
     "file": "blog/flyv-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flyv-monthly-research/",
-    "title": "飞V套餐分析：380GB中档与入门档的参考价差",
-    "desc": "飞V参考资料包含150GB、380GB及800GB档位，但容量展示存在出处分歧。本文保留预算计算的适用前提，当前容量未确认前不纳入自动匹配。",
+    "title": "飞V月付套餐对比：价格、流量与资料冲突",
+    "desc": "飞V完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/flyv-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flyv-payment-research/",
-    "title": "飞V付款周期分析：年付投入与按量额度",
-    "desc": "单次包资料涉及130GB、380GB与600GB，当前容量出处仍需复核。金额、计量周期及有效规则一致后，再估算备用消耗时间。",
+    "title": "飞V付款周期分析：年付、月付与备用成本",
+    "desc": "飞V各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/flyv-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/flyv-evidence-research/",
-    "title": "飞V资料核对：隐藏容量说明与公开表格的冲突",
-    "desc": "来源简介称流量被遮挡，套餐表却列出容量数值；当前容量可信度有限，应在面板确认后再决定。本篇重点核对隐藏容量说明与公开表格的冲突，并对应套餐版本与公开来源。",
+    "title": "飞V价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/laddercloud-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/laddercloud-monthly-research/",
-    "title": "梯子云套餐分析：125GB与350GB的月容量安排",
-    "desc": "梯子云的125GB、350GB参考月付可与独立单次包分别讨论。年度保活档的重置规则仍需确认，套餐到期、流量重置与订阅有效性应分开记录。",
+    "title": "梯子云 LadderCloud月付套餐对比：¥25与容量阶梯",
+    "desc": "梯子云 LadderCloud完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/laddercloud-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/laddercloud-payment-research/",
-    "title": "梯子云付款周期分析：年付投入与按量额度",
-    "desc": "89元年度保活档标注50GB，重置周期待确认；169元120GB单次包与25元月付则按不同频率比较。分别核对到期、重置与账号条件。",
+    "title": "梯子云 LadderCloud付款周期分析：年付、月付与备用成本",
+    "desc": "梯子云 LadderCloud各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/laddercloud-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/laddercloud-evidence-research/",
-    "title": "梯子云资料核对：年度保活、到期与订阅有效性",
-    "desc": "89元年度保活档标注50GB，但重置规则待核实；“保活”不意味着永久保留所有权益。本篇重点核对年度保活、到期与订阅有效性，并对应套餐版本与公开来源。",
+    "title": "梯子云 LadderCloud价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/wavenet-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/wavenet-monthly-research/",
-    "title": "浪网套餐分析：大容量档位的额度与升级费用",
-    "desc": "浪网收录450GB、800GB与2000GB大容量参考档，以及独立按量包。30元入门档容量尚未明确，页面保留空值，不参与单位价格或容量匹配。",
+    "title": "浪网 WaveNet月付套餐对比：¥120与容量阶梯",
+    "desc": "浪网 WaveNet完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/wavenet-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/wavenet-payment-research/",
-    "title": "浪网付款周期分析：年付投入与按量额度",
-    "desc": "180GB、450GB与900GB单次包的参考总价为239元、569元和1099元。结合预计消耗时间，评估更大库存与一次付款。",
+    "title": "浪网 WaveNet付款周期分析：年付、月付与备用成本",
+    "desc": "浪网 WaveNet各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/wavenet-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/wavenet-evidence-research/",
-    "title": "浪网资料核对：入门档未知容量与线路来源",
-    "desc": "30元入门档流量待核实；未知容量不参加每GB单价计算或月容量筛选。本篇重点核对入门档未知容量与线路来源，并对应套餐版本与公开来源。",
+    "title": "浪网 WaveNet价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/lingdong-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/lingdong-monthly-research/",
-    "title": "灵动云套餐分析：100GB至1500GB月付与年度总量",
-    "desc": "灵动云月付与单次包按各自周期整理；穿云99元档保留原资料“70GB/年”的含义。年度总量不当作每月额度，也不进入月容量匹配。",
+    "title": "灵动云月付套餐对比：¥20与容量阶梯",
+    "desc": "灵动云完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/lingdong-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/lingdong-payment-research/",
-    "title": "灵动云付款周期分析：年付投入与按量额度",
-    "desc": "穿云99元70GB/年保留为年度总额；数学平均值不代表月度刷新。月付、全年总量和150GB起单次包分别计算。",
+    "title": "灵动云付款周期分析：年付、月付与备用成本",
+    "desc": "灵动云各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/lingdong-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/lingdong-evidence-research/",
-    "title": "灵动云资料核对：穿云70GB/年的计量单位",
-    "desc": "穿云99元档的原图写作70GB/年；它不是70GB/月，也不能在月容量工具中作为70GB候选。本篇重点核对穿云70GB/年的计量单位，并对应套餐版本与公开来源。",
+    "title": "灵动云价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/invisible-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/invisible-monthly-research/",
-    "title": "隐形人套餐分析：144GB到360GB，多付多少得到什么",
-    "desc": "隐形人参考月付包含144GB和360GB档位，另有160GB起的单次包。中等用量可从容量余量与档位价差入手；隐私与账号条件需独立核对。",
+    "title": "隐形人月付套餐对比：¥24与容量阶梯",
+    "desc": "隐形人完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/invisible-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/invisible-payment-research/",
-    "title": "隐形人付款周期分析：年付投入与按量额度",
-    "desc": "109元星耀年付档的重置周期未明，160GB起单次包按总额理解。套餐称号、使用期限和实际额度条件分别核对。",
+    "title": "隐形人付款周期分析：年付、月付与备用成本",
+    "desc": "隐形人各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/invisible-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/invisible-evidence-research/",
-    "title": "隐形人资料核对：设备并发、订阅保护与年包周期",
-    "desc": "品牌名称并不能说明隐私保护强度。数据政策、账号安全与订阅链接保护应单独核对。本篇重点核对设备并发、订阅保护与年包周期，并对应套餐版本与公开来源。",
+    "title": "隐形人价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/stardream-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/stardream-monthly-research/",
-    "title": "星岛梦套餐分析：150GB、300GB与500GB的价差",
-    "desc": "星岛梦月付从150GB起，按量记录包含100GB与300GB单次包。1TB档存在内部容量冲突，已排除；本文分别讨论常规月付、备用支出与优惠资格。",
+    "title": "星岛梦 StarDream月付套餐对比：¥25与容量阶梯",
+    "desc": "星岛梦 StarDream完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/stardream-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/stardream-payment-research/",
-    "title": "星岛梦付款周期分析：年付投入与按量额度",
-    "desc": "100元100GB与300元300GB单次包的名义单价相同；96元年包的60GB周期待确认。备用库存与低额年付按各自规则比较。",
+    "title": "星岛梦 StarDream付款周期分析：年付、月付与备用成本",
+    "desc": "星岛梦 StarDream各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/stardream-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/stardream-evidence-research/",
-    "title": "星岛梦资料核对：1TB档容量冲突与优惠适用范围",
-    "desc": "某1TB单次包备注出现500GB，存在内部冲突；这个档位已排除，不能据此列出“1TB优惠”。本篇重点核对1TB档容量冲突与优惠适用范围，并对应套餐版本与公开来源。",
+    "title": "星岛梦 StarDream价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/lightspeed-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/lightspeed-monthly-research/",
-    "title": "光速云套餐分析：110GB与220GB的同单价扩容",
-    "desc": "光速云参考月付包含110GB、220GB、450GB与900GB。17元110GB和23元148GB属于不同记录，本文按各自来源保留，当前入门版本需购买页复核。",
+    "title": "光速云 LightSpeed月付套餐对比：¥17与容量阶梯",
+    "desc": "光速云 LightSpeed完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/lightspeed-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/lightspeed-payment-research/",
-    "title": "光速云付款周期分析：年付投入与按量额度",
-    "desc": "99元轻量年包重置周期未明；680元1000GB单次包则按总额和预计使用时间分析。历史月付版本保留对应来源。",
+    "title": "光速云 LightSpeed付款周期分析：年付、月付与备用成本",
+    "desc": "光速云 LightSpeed各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/lightspeed-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/lightspeed-evidence-research/",
-    "title": "光速云资料核对：17元与23元入门价的版本区别",
-    "desc": "当前入门版尚未独立确认，旧文章最低价不能当作今天结账金额。本篇重点核对17元与23元入门价的版本区别，并对应套餐版本与公开来源。",
+    "title": "光速云 LightSpeed价格真实性核查：来源、版本差异与购买判断",
+    "desc": "只返回线路检测页；未取得套餐 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/v2yun-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/v2yun-monthly-research/",
-    "title": "唯兔云（V2云）套餐分析：150GB到200GB的实际升级费用",
-    "desc": "唯兔云19.9元150GB常规参考月付用于容量比较；14.9元活动包的付款周期不明。活动价、限量年包与常规续费分别记录，避免形成不存在的低价组合。",
+    "title": "唯兔云（V2云）月付套餐对比：¥19.9与容量阶梯",
+    "desc": "唯兔云（V2云）完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/v2yun-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/v2yun-payment-research/",
-    "title": "唯兔云（V2云）付款周期分析：年付投入与按量额度",
-    "desc": "100元100GB与160元200GB是独立按量记录；活动包和限量年包另行核对周期、在售及优惠条件。总量单价与预付规模同时比较。",
+    "title": "唯兔云（V2云）付款周期分析：年付、月付与备用成本",
+    "desc": "唯兔云（V2云）各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/v2yun-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/v2yun-evidence-research/",
-    "title": "唯兔云（V2云）资料核对：活动包周期与1TB容量分歧",
-    "desc": "14.9元活动包的付款周期不明，至尊版也有1TB与1.4TB分歧；活动价不参加常规月付比较。本篇重点核对活动包周期与1TB容量分歧，并对应套餐版本与公开来源。",
+    "title": "唯兔云（V2云）价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/u1s1-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/u1s1-monthly-research/",
-    "title": "U1S1（有一说一）套餐分析：120GB、300GB与700GB的扩容差异",
-    "desc": "U1S1参考月付包含120GB、300GB、700GB与1500GB。档位名称仅用于识别套餐，预算比较依据实际金额、计量周期和相邻档位的新增容量。",
+    "title": "U1S1（有一说一）月付套餐对比：¥20与容量阶梯",
+    "desc": "U1S1（有一说一）完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/u1s1-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/u1s1-payment-research/",
-    "title": "U1S1（有一说一）付款周期分析：年付投入与使用期限",
-    "desc": "96元年付档的60GB重置规则待确认。长期付款前先取得完整计量周期，再与120GB起常规月付讨论连续需求。",
+    "title": "U1S1（有一说一）付款周期分析：年付、月付与备用成本",
+    "desc": "U1S1（有一说一）各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/u1s1-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/u1s1-evidence-research/",
-    "title": "U1S1（有一说一）资料核对：套餐命名、年包周期与优惠码",
-    "desc": "“真够了”“我全都要”等名称是命名方式，并不说明某个读者的需求一定被满足。本篇重点核对套餐命名、年包周期与优惠码，并对应套餐版本与公开来源。",
+    "title": "U1S1（有一说一）价格真实性核查：来源、版本差异与购买判断",
+    "desc": "仅公开线路检测页，未取得价目表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/jilian-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/jilian-monthly-research/",
-    "title": "极连云套餐分析：历史价目为何暂不参与选购",
-    "desc": "极连云当前公开面板与参考表中的“极速云”套餐名称不一致。页面保留来源和历史价目，归属未解决前不展示可购买起价，也不进入预算匹配。",
+    "title": "极连云月付套餐对比：价格、流量与资料冲突",
+    "desc": "极连云完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/jilian-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/jilian-payment-research/",
-    "title": "极连云付款周期分析：年付投入与按量额度",
-    "desc": "96元年付与399元600GB按量记录仍受套餐归属疑点影响。价格计算暂不形成选购结论，需先取得与当前品牌一致的价目。",
+    "title": "极连云付款周期分析：年付、月付与备用成本",
+    "desc": "极连云各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/jilian-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/jilian-evidence-research/",
-    "title": "极连云资料核对：极连云面板与极速云套餐名称",
-    "desc": "引用档位仍含“极速云”名称；归属待核实，全部套餐不参加自动选购候选，不展示推荐起价。本篇重点核对极连云面板与极速云套餐名称，并对应套餐版本与公开来源。",
+    "title": "极连云价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/globalcloud-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/globalcloud-monthly-research/",
-    "title": "全球云套餐分析：120GB到300GB的容量升级",
-    "desc": "全球云提供120GB起参考月付和100GB起单次包。持续用量与跨周期备用分别计算，BGP智能优化保留为资料描述，实际任务表现需独立观察。",
+    "title": "全球云月付套餐对比：¥20与容量阶梯",
+    "desc": "全球云完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/globalcloud-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/globalcloud-payment-research/",
-    "title": "全球云付款周期分析：年付投入与按量额度",
-    "desc": "100GB、400GB和800GB单次包分别为100元、360元与700元。与120GB起月付区分使用频率，比较预付金额与额度利用。",
+    "title": "全球云付款周期分析：年付、月付与备用成本",
+    "desc": "全球云各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/globalcloud-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/globalcloud-evidence-research/",
-    "title": "全球云资料核对：BGP资料、地区目录与tt88优惠",
-    "desc": "BGP智能优化是资料中的产品描述，不等于所有地区、所有网络环境都更快。本篇重点核对BGP资料、地区目录与tt88优惠，并对应套餐版本与公开来源。",
+    "title": "全球云价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/guangnianti-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/guangnianti-monthly-research/",
-    "title": "光年梯套餐分析：110GB、220GB与450GB如何扩容",
-    "desc": "光年梯的110GB、220GB、450GB和900GB参考月付便于逐级比较。IEPL与IPLC描述存在版本差异，限时年包重置规则仍需明确。",
+    "title": "光年梯月付套餐对比：¥18与容量阶梯",
+    "desc": "光年梯完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/guangnianti-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/guangnianti-payment-research/",
-    "title": "光年梯付款周期分析：年付投入与使用期限",
-    "desc": "89元限时年付档标注50GB，但重置与在售条件未明确。年均费用仅表示付款摊分，当前月付容量与线路版本分别核对。",
+    "title": "光年梯付款周期分析：年付、月付与备用成本",
+    "desc": "光年梯各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/guangnianti-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/guangnianti-evidence-research/",
-    "title": "光年梯资料核对：IEPL与IPLC描述的版本分歧",
-    "desc": "IEPL与IPLC在不同资料中不一致；不能将其中一个直接写成当前已验证线路。本篇重点核对IEPL与IPLC描述的版本分歧，并对应套餐版本与公开来源。",
+    "title": "光年梯价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/sogo-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/sogo-monthly-research/",
-    "title": "Sogo云套餐分析：60GB与120GB小月包的参考价差",
-    "desc": "Sogo云收录15元参考小月包与100GB、250GB单次包。不同来源对月包和年包容量有多个版本，当前购买页的金额、GB与周期应一起核对。",
+    "title": "Sogo云月付套餐对比：¥15与容量阶梯",
+    "desc": "Sogo云完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/sogo-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/sogo-payment-research/",
-    "title": "Sogo云付款周期分析：年付投入与按量额度",
-    "desc": "120元100GB与220元250GB单次包按预计消耗时间分析；98元年包需要先明确容量和重置口径。多个历史小包版本不混写。",
+    "title": "Sogo云付款周期分析：年付、月付与备用成本",
+    "desc": "Sogo云各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/sogo-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/sogo-evidence-research/",
-    "title": "Sogo云资料核对：小包容量与年包周期的多版本记录",
-    "desc": "月包、年包存在60GB、120GB、150GB及30GB、60GB等版本差异，当前商城优先级高于旧文章。本篇重点核对小包容量与年包周期的多版本记录，并对应套餐版本与公开来源。",
+    "title": "Sogo云价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/yuzhou-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/yuzhou-monthly-research/",
-    "title": "宇宙云套餐分析：50GB小包与120GB档的预算差别",
-    "desc": "宇宙云12.5元50GB小包属于已记录资料，当前在售状态尚未确认。25元档存在120GB与160GB差异，本文分别保留版本、优惠条件及容量口径。",
+    "title": "宇宙云 YuZhou月付套餐对比：价格、流量与资料冲突",
+    "desc": "宇宙云 YuZhou完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/yuzhou-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/yuzhou-payment-research/",
-    "title": "宇宙云付款周期分析：年付投入与使用期限",
-    "desc": "96元星云年包标注60GB且周期待确认。小额年均付款与实际月容量分开理解，再结合常规月付与小包在售状态决定。",
+    "title": "宇宙云 YuZhou付款周期分析：年付、月付与备用成本",
+    "desc": "宇宙云 YuZhou各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/yuzhou-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/yuzhou-evidence-research/",
-    "title": "宇宙云资料核对：小包在售、120/160GB与首购条件",
-    "desc": "25元档有120GB与160GB两种记录，小包在售状态未确认；目前不能承诺最低可买价。本篇重点核对小包在售、120/160GB与首购条件，并对应套餐版本与公开来源。",
+    "title": "宇宙云 YuZhou价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/2mao-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/2mao-monthly-research/",
-    "title": "二猫云套餐分析：60GB到130GB的低额扩容",
-    "desc": "二猫云13元60GB参考月付与89元60GB/月年包可用于轻度需求比较，130GB起常规档则用于扩容。年付总额、实际使用月份与同容量权益需要同时考虑。",
+    "title": "二猫云 2mao月付套餐对比：¥20与容量阶梯",
+    "desc": "二猫云 2mao完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/2mao-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/2mao-payment-research/",
-    "title": "二猫云付款周期分析：年付投入与使用期限",
-    "desc": "89元60GB/月年包与13元60GB月付可比较全年参考费用；实际使用月份、节点范围与并发条件决定两者是否适合相同需求。",
+    "title": "二猫云 2mao付款周期分析：年付、月付与备用成本",
+    "desc": "二猫云 2mao各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/2mao-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/2mao-evidence-research/",
-    "title": "二猫云资料核对：60GB年付与月付的完整权益",
-    "desc": "年付的低费用需要一次承诺89元；长期付款前仍应确认条款与自己的持续需求。本篇重点核对60GB年付与月付的完整权益，并对应套餐版本与公开来源。",
+    "title": "二猫云 2mao价格真实性核查：来源、版本差异与购买判断",
+    "desc": "品牌入口未取得匿名公开价目表；未登录、未购买。 白猫20/130约0.154，橘猫40/230约0.174，牛奶猫80/430约0.186，黑猫160/850约0.188，档位越大标称单位成本越高；大容量是满足需求，不是单位优惠。",
     "noindex": false
   },
   {
     "file": "blog/1fly-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/1fly-monthly-research/",
-    "title": "一翻云套餐分析：350GB与600GB中档的扩容效率",
-    "desc": "一翻云参考月付包含150GB、350GB、600GB与1200GB。35元350GB和55元600GB可作为中等用量比较对象，是否升级取决于实际容量缺口。",
+    "title": "一翻云 1fly月付套餐对比：¥20与容量阶梯",
+    "desc": "一翻云 1fly完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/1fly-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/1fly-payment-research/",
-    "title": "一翻云付款周期分析：年付投入与使用期限",
-    "desc": "98元年包标注60GB，重置规则待明确。它与150GB起月付有不同容量背景，不直接视作大用量月档的折扣替代。",
+    "title": "一翻云 1fly付款周期分析：年付、月付与备用成本",
+    "desc": "一翻云 1fly各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/1fly-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/1fly-evidence-research/",
-    "title": "一翻云资料核对：常规档线路、倍率与年包周期",
-    "desc": "套餐价目较有吸引力不等于已验证速度；订阅支持、倍率和节点条件应另行核对。本篇重点核对常规档线路、倍率与年包周期，并对应套餐版本与公开来源。",
+    "title": "一翻云 1fly价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/edgenova-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/edgenova-monthly-research/",
-    "title": "边缘节点套餐分析：120GB至1000GB的常规容量阶梯",
-    "desc": "边缘节点常规参考月付覆盖120GB至1000GB；15元限时档有50GB与72GB两种记录。活动资格、在售期限及后续续费价格需在购买前明确。",
+    "title": "边缘节点 EdgeNova月付套餐对比：¥25与容量阶梯",
+    "desc": "边缘节点 EdgeNova完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/edgenova-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/edgenova-payment-research/",
-    "title": "边缘节点付款周期分析：年付投入与使用期限",
-    "desc": "108元限时年包标注50GB且重置待确认。分别记录活动期限、套餐使用期与额度周期，并复核活动结束后的续费档位。",
+    "title": "边缘节点 EdgeNova付款周期分析：年付、月付与备用成本",
+    "desc": "边缘节点 EdgeNova各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/edgenova-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/edgenova-evidence-research/",
-    "title": "边缘节点资料核对：限时小包50/72GB与续费条件",
-    "desc": "15元活动是否还在售及实际容量未确认；限时价不能直接当作长期续费成本。本篇重点核对限时小包50/72GB与续费条件，并对应套餐版本与公开来源。",
+    "title": "边缘节点 EdgeNova价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/kosing-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kosing-monthly-research/",
-    "title": "可信云套餐分析：历史参考套餐的可用前提",
-    "desc": "可信云保留历史价目，但通用订阅支持及当前运营状态仍有未解分歧。本文优先整理客户端、近期公告与支持渠道，暂不据历史价格给出匹配结果。",
+    "title": "可信云月付套餐对比：价格、流量与资料冲突",
+    "desc": "可信云完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/kosing-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kosing-payment-research/",
-    "title": "可信云付款周期分析：年付投入与按量额度",
-    "desc": "96元年包与50元50GB单次包属于不同付款方式。当前客户端支持和运营状态未确认，长期预付款讨论应先解决可用条件。",
+    "title": "可信云付款周期分析：年付、月付与备用成本",
+    "desc": "可信云各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/kosing-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kosing-evidence-research/",
-    "title": "可信云资料核对：通用订阅支持与当前服务状态",
-    "desc": "资料对客户端支持有冲突，也有历史节点异常转述；当前恢复与运营情况未确认，不进入自动选购候选。本篇重点核对通用订阅支持与当前服务状态，并对应套餐版本与公开来源。",
+    "title": "可信云价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/sujie-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/sujie-monthly-research/",
-    "title": "速界套餐分析：120GB到250GB的参考升级费用",
-    "desc": "速界的小包金额、容量和线路描述存在不同记录。25元120GB与150GB应按版本区分；在金额、GB和日期对应之前，不拼接各来源最低字段。",
+    "title": "速界 SuJie月付套餐对比：¥25与容量阶梯",
+    "desc": "速界 SuJie完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/sujie-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/sujie-payment-research/",
-    "title": "速界付款周期分析：年付投入与使用期限",
-    "desc": "90元年包标注50GB但重置规则不明。先锁定当前金额、容量和来源日期，再讨论年付款与实际使用期限。",
+    "title": "速界 SuJie付款周期分析：年付、月付与备用成本",
+    "desc": "速界 SuJie各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/sujie-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/sujie-evidence-research/",
-    "title": "速界资料核对：小包容量与IEPL/IPLC版本差异",
-    "desc": "当前最低月付尚未独立确认，IEPL与IPLC也有口径分歧；“速界”名称不代表已有速度测量。本篇重点核对小包容量与IEPL/IPLC版本差异，并对应套餐版本与公开来源。",
+    "title": "速界 SuJie价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {
     "file": "blog/kuaili-monthly-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kuaili-monthly-research/",
-    "title": "快狸套餐分析：100GB到250GB，为何值得单独比较",
-    "desc": "快狸参考月付包含50GB、100GB、250GB和500GB。100GB到250GB增加13元，250GB到500GB增加60元，两段升级费用不同，适合结合用量边界讨论。",
+    "title": "快狸 KuaiLi月付套餐对比：¥15与容量阶梯",
+    "desc": "快狸 KuaiLi完整价目、相邻档位增量成本与同流量跨品牌比较。按实际用量解释选择原因，保留网上公开报价的版本冲突。",
     "noindex": false
   },
   {
     "file": "blog/kuaili-payment-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kuaili-payment-research/",
-    "title": "快狸付款周期分析：年付投入与使用期限",
-    "desc": "120元年包标注30GB，周期仍需明确；100GB至250GB月付用于另一种用量比较。低年均费用不能自行补足月容量条件。",
+    "title": "快狸 KuaiLi付款周期分析：年付、月付与备用成本",
+    "desc": "快狸 KuaiLi各周期全额付款、额度规则、年费分摊与按量消耗寿命，比较连续使用和低频备用的实际成本。",
     "noindex": false
   },
   {
     "file": "blog/kuaili-evidence-research/index.html",
     "canonical": "https://jichangnode.wiki/blog/kuaili-evidence-research/",
-    "title": "快狸资料核对：250GB版本、倍率与设备并发",
-    "desc": "线路类型尚未核实；不能从单价推断速度、稳定性或解锁效果。本篇重点核对250GB版本、倍率与设备并发，并对应套餐版本与公开来源。",
+    "title": "快狸 KuaiLi价格真实性核查：来源、版本差异与购买判断",
+    "desc": "本轮未取得品牌入口公开套餐表 本轮取得第三方公开价目，保留与原记录的版本差异；未登录或购买验证。",
     "noindex": false
   },
   {

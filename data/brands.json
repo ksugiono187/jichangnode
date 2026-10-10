@@ -181,7 +181,9 @@
         "gb": 240,
         "unlimitedTime": false,
         "sourceDate": "2026-08-08",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "暮光·旗舰版",
@@ -493,7 +495,9 @@
         "gb": 100,
         "unlimitedTime": true,
         "sourceDate": "2026-08-08",
-        "quotaPeriod": "total"
+        "quotaPeriod": "total",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "300G永久不限时 无忧链接",
@@ -502,7 +506,9 @@
         "gb": 300,
         "unlimitedTime": true,
         "sourceDate": "2026-08-08",
-        "quotaPeriod": "total"
+        "quotaPeriod": "total",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       }
     ],
     "source": "https://jichangtan.com/airports/worryfree/",
@@ -638,7 +644,9 @@
         "gb": 1000,
         "unlimitedTime": false,
         "sourceDate": "2026-08-08",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       }
     ],
     "source": "https://jichangtan.com/airports/flashleap/",
@@ -1051,7 +1059,9 @@
         "gb": 900,
         "unlimitedTime": false,
         "sourceDate": "2026-08-08",
-        "quotaPeriod": "total"
+        "quotaPeriod": "total",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "浪网 进阶",
@@ -1060,7 +1070,9 @@
         "gb": 450,
         "unlimitedTime": false,
         "sourceDate": "2026-08-08",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "浪网 入门",
@@ -1221,7 +1233,9 @@
         "gb": 1500,
         "unlimitedTime": false,
         "sourceDate": "2026-08-08",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络容量版本冲突，原值保留并退出自动匹配；对照下方公开版本。"
       },
       {
         "name": "星耀风暴 365天不熄",
@@ -1501,7 +1515,9 @@
         "gb": 1000,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络容量版本冲突，原值保留并退出自动匹配；对照下方公开版本。"
       },
       {
         "name": "唯兔云·永久不限时",
@@ -1869,7 +1885,8 @@
         "sourceDate": "2026-08-09",
         "quotaPeriod": "unknown",
         "quotedGb": 30,
-        "quotaNote": "来源列有容量数值，但未取得明确的每月重置说明；不参与月容量筛选和每 GB 计算"
+        "quotaNote": "来源列有容量数值，但未取得明确的每月重置说明；不参与月容量筛选和每 GB 计算；本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。",
+        "researchConflict": true
       },
       {
         "name": "基础版",
@@ -1878,7 +1895,9 @@
         "gb": 120,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "优选版",
@@ -1887,7 +1906,9 @@
         "gb": 250,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "强化版",
@@ -1896,7 +1917,9 @@
         "gb": 500,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "顶配版",
@@ -1905,7 +1928,9 @@
         "gb": 1000,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "不限时买断 100G",
@@ -1914,7 +1939,9 @@
         "gb": 100,
         "unlimitedTime": true,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "total"
+        "quotaPeriod": "total",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "不限时买断 250G",
@@ -1964,7 +1991,9 @@
         "gb": 50,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "行星基础版",
@@ -1973,7 +2002,9 @@
         "gb": 120,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "恒星标准版",
@@ -1982,7 +2013,9 @@
         "gb": 240,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "星系专业版",
@@ -1991,7 +2024,9 @@
         "gb": 500,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "寰宇旗舰版",
@@ -2000,7 +2035,9 @@
         "gb": 1000,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       }
     ],
     "source": "https://jichangtan.com/airports/yuzhou/",
@@ -2030,7 +2067,9 @@
         "gb": 60,
         "unlimitedTime": false,
         "sourceDate": "2026-08-09",
-        "quotaPeriod": "month"
+        "quotaPeriod": "month",
+        "researchConflict": true,
+        "quotaNote": "本轮网络资料存在金额、容量、周期或在售状态差异；各版本见下方公开价目。"
       },
       {
         "name": "年付小包",

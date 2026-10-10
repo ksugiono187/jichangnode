@@ -29,3 +29,7 @@
 ## 专业版界面
 
 专业版首页与内容增强由 scripts/professional.mjs 提供，编辑样式位于 assets/professional.css；独立指南案例位于 data/guide-cases.mjs。
+
+## 价格真实性与内容研究更新
+
+29品牌的网络核查、366条报价及版本记录保存在 data/brand-research.json；每行保留来源，原始研究底稿保存在 data/research-raw.json。品牌的旧价目不会被第三方新版静默覆盖。scripts/evidence-editorial.mjs 生成87篇品牌研究、63篇指南的数据对照和全部价目页。

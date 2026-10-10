@@ -16,7 +16,7 @@ export function professionalBody({route,body,article,brands,articles,topics,prof
  const depth=route.split('/').filter(Boolean).length;
  if(route.startsWith('brands/')&&route!=='brands/'){
    const id=route.split('/')[1],b=brands.find(x=>x.id===id),p=month(b);
-   const facts=`<div class="fact-strip"><div><small>常规月付参考</small><strong>${p&&!excluded(b)?'¥'+p.price:'待确认'}</strong><span>${p&&!excluded(b)?p.gb+' GB / 月':'先核对资料疑点'}</span></div><div><small>付款安排</small><strong>${E([...new Set(b.plans.map(p=>p.cycle))].join(' / ')||'待确认')}</strong><span>各档权益与额度周期分别查看</span></div><div><small>资料状态</small><strong>${excluded(b)?'存在待核实项':'参考价目已整理'}</strong><span>现价与使用表现需进一步确认</span></div></div><div class="brand-verdict"><span class="eyebrow">选购重点</span><p>${E(profiles[b.id].headline)}</p><small>${E(profiles[b.id].tradeoff)}</small></div>`;
+   const facts=`<div class="fact-strip"><div><small>常规月付参考</small><strong>${p&&!excluded(b)?'¥'+p.price:'待确认'}</strong><span>${p&&!excluded(b)?p.gb+' GB / 月':'先核对资料疑点'}</span></div><div><small>付款安排</small><strong>${E([...new Set(b.plans.map(p=>p.cycle))].join(' / ')||'待确认')}</strong><span>各档权益与额度周期分别查看</span></div><div><small>资料状态</small><strong>${excluded(b)?'存在待核实项':'参考价目已整理'}</strong><span>网络版本与冲突已逐条记录</span></div></div><div class="brand-verdict"><span class="eyebrow">选购重点</span><p>${E(profiles[b.id].headline)}</p><small>${E(profiles[b.id].tradeoff)}</small></div>`;
    body=body.replace('<div class="actions">',facts+'<div class="actions">').replace('参考价目继承自你提供的旧博客资料。','参考价目来自已收录的品牌资料。').replace('官网推广地址与11个优惠码以站长本轮提供内容为准。','官方推广入口与优惠码由站长提供，使用条件以当前订单为准。');
  }
  if(route.startsWith('topics/')&&route!=='topics/'){
