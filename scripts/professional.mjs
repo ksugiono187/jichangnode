@@ -1,0 +1,38 @@
+import {dossiers} from '../data/topic-dossiers.mjs';
+
+export function professionalHome({brands,articles,profiles,month,E,story,rankList,cheap}) {
+ const features=['idle-quota-cost','annual-three-numbers','stable-observation'].map(id=>articles.find(a=>a.id===id));
+ const lead=features[0];
+ return `<div class="edition"><span>JICHANGNODE / 网络服务选购研究</span><span>2026年10月刊 · 套餐资料与场景指南</span></div>
+ <section class="editorial-hero"><div class="editorial-copy"><span class="eyebrow"><i class="live-dot"></i> 梯子推荐 · 机场推荐</span><h1>选择的依据，<br>比推荐的声音<span>更重要。</span></h1><p>从预算、流量与付款周期出发。将29个品牌放回真实使用场景，读懂套餐，找到适合你的连接。</p><div class="actions"><a class="button primary" href="rankings/">查看严选排行 ↗</a><a class="button" href="compare/">比较套餐</a></div><div class="hero-meta"><span><b>29</b> 品牌档案</span><span><b>150</b> 选购文章</span><span><b>27</b> 阅读专题</span></div></div><a class="feature-lead" href="blog/${lead.id}/"><div class="lead-art" aria-hidden="true"><div class="editorial-orbit"></div><div class="editorial-orbit second"></div><div class="lead-node">node<span>READ / COMPARE / CHOOSE</span></div><span class="art-caption">THE COST OF CHOICE / 01</span></div><div class="lead-copy"><span class="eyebrow">封面研究 / 预算与流量</span><h2>低单价，<br>为什么未必更省钱？</h2><p>用实际用量拆解套餐费用、容量余量与升级理由。</p><span class="feature-link">阅读本期研究 ↗</span></div></a></section>
+ <div class="trust-ribbon"><a href="methodology/"><span>01 / ORDER</span><b>推荐顺序有说明</b><small>站长指定顺序与价格排序分别展示</small></a><a href="methodology/"><span>02 / SOURCE</span><b>套餐资料可追溯</b><small>保留原始日期、周期与资料疑点</small></a><a href="topics/stable/"><span>03 / EVIDENCE</span><b>测评状态公开</b><small>资料分析与真实测量分别标明</small></a></div>
+ <section><div class="section-title"><div><span class="eyebrow">START WITH YOUR NEEDS</span><h2>你要解决的，是哪一种需求？</h2></div><a href="topics/">全部专题 ↗</a></div><div class="need-grid">${[['cheap','预算优先','控制每期支出，比较够用的档位。','¥'],['stable','稳定优先','从连续观察与真实任务开始。','◎'],['payg','低频备用','看总额度、有效期与预付安排。','↗'],['annual','长期使用','核对年付款、重置周期与权益。','◷']].map(([id,t,p,icon])=>`<a href="topics/${id}/"><span class="need-icon">${icon}</span><h3>${t}</h3><p>${p}</p><span>阅读专题 ↗</span></a>`).join('')}</div></section>
+ <section class="home-columns"><div><div class="section-title"><div><span class="eyebrow">EDITOR’S SHORTLIST</span><h2>机场推荐 · 前十</h2></div><a href="rankings/">查看排行依据 ↗</a></div><p class="section-deck">按站长指定顺序展示。先阅读档案，再核对当前购买页。</p>${rankList(brands.slice(0,10),0,'recommend')}</div><aside class="home-aside"><span class="eyebrow">PRICE NOTEBOOK</span><h2>便宜，要有比较口径。</h2><p>这里比较常规月付参考起价。年付、一次性包与限时活动分别理解。</p>${cheap.slice(0,5).map((b,i)=>{const p=month(b);return `<a class="price-pick" href="brands/${b.id}/"><span>0${i+1}</span><div><b>${E(b.name)}</b><small>${p.gb}GB / 月 · 原始记录${E(p.sourceDate)}</small></div><strong>¥${p.price}</strong></a>`}).join('')}<a class="button" href="topics/cheap/">完整价格严选 ↗</a><div class="aside-editor"><span class="eyebrow">EDITOR’S NOTE</span><p>低月费解决预算问题；可用性需要在自己的网络、设备和任务上观察。</p><a href="methodology/">了解编辑方法 ↗</a></div></aside></section>
+ <section><div class="section-title"><div><span class="eyebrow">THE READING DESK</span><h2>读懂几个细节，少走一些弯路。</h2></div><a href="blog/">全部文章 ↗</a></div><div class="story-grid">${features.map(a=>story(a,0)).join('')}</div></section>
+ <section class="reading-route"><div><span class="eyebrow">A PRACTICAL ROUTE</span><h2>第一次选择？<br>从这三步开始。</h2><p>先确定需求，再比较套餐，最后核对订单。</p></div><ol>${[['topics/budget/','写下预算与实际用量','把普通周期与临时任务分开。'],['compare/','对照价格与额度周期','同一种付款安排，才放在一起比较。'],['coupons/','确认优惠与最终订单','折扣、续费和适用条件逐项核对。']].map(([url,t,p])=>`<li><a href="${url}"><h3>${t} ↗</h3><p>${p}</p></a></li>`).join('')}</ol></section>`;
+}
+
+export function professionalBody({route,body,article,brands,articles,topics,profiles,month,excluded,E,rel,story,rankList}) {
+ const depth=route.split('/').filter(Boolean).length;
+ if(route.startsWith('brands/')&&route!=='brands/'){
+   const id=route.split('/')[1],b=brands.find(x=>x.id===id),p=month(b);
+   const facts=`<div class="fact-strip"><div><small>常规月付参考</small><strong>${p&&!excluded(b)?'¥'+p.price:'待确认'}</strong><span>${p&&!excluded(b)?p.gb+' GB / 月':'先核对资料疑点'}</span></div><div><small>付款安排</small><strong>${E([...new Set(b.plans.map(p=>p.cycle))].join(' / ')||'待确认')}</strong><span>各档权益与额度周期分别查看</span></div><div><small>资料状态</small><strong>${excluded(b)?'存在待核实项':'参考价目已整理'}</strong><span>现价与使用表现需进一步确认</span></div></div><div class="brand-verdict"><span class="eyebrow">选购重点</span><p>${E(profiles[b.id].headline)}</p><small>${E(profiles[b.id].tradeoff)}</small></div>`;
+   body=body.replace('<div class="actions">',facts+'<div class="actions">').replace('参考价目继承自你提供的旧博客资料。','参考价目来自已收录的品牌资料。').replace('官网推广地址与11个优惠码以站长本轮提供内容为准。','官方推广入口与优惠码由站长提供，使用条件以当前订单为准。');
+ }
+ if(route.startsWith('topics/')&&route!=='topics/'){
+   const id=route.split('/')[1],d=dossiers[id];
+   if(d){const analysis=`<div class="topic-verdict"><span class="eyebrow">专题判断</span><h2>${E(d.question)}</h2><p>${E(d.verdict)}</p></div><div class="reading-layout"><article class="prose topic-research">${d.sections.map((s,i)=>`<section id="research-${i}"><h2>${E(s.heading)}</h2>${s.paragraphs.map(p=>`<p>${E(p)}</p>`).join('')}</section>`).join('')}<section><h2>${E(d.table.title)}</h2><div class="table-wrap"><table><thead><tr>${d.table.columns.map(c=>`<th>${E(c)}</th>`).join('')}</tr></thead><tbody>${d.table.rows.map(row=>`<tr>${row.map(c=>`<td>${E(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section><section class="case-study"><span class="eyebrow">情景分析 / 假设示例</span><h2>${E(d.caseStudy.title)}</h2>${d.caseStudy.paragraphs.map(p=>`<p>${E(p)}</p>`).join('')}</section><section><h2>行动清单</h2><ul>${d.checklist.map(c=>`<li>${E(c)}</li>`).join('')}</ul></section></article><aside class="toc"><span class="eyebrow">专题导读</span>${d.sections.map((s,i)=>`<a href="#research-${i}">${E(s.heading)}</a>`).join('')}<a href="#topic-reading">建议阅读</a></aside></div>`;
+     body=body.replace('<section><h2>专题阅读</h2>',analysis+'<section id="topic-reading"><h2>专题阅读</h2>');
+   }else {const names=id==='recommend'?['明确推荐顺序','阅读品牌与套餐','核对当前订单']:id==='cheap'?['统一月付口径','核对容量与日期','估算实际消耗成本']:['固定设备与网络','跨日期重复任务','保留失败与恢复记录'];body=body.replace('<section><h2>专题阅读</h2>',`<div class="topic-steps">${names.map((n,i)=>`<div><span>0${i+1}</span><h3>${n}</h3></div>`).join('')}</div><section id="topic-reading"><h2>专题阅读</h2>`);}
+ }
+ if(article){
+   const takeaway=article.checklist?.slice(0,3)||article.sections.slice(0,3).map(s=>s.heading);
+   const top=`<div class="article-brief"><span class="eyebrow">阅读要点</span><ul>${takeaway.map(s=>`<li>${E(s)}</li>`).join('')}</ul></div>`;
+   body=body.replace('<article class="prose">','<article class="prose">'+top);
+   const related=articles.filter(a=>a.id!==article.id&&(a.topic===article.topic||article.brandIds.some(id=>a.brandIds.includes(id)))).slice(0,3);
+   body+=`<section><div class="section-title"><div><span class="eyebrow">CONTINUE READING</span><h2>把这个问题，继续读完整。</h2></div><a href="${rel('blog/',depth)}">文章库 ↗</a></div><div class="story-grid">${related.map(a=>story(a,depth)).join('')}</div></section>`;
+   body=body.replace('<div class="article-meta">','<div class="article-meta"><span class="article-kind">'+(article.kind==='guide'?'选购指南':'品牌研究')+'</span>');
+ }
+ if(route==='blog/')body=body.replace('<div class="story-grid">','<div class="journal-pagination" data-pagination aria-label="文章分页"></div><div class="story-grid" data-paginated="12">');
+ return body.replace('150 篇文章，涵盖29品牌研究、套餐比较与具体场景。旧项目研究资料经新站整理，新增27篇严选指南。','从套餐预算、流量周期到真实任务，150篇文章按问题组织。用搜索和专题筛选，找到与你相关的研究。').replace('从01到29，严格按站长提供的顺序。查看套餐、优惠与来源，再进入品牌官方页面。','29个品牌按站长指定顺序编目。查看价格、流量、优惠与资料来源，再核对当前品牌页面。');
+}

@@ -248,168 +248,168 @@
     "file": "topics/budget/index.html",
     "canonical": "https://jichangnode.wiki/topics/budget/",
     "title": "预算管理专题：价格、资料与专业选购指南",
-    "desc": "比较总支出、实际消耗与容量余量。",
+    "desc": "先限定付款周期，再比较够用档位的总支出。标称每 GB 价格用于看价目结构，实际消耗成本用于看自己的资金效率。",
     "noindex": false
   },
   {
     "file": "topics/light/index.html",
     "canonical": "https://jichangnode.wiki/topics/light/",
     "title": "轻度使用专题：价格、资料与专业选购指南",
-    "desc": "按使用频率与峰值任务确定小流量方案。",
+    "desc": "先看任务是否连续，再看单次任务的大小。轻度使用可以是低总量，也可以是低频率的大文件传输。",
     "noindex": false
   },
   {
     "file": "topics/monthly/index.html",
     "canonical": "https://jichangnode.wiki/topics/monthly/",
     "title": "月付选择专题：价格、资料与专业选购指南",
-    "desc": "在完整计费周期内观察需求与容量。",
+    "desc": "同时记录任务表现、计费消耗和三个日期：付款日、生效或到期日、额度重置日。",
     "noindex": false
   },
   {
     "file": "topics/annual/index.html",
     "canonical": "https://jichangnode.wiki/topics/annual/",
     "title": "年付决策专题：价格、资料与专业选购指南",
-    "desc": "核对一次付款、额度周期与使用期限。",
+    "desc": "把一次付款、额度发放方式和实际使用月份并列。月均摊分用于规划费用，不能解释付款或容量规则。",
     "noindex": false
   },
   {
     "file": "topics/payg/index.html",
     "canonical": "https://jichangnode.wiki/topics/payg/",
     "title": "按量套餐专题：价格、资料与专业选购指南",
-    "desc": "用总额度和预计消耗时间分析低频需求。",
+    "desc": "用总额度除以预计消耗估算使用窗口，再核对有效条件。估算可用多久与服务承诺是两项不同信息。",
     "noindex": false
   },
   {
     "file": "topics/capacity/index.html",
     "canonical": "https://jichangnode.wiki/topics/capacity/",
     "title": "容量升级专题：价格、资料与专业选购指南",
-    "desc": "根据新增GB与价差判断容量升级。",
+    "desc": "先确定容量缺口，再计算相邻档位的新增支出。纸面价差帮助比较方案，实际补差仍以订单规则为准。",
     "noindex": false
   },
   {
     "file": "topics/traffic/index.html",
     "canonical": "https://jichangnode.wiki/topics/traffic/",
     "title": "流量口径专题：价格、资料与专业选购指南",
-    "desc": "分别理解月度、年度总额与节点倍率。",
+    "desc": "分别记录付款周期、额度周期与计费倍率。单位完整且规则明确的数字，才适合参与精确比较。",
     "noindex": false
   },
   {
     "file": "topics/coupons/index.html",
     "canonical": "https://jichangnode.wiki/topics/coupons/",
     "title": "优惠核对专题：价格、资料与专业选购指南",
-    "desc": "区分首购资格、订单应付与后续续费。",
+    "desc": "优惠是否生效由账号资格、套餐范围和确认页应付金额共同决定。首购折扣与后续续费分别记录。",
     "noindex": false
   },
   {
     "file": "topics/lines/index.html",
     "canonical": "https://jichangnode.wiki/topics/lines/",
     "title": "线路资料专题：价格、资料与专业选购指南",
-    "desc": "阅读配置描述，并独立观察任务表现。",
+    "desc": "线路说明用于了解商家宣称的配置；具体任务表现需要在相同设备、网络、节点与时段下观察。",
     "noindex": false
   },
   {
     "file": "topics/devices/index.html",
     "canonical": "https://jichangnode.wiki/topics/devices/",
     "title": "设备限制专题：价格、资料与专业选购指南",
-    "desc": "确认客户端安装、同时在线与共享规则。",
+    "desc": "分别确认安装数量、同时在线、账号共享与使用规则。一个字段不能替代其他条件。",
     "noindex": false
   },
   {
     "file": "topics/clients/index.html",
     "canonical": "https://jichangnode.wiki/topics/clients/",
     "title": "客户端专题：价格、资料与专业选购指南",
-    "desc": "付款前明确系统、订阅格式与更新方式。",
+    "desc": "验证系统、配置格式、导入方式与目标任务。客户端可安装，只完成了兼容检查的一部分。",
     "noindex": false
   },
   {
     "file": "topics/ai/index.html",
     "canonical": "https://jichangnode.wiki/topics/ai/",
     "title": "AI工具专题：价格、资料与专业选购指南",
-    "desc": "分别观察登录、交互与文件处理任务。",
+    "desc": "以实际使用流程检查账号、地区、请求与持续输出。网络套餐说明不能替代目标 AI 服务的访问规则。",
     "noindex": false
   },
   {
     "file": "topics/work/index.html",
     "canonical": "https://jichangnode.wiki/topics/work/",
     "title": "工作场景专题：价格、资料与专业选购指南",
-    "desc": "围绕会议、协作与文件传输建立观察清单。",
+    "desc": "先定义文档、会议与文件任务的要求，再观察中断、恢复和容量。工作任务的完成质量比单次测速更接近需求。",
     "noindex": false
   },
   {
     "file": "topics/downloads/index.html",
     "canonical": "https://jichangnode.wiki/topics/downloads/",
     "title": "大文件用量专题：价格、资料与专业选购指南",
-    "desc": "把文件大小、频率与重复传输计入容量。",
+    "desc": "按文件大小、次数和已确认计费规则计算，再加入常规消耗与明确的重复传输。",
     "noindex": false
   },
   {
     "file": "topics/travel/index.html",
     "canonical": "https://jichangnode.wiki/topics/travel/",
     "title": "出行备用专题：价格、资料与专业选购指南",
-    "desc": "提前准备设备，按出行任务安排备用额度。",
+    "desc": "先准备客户端、配置与账号，再计算出行任务的额度。临时购买并不能解决未验证的设备兼容问题。",
     "noindex": false
   },
   {
     "file": "topics/household/index.html",
     "canonical": "https://jichangnode.wiki/topics/household/",
     "title": "家庭共享专题：价格、资料与专业选购指南",
-    "desc": "汇总家庭用量，并确认并发与共享许可。",
+    "desc": "先确认多人使用及路由器接入规则，再合并成员用量。设备数量、同时在线与计费消耗分别计算。",
     "noindex": false
   },
   {
     "file": "topics/latency/index.html",
     "canonical": "https://jichangnode.wiki/topics/latency/",
     "title": "响应观察专题：价格、资料与专业选购指南",
-    "desc": "区分连接、加载与互动等待的观察条件。",
+    "desc": "先确定任务，再选择对应指标。延迟、吞吐量和任务完成情况各自回答不同问题。",
     "noindex": false
   },
   {
     "file": "topics/renewals/index.html",
     "canonical": "https://jichangnode.wiki/topics/renewals/",
     "title": "续费升级专题：价格、资料与专业选购指南",
-    "desc": "操作前核对余额、到期和下次重置时间。",
+    "desc": "先保存账号当前状态，再核对新订单如何处理额度、余额和日期。支付成功后再次核对权益生效。",
     "noindex": false
   },
   {
     "file": "topics/privacy/index.html",
     "canonical": "https://jichangnode.wiki/topics/privacy/",
     "title": "订阅保护专题：价格、资料与专业选购指南",
-    "desc": "妥善保存订阅链接、账号与本地配置。",
+    "desc": "把可访问账号配置的链接视为需要保护的信息；本站收藏则属于当前浏览器的本地阅读记录。两者的用途和处理方式不同。",
     "noindex": false
   },
   {
     "file": "topics/support/index.html",
     "canonical": "https://jichangnode.wiki/topics/support/",
     "title": "售后核对专题：价格、资料与专业选购指南",
-    "desc": "提供可复查的故障条件，并保存完整条款。",
+    "desc": "先定位失败环节，再提供时间、环境、结果与已尝试步骤。支持响应承诺与实际解决结果分别记录。",
     "noindex": false
   },
   {
     "file": "topics/asia/index.html",
     "canonical": "https://jichangnode.wiki/topics/asia/",
     "title": "地区选择专题：价格、资料与专业选购指南",
-    "desc": "从目标服务与常用任务确定地区需求。",
+    "desc": "从目标服务的地区要求与实际任务出发，再观察候选节点。地理标签不直接等于更低延迟或全部服务可访问。",
     "noindex": false
   },
   {
     "file": "topics/subscriptions/index.html",
     "canonical": "https://jichangnode.wiki/topics/subscriptions/",
     "title": "订阅维护专题：价格、资料与专业选购指南",
-    "desc": "分别检查链接、客户端配置与后台权益。",
+    "desc": "检查三个独立层面：配置是否取得、客户端是否读取、账号权益是否有效。一个环节成功不代表整条链路完成。",
     "noindex": false
   },
   {
     "file": "topics/evidence/index.html",
     "canonical": "https://jichangnode.wiki/topics/evidence/",
     "title": "证据与来源专题：价格、资料与专业选购指南",
-    "desc": "对应品牌身份、资料版本与完整计量单位。",
+    "desc": "先确认品牌身份与资料归属，再读取完整字段，最后核对版本。入口可访问只是这一条证据链中的一项。",
     "noindex": false
   },
   {
     "file": "topics/promotions/index.html",
     "canonical": "https://jichangnode.wiki/topics/promotions/",
     "title": "活动套餐专题：价格、资料与专业选购指南",
-    "desc": "核对限售资格、在售期限与常规续费安排。",
+    "desc": "把活动资格、首购金额、后续价格与活动权益分列。限时折扣只描述当前满足条件的订单。",
     "noindex": false
   },
   {
