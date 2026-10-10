@@ -21,3 +21,11 @@ const menu=document.querySelector('.menu'),nav=document.querySelector('#navigati
 const closeMenu=()=>{nav?.classList.remove('open');menu?.setAttribute('aria-expanded','false');};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav?.classList.contains('open')){closeMenu();menu.focus();}});document.addEventListener('click',e=>{if(nav?.classList.contains('open')&&!e.target.closest('.header'))closeMenu();});nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
 document.querySelector('.back-top')?.addEventListener('click',()=>{window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});document.querySelector('.skip')?.focus({preventScroll:true});});
+const reviewFilter=document.querySelector('#review-filter');
+if(reviewFilter){
+ const query=document.querySelector('#review-query'),kind=document.querySelector('#review-kind'),count=document.querySelector('#review-filter-count');
+ const cards=[...document.querySelectorAll('.review-index-card')];
+ const apply=()=>{const words=query.value.normalize('NFKC').toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);let total=0;for(const card of cards){const match=words.every(w=>card.dataset.reviewName.normalize('NFKC').toLocaleLowerCase().includes(w))&&(kind.value==='all'||card.dataset.reviewKind===kind.value);card.hidden=!match;document.querySelector('.review-coverage [data-review-brand="'+card.dataset.reviewBrand+'"]')?.toggleAttribute('hidden',!match);if(match)total++;}count.textContent=total?`显示 ${total} / ${cards.length} 个品牌`:'没有符合条件的品牌，请修改关键词或重置筛选。';};
+ reviewFilter.addEventListener('submit',e=>e.preventDefault());query.addEventListener('input',apply);kind.addEventListener('change',apply);reviewFilter.addEventListener('reset',()=>setTimeout(apply,0));
+}
+document.querySelectorAll('.table-wrap').forEach(w=>{w.tabIndex=0;w.setAttribute('role','region');w.setAttribute('aria-label',w.querySelector('caption')?.textContent||'表格，可左右滚动');});

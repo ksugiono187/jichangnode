@@ -1,3 +1,4 @@
+import {selectReview} from './public-reviews.mjs';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {searchEntries,searchSite} from '../assets/discovery.js';
@@ -19,3 +20,6 @@ const failures=[];const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatM
 for(const file of walk(new URL('dist/',root)).filter(p=>p.pathname.endsWith('.html'))){const html=fs.readFileSync(file,'utf8'),ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);if(new Set(ids).size!==ids.length)failures.push(file.pathname+' duplicate IDs');if(/href=""/.test(html))failures.push(file.pathname+' empty link');if(!html.includes('experience.js'))failures.push(file.pathname+' missing interactions');}
 const research=JSON.parse(read('data/brand-research.json'));for(const b of research)for(const p of b.reportedPlans){const source=b.sources.find(s=>s.url===p.source);if(source?.publisher&&p.publisher!==source.publisher)failures.push(b.id+' publisher mismatch');}
 assert.deepEqual(failures,[]);console.log('Whole-site quality passed: search normalization and types, safe total-quota calculations, no empty links or duplicate IDs, and consistent source attribution.');
+
+const late={testDate:'2026-09-21 23:45'},early={testDate:'2026-07-19'},month={testDate:'2026-10（具体日未公布）'};
+assert.equal(selectReview([late,month,early]),late);assert.equal(selectReview([early,late]),late);assert.equal(selectReview([month]),month);
