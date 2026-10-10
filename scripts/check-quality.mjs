@@ -23,3 +23,5 @@ assert.deepEqual(failures,[]);console.log('Whole-site quality passed: search nor
 
 const late={testDate:'2026-09-21 23:45'},early={testDate:'2026-07-19'},month={testDate:'2026-10（具体日未公布）'};
 assert.equal(selectReview([late,month,early]),late);assert.equal(selectReview([early,late]),late);assert.equal(selectReview([month]),month);
+
+const stableHTML=read('dist/topics/stable/index.html');assert.ok(!stableHTML.includes('待实测'));assert.equal((stableHTML.match(/class="stable-case" id="stable-[a-z0-9]+"/g)||[]).length,10);assert.ok(stableHTML.includes('新加坡'));assert.ok(stableHTML.includes('原作者报告'));assert.ok(stableHTML.includes('475.2'));

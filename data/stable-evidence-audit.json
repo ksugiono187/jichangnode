@@ -1,0 +1,87 @@
+[
+  {
+    "id": "2mao",
+    "url": "https://airpick.help/brands/ermao/",
+    "checkedAt": "2026-10-10",
+    "publisher": "AirPick",
+    "testDate": "2026-08-11 10:45:27 CST",
+    "timeWindow": "上午单轮",
+    "observations": ["正文63个节点行，香港组20行延迟较集中；土耳其零吞吐，英国及泰国接近零吞吐。", "既有摘录与原网页转录一致；图中Shadowsocks与品牌资料VLESS不一致。", "本次原图链接请求失败，未独立检查图片或哈希。"],
+    "summary": "AirPick上午测试列出63个节点行：土耳其01为0B，英国01仅483B，泰国01仅45.31KB；香港20行RTT为24–31ms。适合作为常用地区当轮连通参考，小众节点异常须单独看。",
+    "metrics": [
+      {"metric":"节点行数","value":63,"unit":"行","node":"全表，无订阅信息行"},
+      {"metric":"零吞吐节点行","value":1,"unit":"行","node":"土耳其01"},
+      {"metric":"RTT区间","value":"24–31","unit":"ms","node":"香港20节点"},
+      {"metric":"平均速度原列","value":483,"unit":"B（原表，未换算）","node":"英国01"},
+      {"metric":"HTTP延迟","value":2038,"unit":"ms","node":"泰国01"}
+    ],
+    "environment":"作者README记录珠海联通5Gbps、32线程、Ping5次；MAI-TEST-BOT 2.0.0-dev；耗时439秒。",
+    "limitations":["仅上午一次快照，无多日、晚高峰或故障恢复序列。", "MB列未明确写每秒，不能转换吞吐单位。", "零吞吐数量不是长期故障率；非零也不等于目标服务可用。", "作者有推广链接；未独立复测。"],
+    "rawEvidenceInspected":false,
+    "independentlyVerifiedBySite":false
+  },
+  {
+    "id":"sogo",
+    "url":"https://airpick.help/brands/sogo/",
+    "checkedAt":"2026-10-10",
+    "publisher":"AirPick",
+    "testDate":"2026-08-11 18:57:59 CST（作者标注，存在信息行日期矛盾）",
+    "timeWindow":"作者标注傍晚单轮",
+    "observations":["正文表65行含3个订阅信息行，余62个节点行；香港03重名，不能直接称62个独立节点。", "标注测试8月11日，但信息行同时写重置剩余5天、重置到期10月11日，日期口径不一致，未找到作者说明。", "原表序号缺44及马来01标69；页脚描述线程为模糊钱程=332，而README32线程。", "原图链接请求失败，未检查图片或哈希。"],
+    "summary":"AirPick转录显示香港11及马来01/02零吞吐，日本01 HTTP延迟1999ms。但原页测试日期与重置信息不一致，并有重名及编号异常；只列异常读数，不把它用于统一稳定率计算。",
+    "metrics":[
+      {"metric":"节点行数（非独立节点数）","value":62,"unit":"行","node":"排除3个订阅信息行；香港03重名"},
+      {"metric":"零吞吐节点行","value":3,"unit":"行","node":"香港11、马来01、马来02"},
+      {"metric":"HTTP延迟","value":1999,"unit":"ms","node":"日本01"},
+      {"metric":"HTTP延迟","value":1823,"unit":"ms","node":"新加坡10"}
+    ],
+    "environment":"作者README称珠海联通5Gbps、32线程、Ping5次、MAI-TEST-BOT 2.0.0-dev；正文对页脚后端和线程字形表示不确定。",
+    "limitations":["测试日期与订阅重置信息存在矛盾，不用于时段结论或统一稳定率。", "原表包含重名节点及编号异常，不能按序号统计独立节点数。", "MB按原列保留，不自行换算MB/s。", "单次记录不能证明长期稳定或解锁；作者有推广链接。"],
+    "rawEvidenceInspected":false,
+    "independentlyVerifiedBySite":false,
+    "hasSourceConflict":true,
+    "excludeFromStabilityRate":true
+  },
+  {
+    "id":"yuzhou",
+    "url":"https://airpick.help/brands/yuzhou/",
+    "checkedAt":"2026-10-10",
+    "publisher":"AirPick",
+    "testDate":"2026-08-11 21:04:24 CST",
+    "timeWindow":"晚间单轮",
+    "observations":["50个节点行，其中香港01零吞吐、新加坡07仅9.60KB。", "既有550MB、113ms及525ms摘录与原表一致，但113ms应称TLS RTT，不宜泛称RTT。", "日本多节点HTTPS延迟超过1700ms，吞吐与请求延迟应分开理解。", "原图链接请求失败；未检查原图或哈希。"],
+    "summary":"AirPick21:04记录50个节点行：香港01零吞吐，新加坡07仅9.60KB；日本07 HTTPS延迟2091ms。香港02虽列550MB，HTTPS延迟仍525ms，单节点吞吐不能代替交互稳定性。",
+    "metrics":[
+      {"metric":"节点行数","value":50,"unit":"行","node":"全表，无订阅信息行"},
+      {"metric":"零吞吐节点行","value":1,"unit":"行","node":"香港01"},
+      {"metric":"HTTPS延迟","value":2091,"unit":"ms","node":"日本07"},
+      {"metric":"TLS RTT","value":113,"unit":"ms","node":"香港02"},
+      {"metric":"HTTPS延迟","value":525,"unit":"ms","node":"香港02"}
+    ],
+    "environment":"作者记录珠海联通9Gbps、32线程；main4.3.3(696)/miaosu4.7.0(A11-32)，VLESS。",
+    "limitations":["仅21:04单次快照，没有跨日复测，不是整个晚高峰持续可用率。", "与MAI-TEST-BOT的RTT/HTTP口径和5Gbps后端不同，不直接横比。", "MB原列未自行转换；NAT读数不证明游戏体验。", "作者有推广链接，未独立复测。"],
+    "rawEvidenceInspected":false,
+    "independentlyVerifiedBySite":false
+  },
+  {
+    "id":"1fly",
+    "url":"https://airpick.help/brands/yifan/",
+    "checkedAt":"2026-10-10",
+    "publisher":"AirPick",
+    "testDate":"2026-08-11 00:21:30 CST",
+    "timeWindow":"凌晨单轮",
+    "observations":["55个节点行，香港01虽然有24ms延迟但零吞吐。", "香港09 RTT101ms，其余香港组多16–24ms；香港11平均速度42.70MB，低于其余非零香港行。", "既有91.96MB、23ms、香港01零速与原表一致。", "作者明确页脚第一行被遮挡，后端/耗时/流量不可可靠辨认；原图请求失败。"],
+    "summary":"AirPick凌晨记录55个节点行：香港01为0B但RTT24ms，香港09 RTT101ms，日本04/05 HTTP延迟550/611ms。应按节点看异常，凌晨结果不能作为晚高峰稳定性结论。",
+    "metrics":[
+      {"metric":"节点行数","value":55,"unit":"行","node":"全表，无订阅信息行"},
+      {"metric":"零吞吐节点行","value":1,"unit":"行","node":"香港01"},
+      {"metric":"RTT","value":101,"unit":"ms","node":"香港09"},
+      {"metric":"HTTP延迟","value":550,"unit":"ms","node":"日本04"},
+      {"metric":"HTTP延迟","value":611,"unit":"ms","node":"日本05"}
+    ],
+    "environment":"作者README记录MAI-TEST-BOT2.0.0-dev、珠海联通5Gbps、32线程、Ping5次；图中后端页脚被遮挡，不能从图独立确认。",
+    "limitations":["凌晨一次记录，无晚高峰或多日序列。", "页脚遮挡使环境不能从图独立确认。", "MB原列保留；延迟非零不保证吞吐或服务可用。", "作者有推广链接；未独立复测。"],
+    "rawEvidenceInspected":false,
+    "independentlyVerifiedBySite":false
+  }
+]

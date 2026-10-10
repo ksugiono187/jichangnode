@@ -50,6 +50,65 @@
         "hasRawEvidence": true,
         "rawEvidenceInspected": false,
         "independentlyVerifiedBySite": false
+      },
+      {
+        "url": "https://jckevin.org/airport/reviews/weifeng-benchmark/",
+        "publisher": "JCKevin 编辑部",
+        "title": "微风网络2026年9月21日六时点采样记录",
+        "publishedDate": "2026-09-21",
+        "testDate": "2026-09-21（20:00及22:00摘录）",
+        "classification": "来源声明",
+        "summary": "原作者另列全天六时点采样，晚间20:00和22:00的下载值分别475.2与437.6 Mbps。这与23:30六节点测速是两组记录，不能合并样本。",
+        "metrics": [
+          {
+            "metric": "20:00 下载",
+            "value": 475.2,
+            "unit": "Mbps",
+            "node": "原文未指明节点",
+            "sampleCount": null
+          },
+          {
+            "metric": "20:00 延迟（方法未定义）",
+            "value": 64,
+            "unit": "ms",
+            "node": "原文未指明节点",
+            "sampleCount": null
+          },
+          {
+            "metric": "20:00 丢包",
+            "value": 0.1,
+            "unit": "%",
+            "node": "原文未指明节点",
+            "sampleCount": null
+          },
+          {
+            "metric": "22:00 下载",
+            "value": 437.6,
+            "unit": "Mbps",
+            "node": "原文未指明节点",
+            "sampleCount": null
+          },
+          {
+            "metric": "22:00 延迟（方法未定义）",
+            "value": 72,
+            "unit": "ms",
+            "node": "原文未指明节点",
+            "sampleCount": null
+          },
+          {
+            "metric": "22:00 丢包",
+            "value": 0.2,
+            "unit": "%",
+            "node": "原文未指明节点",
+            "sampleCount": null
+          }
+        ],
+        "environment": "作者列Clash Verge Rev、Speedtest；未完整披露本地运营商、带宽、各时点节点及原始日志。时区未明确。",
+        "limitations": "网页表格可查，测试过程未核验；未见逐次日志和发包总数，不换算长期稳定率，不因降速直接判定超售或物理专线。",
+        "checkedAt": "2026-10-10",
+        "hasRawEvidence": false,
+        "rawEvidenceInspected": false,
+        "independentlyVerifiedBySite": false
       }
     ],
     "siteRetested": false
@@ -622,13 +681,38 @@
             "node": "土耳其01",
             "testEnvironment": "珠海联通5Gbps后端，32线程，Ping5次",
             "sampleCount": 1
+          },
+          {
+            "metric": "节点行数",
+            "value": 63,
+            "unit": "行",
+            "node": "全表，无订阅信息行",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通5Gbps后端，32线程，Ping5次；工具MAI-TEST-BOT2.0.0-dev；单轮耗时439秒、消耗26.0GB"
+          },
+          {
+            "metric": "零吞吐节点行",
+            "value": 1,
+            "unit": "行",
+            "node": "土耳其01",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通5Gbps后端，32线程，Ping5次；工具MAI-TEST-BOT2.0.0-dev；单轮耗时439秒、消耗26.0GB"
+          },
+          {
+            "metric": "HTTP延迟",
+            "value": 2038,
+            "unit": "ms",
+            "node": "泰国01",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通5Gbps后端，32线程，Ping5次；工具MAI-TEST-BOT2.0.0-dev；单轮耗时439秒、消耗26.0GB"
           }
         ],
         "environment": "珠海联通5Gbps后端，32线程，Ping5次；工具MAI-TEST-BOT2.0.0-dev；单轮耗时439秒、消耗26.0GB",
         "limitations": "正文引用截图哈希且逐行转录；本次未查看原图，只摘正文明确数字，MB原列未自行转换成MB/s。不同品牌不同时间不可严格排名；不证明AI/流媒体解锁、IEPL物理线路或长期稳定。",
         "hasRawEvidence": true,
         "rawEvidenceInspected": false,
-        "independentlyVerifiedBySite": false
+        "independentlyVerifiedBySite": false,
+        "checkedAt": "2026-10-10"
       }
     ],
     "siteRetested": false
@@ -685,7 +769,8 @@
           "测试工具、时段、后端不同，不可直接做跨品牌速度排名。",
           "数值按原页转录，MB保持原单位，不转换成Mbps；没有将解锁宣传视作测试。",
           "原页有原图链接和转录表，研究过程未独立运行测试，也未校验图片哈希。",
-          "原页表共65行，其中3行为信息行，真实节点62；页脚后端字形“球速?通5Gbps”，README环境与原图字形不能视为完全吻合。"
+          "原页表共65行，其中3行为信息行，真实节点62；页脚后端字形“球速?通5Gbps”，README环境与原图字形不能视为完全吻合。",
+          "2026-10-10复核原页：测试日期与订阅重置到期信息不一致，编号、重名及线程转录亦有矛盾；本专题不据此计算可用率或长期稳定排序。"
         ],
         "hasRawEvidence": true,
         "independentlyVerifiedBySite": false,
@@ -716,7 +801,7 @@
             "sampleCount": null
           },
           {
-            "metric": "RTT",
+            "metric": "TLS RTT",
             "value": 113,
             "unit": "ms",
             "node": "〖香港〗02",
@@ -738,6 +823,30 @@
             "node": "〖香港〗01",
             "testEnvironment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS",
             "sampleCount": null
+          },
+          {
+            "metric": "节点行数",
+            "value": 50,
+            "unit": "行",
+            "node": "全表，无订阅信息行",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS"
+          },
+          {
+            "metric": "零吞吐节点行",
+            "value": 1,
+            "unit": "行",
+            "node": "香港01",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS"
+          },
+          {
+            "metric": "HTTPS延迟",
+            "value": 2091,
+            "unit": "ms",
+            "node": "日本07",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS"
           }
         ],
         "environment": "珠海联通9Gbps；32线程；main4.3.3(696)/miaosu4.7.0(A11-32)；VLESS",
@@ -750,7 +859,8 @@
         ],
         "hasRawEvidence": true,
         "independentlyVerifiedBySite": false,
-        "rawEvidenceInspected": false
+        "rawEvidenceInspected": false,
+        "checkedAt": "2026-10-10"
       }
     ],
     "siteRetested": false
@@ -791,6 +901,30 @@
             "node": "HK | 香港 | 01",
             "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
             "sampleCount": null
+          },
+          {
+            "metric": "节点行数",
+            "value": 55,
+            "unit": "行",
+            "node": "全表，无订阅信息行",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks"
+          },
+          {
+            "metric": "零吞吐节点行",
+            "value": 1,
+            "unit": "行",
+            "node": "香港01",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks"
+          },
+          {
+            "metric": "RTT",
+            "value": 101,
+            "unit": "ms",
+            "node": "香港09",
+            "sampleCount": null,
+            "testEnvironment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks"
           }
         ],
         "environment": "珠海联通 5Gbps 后端；MAI-TEST-BOT 2.0.0-dev；32线程；每节点Ping5次；图中协议Shadowsocks",
@@ -803,7 +937,8 @@
         ],
         "hasRawEvidence": true,
         "independentlyVerifiedBySite": false,
-        "rawEvidenceInspected": false
+        "rawEvidenceInspected": false,
+        "checkedAt": "2026-10-10"
       }
     ],
     "siteRetested": false

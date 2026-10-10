@@ -17,3 +17,5 @@
 .review-index-card[hidden],.review-coverage tr[hidden]{display:none}.table-wrap:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.review-filter-count{min-height:24px}.article-page .table-wrap:focus-visible{outline-color:#286653}
 
 @media(max-width:600px){#review-filter{display:grid;grid-template-columns:1fr;width:100%;box-sizing:border-box}#review-filter input,#review-filter select{width:100%;min-width:0;box-sizing:border-box}#review-filter label{margin-bottom:0}}
+
+.stable-case{padding:30px;margin:28px 0;border:1px solid var(--line);border-radius:8px;background:var(--panel)}.stable-case h3{font-size:28px;line-height:1.6;margin:12px 0}.stable-case p{line-height:1.95}.stable-case a{overflow-wrap:anywhere}.stable-case .review-context{margin:20px 0}.stable-archive{margin-top:64px}.stable-case .review-limit{margin-top:22px}@media(max-width:600px){.stable-case{padding:20px}.stable-case h3{font-size:23px}.stable-archive{margin-top:40px}.stable-case .review-context{display:block}.stable-case .review-context dd{margin:0 0 15px}}
