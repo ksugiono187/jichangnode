@@ -3,7 +3,7 @@
     "file": "index.html",
     "canonical": "https://jichangnode.wiki/",
     "title": "梯子推荐与机场推荐：29品牌排行、价格流量与严选指南",
-    "desc": "翻墙排行提供机场推荐前十、便宜机场严选与稳定机场严选，整理29品牌价格流量、11个优惠码及150篇选购文章。",
+    "desc": "机场node提供机场推荐前十、便宜机场严选与稳定机场严选，整理29品牌价格流量、11个优惠码及150篇选购文章。",
     "noindex": false
   },
   {
@@ -1500,8 +1500,8 @@
   {
     "file": "about/index.html",
     "canonical": "https://jichangnode.wiki/about/",
-    "title": "关于翻墙排行",
-    "desc": "关于翻墙排行",
+    "title": "关于机场node",
+    "desc": "关于机场node",
     "noindex": false
   },
   {
@@ -1522,14 +1522,14 @@
     "file": "sitemap/index.html",
     "canonical": "https://jichangnode.wiki/sitemap/",
     "title": "站点地图：29品牌、27专题与150篇文章",
-    "desc": "翻墙排行完整内容索引，包含品牌档案、专题、博客和网站工具。",
+    "desc": "机场node完整内容索引，包含品牌档案、专题、博客和网站工具。",
     "noindex": false
   },
   {
     "file": "404/index.html",
     "canonical": "https://jichangnode.wiki/404/",
     "title": "页面未找到",
-    "desc": "返回翻墙排行首页或搜索品牌及文章。",
+    "desc": "返回机场node首页或搜索品牌及文章。",
     "noindex": true
   }
 ]

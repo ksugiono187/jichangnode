@@ -1,4 +1,4 @@
-# 翻墙排行 · jichangnode.wiki
+# 机场node · jichangnode.wiki
 
 包含29个品牌、150篇文章、27个专题、三份前十名单与11个本轮提供的优惠码。无需安装第三方依赖，使用Node.js 22或更高版本。
 
