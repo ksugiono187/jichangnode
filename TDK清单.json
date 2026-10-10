@@ -1720,6 +1720,22 @@
     "lastmod": "2026-10-10"
   },
   {
+    "file": "corrections/index.html",
+    "canonical": "https://jichangnode.wiki/corrections/",
+    "title": "资料纠错与编辑联系：提交价格、流量与测评更正",
+    "desc": "提供公开出处与资料日期，生成纠错草稿并通过机场node的GitHub公开问题入口提交。",
+    "noindex": false,
+    "lastmod": "2026-10-10"
+  },
+  {
+    "file": "testing/index.html",
+    "canonical": "https://jichangnode.wiki/testing/",
+    "title": "机场测评记录工具：统一条件、单位与原始证据",
+    "desc": "记录地区、运营商、客户端版本、节点和测试方法，导出真实观测；本站尚未进行品牌复测。",
+    "noindex": false,
+    "lastmod": "2026-10-10"
+  },
+  {
     "file": "search/index.html",
     "canonical": "https://jichangnode.wiki/search/",
     "title": "全站搜索：品牌、专题与150篇博客",

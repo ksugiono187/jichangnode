@@ -14,6 +14,6 @@ const urlList=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
 if(!urlList.length||urlList.some(u=>new URL(u).origin!==origin))throw Error('站点地图的地址不一致');
 const r=await fetch('https://api.indexnow.org/IndexNow',{method:'POST',headers:{'Content-Type':'application/json; charset=utf-8'},body:JSON.stringify({host:'jichangnode.wiki',key,keyLocation,urlList}),signal:AbortSignal.timeout(30000)});
 const record={submittedAt:new Date().toISOString(),status:r.status,urls:urlList.length,accepted:[200,202].includes(r.status),note:'接口接收不表示页面已收录或关键词排名。'};
-fs.writeFileSync(root+'/IndexNow提交记录.json',JSON.stringify(record,null,2));
+fs.writeFileSync(process.argv[2]||root+'/IndexNow提交记录.json',JSON.stringify(record,null,2));
 console.log(JSON.stringify(record));
 if(!record.accepted)process.exitCode=1;

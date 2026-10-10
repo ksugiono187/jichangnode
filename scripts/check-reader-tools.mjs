@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {filterPlans} from '../assets/plan-selector.js';
+const plan=(price,cycle,gb,quotaPeriod,extra={})=>({price,cycle,gb,quotaPeriod,...extra});
+const brands=[{id:'example',rank:1,plans:[plan(84,'年付',50,'month'),plan(25,'月付',150,'month'),plan(20,'月付',200,'year-total'),plan(10,'月付',null,'unknown'),plan(15,'月付',500,'month',{researchConflict:true}),plan(35,'一次性',300,'total')]}];
+const select=opts=>filterPlans(brands,{budget:100,usage:100,margin:20,...opts});
+assert.equal(select({budget:10}).matches.length,0,'Annual cash payment cannot be divided into monthly cash budget');
+assert.deepEqual(select({}).matches.map(x=>x.plan.price),[25],'Exclude year-total quota, conflicts and unknown quota from monthly needs');
+assert.equal(select({cycle:'年付',usage:40}).matches[0].plan.price,84);
+assert.equal(select({cycle:'年付',usage:50}).matches.length,0,'Capacity margin applies');
+assert.equal(select({cycle:'一次性',period:'total'}).matches[0].plan.price,35);
+assert.equal(select({showUnresolved:true}).matches.filter(x=>x.unresolved).length,2);
+assert.equal(filterPlans([{...brands[0],planAttribution:'disputed'}],{budget:100,usage:10,margin:0}).matches.length,0);
+assert.throws(()=>select({budget:NaN}));
+const root=new URL('../',import.meta.url),core=JSON.parse(fs.readFileSync(new URL('data/core-editorial.json',root)));
+assert.equal(core.length,20);assert.equal(new Set(core.map(x=>x.id)).size,20);
+for(const a of core){assert.ok(fs.existsSync(new URL(`dist/blog/${a.id}/index.html`,root)),`Existing article ${a.id}`);for(const section of a.sections)assert.ok(fs.readFileSync(new URL(`dist/blog/${a.id}/index.html`,root),'utf8').includes(section.heading));}
+const evidence=JSON.parse(fs.readFileSync(new URL('data/official-followup.json',root)));assert.equal(evidence.length,10);assert.ok(evidence.every(x=>!x.verified&&x.confirmedFields.length===0));
+for(const route of ['plans','corrections','testing'])assert.ok(fs.readFileSync(new URL(`dist/${route}/index.html`,root),'utf8').includes('reader-tools.js'));
+console.log('Reader tools passed: payment budget, quota periods, capacity margin, evidence exclusions, 20 article upgrades and 10 honest audit records.');

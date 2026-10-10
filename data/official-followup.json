@@ -1,0 +1,283 @@
+[
+  {
+    "id": "breezenet",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://breezenetwork.sbs/",
+        "discoveredFrom": "现有brand-research同名推广页",
+        "status": "unreadable-content",
+        "officialOwnershipConfirmed": false,
+        "result": "Web可返回标题但正文0行；现有记录明确运营主体归属未证实，不因域名含品牌名升级为官方。"
+      }
+    ],
+    "previousEndpointResult": "入口显示线路检测页面，未展示公开套餐、条款与优惠。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "flycat",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://s1.fei9sjf.xyz/",
+        "discoveredFrom": "现有official-audit记录中的入口重定向目标",
+        "status": "unavailable",
+        "officialOwnershipConfirmed": false,
+        "result": "直接访问该已发现主目标仍不可访问；不能核实公开价目或登录状态。"
+      },
+      {
+        "url": "https://mesee.net/brands/feimaoyun",
+        "discoveredFrom": "现有brand-research",
+        "status": "third-party-reference",
+        "officialOwnershipConfirmed": false,
+        "result": "读取现有引用页，未发现可支持公开官方套餐的新增主域；价格为第三方转录。"
+      }
+    ],
+    "previousEndpointResult": "推广入口转向备用地址，本次未取得公开价目与条款。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "twilight",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://github.com/jcsift/TwiLight",
+        "discoveredFrom": "现有brand-research",
+        "status": "third-party-reference",
+        "officialOwnershipConfirmed": false,
+        "result": "GitHub整理页的“官网/立即购买”都指向eoht.net资料站，没有给出新的已证实官方主/备用域；退款描述明确为服务商资料宣称，无窗口与扣费规则。"
+      }
+    ],
+    "previousEndpointResult": "本次未能读取该入口的公开页面，当前套餐、流量与条款仍待确认。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "dalaocloud",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://www.jichangpk.com/pk/dalaoyun-vs-yifanyun/",
+        "discoveredFrom": "现有brand-research",
+        "status": "unavailable",
+        "officialOwnershipConfirmed": false,
+        "result": "现有引用页本轮工具错误，无可追踪新官方主域；其余现有引用本来为第三方，无直接官方证据。"
+      }
+    ],
+    "previousEndpointResult": "本次未能读取该入口的公开页面，当前套餐、流量与条款仍待确认。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "firefly",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://haoyongjichang.com/review/firefly/",
+        "discoveredFrom": "现有brand-research",
+        "status": "third-party-reference",
+        "officialOwnershipConfirmed": false,
+        "result": "原页“前往官网”仍是已失败vip02.fireflyaff.com入口，未发现新的已证实官方主域，不盲目重试该入口。"
+      }
+    ],
+    "previousEndpointResult": "本次未能读取该入口的公开页面，当前套餐、流量与条款仍待确认。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "civet",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://tech.nodeuno.com/airport/lingmao",
+        "discoveredFrom": "现有brand-research",
+        "status": "third-party-reference",
+        "officialOwnershipConfirmed": false,
+        "result": "原页官方入口链接提供不同推广域kaelthw.civetaff.com，只用于发现候选，不采用原页优惠为官网核实。"
+      },
+      {
+        "url": "https://kaelthw.civetaff.com/",
+        "discoveredFrom": "NodeUno Tech原页“前往官网”链接",
+        "status": "unavailable",
+        "officialOwnershipConfirmed": false,
+        "result": "不同候选入口直接访问工具错误，未取得匿名内容。"
+      }
+    ],
+    "previousEndpointResult": "本次未能读取该入口的公开页面，当前套餐、流量与条款仍待确认。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "flashleap",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://mesee.net/brands/shanyue",
+        "discoveredFrom": "现有brand-research",
+        "status": "third-party-reference",
+        "officialOwnershipConfirmed": false,
+        "result": "原页给出officialSite vip01.flashleap.net。资料为商家提供而非后台采集，且报价与其他转录冲突，仅作为域名线索。"
+      },
+      {
+        "url": "https://vip01.flashleap.net/",
+        "discoveredFrom": "MeSee原页officialSite字段",
+        "status": "unavailable",
+        "officialOwnershipConfirmed": false,
+        "result": "新主域候选直接Web访问工具错误；未取得套餐、条款或优惠公示。"
+      }
+    ],
+    "previousEndpointResult": "本次未能读取该入口的公开页面，当前套餐、流量与条款仍待确认。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "worryfree",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://jckevin.org/airport/brands/wuyou/",
+        "discoveredFrom": "现有brand-research",
+        "status": "third-party-reference",
+        "officialOwnershipConfirmed": false,
+        "result": "原页官网注册页仍指向已失败wep01.worryfreeaff.com入口，无新的已证实官方主域，不盲目重试。"
+      }
+    ],
+    "previousEndpointResult": "本次未能读取该入口的公开页面，当前套餐、流量与条款仍待确认。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "kuajie",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://haoyongjichang.com/review/kuajie/",
+        "discoveredFrom": "现有brand-research",
+        "status": "third-party-reference",
+        "officialOwnershipConfirmed": false,
+        "result": "原页官网仍指向已失败vip02.kuajieaff.com入口，无新的已证实官方主域；原页支持和价格声明为第三方。"
+      }
+    ],
+    "previousEndpointResult": "本次未能读取该入口的公开页面，当前套餐、流量与条款仍待确认。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  },
+  {
+    "id": "2mao",
+    "date": "2026-10-10",
+    "status": "no-confirmed-public-primary",
+    "verified": false,
+    "confirmedFields": [],
+    "sources": [
+      {
+        "url": "https://ermaoyunvpn.com.cn/pricing",
+        "discoveredFrom": "现有brand-research的同名套餐页",
+        "status": "public-content-unverified-ownership",
+        "officialOwnershipConfirmed": false,
+        "result": "可读公开套餐及不限设备字样，但原有记录明确归属未证实。页尾技术支持为第三方机场实验室并列多个品牌同名VPN域，未找到与用户指定官方入口的可验证双向归属，因此不标primary verified。"
+      }
+    ],
+    "previousEndpointResult": "本次未能读取该入口的公开页面，当前套餐、流量与条款仍待确认。",
+    "unresolved": [
+      "现价与所有付款周期",
+      "每档GB与明确重置周期",
+      "设备/并发条款",
+      "退款窗口及扣费条件",
+      "优惠码适用身份/周期/有效期"
+    ],
+    "scope": "只沿现有资料/审查记录中已出现的域名或其中的官网链接跟进。没有重复访问已失败用户推广入口，没有登录、注册、购买，也没有操作共享浏览器。",
+    "note": "第三方转录、同名推广站、域名官方标签均不能单独证明品牌官方归属。没有直接取得已确证官方匿名公示，故确认字段为空。"
+  }
+]
