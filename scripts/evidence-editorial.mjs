@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {quotaLabel,eligiblePlan,excluded} from '../assets/metrics.js';
+import {quotaLabel,eligiblePlan,eligibleTotalPlan,excluded} from '../assets/metrics.js';
 const file=new URL('../data/brand-research.json',import.meta.url);
 export const research=fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):[];
 const lookup=id=>research.find(r=>r.id===id);
@@ -10,7 +10,8 @@ const monthly=b=>b.plans.filter(p=>eligiblePlan(b,p)&&!p.researchConflict).sort(
 const facts=b=>b.plans.map(label).join('；')+'。';
 const sectionEvidence=b=>{
  const r=lookup(b.id);
- return r?.summary||'当前记录来自已有价目底稿，尚未取得公开的官方完整套餐表；金额与容量按来源日期理解。';
+ const sourceCount=r?.sources?.length||0,versions=r?.reportedPlans?.length||0,conflicts=r?.conflicts?.length||0;
+ return `${b.name}档案列有${b.plans.length}个原始套餐，本轮关联${sourceCount}个公开来源、${versions}条公开版本记录${conflicts?`和${conflicts}项差异或待核实说明`:''}。${r?.summary||'尚未取得公开的官方完整套餐表，金额与容量按来源日期理解。'}`;
 };
 const closest=(b,brands,target)=>brands.filter(x=>x.id!==b.id&&!excluded(x)).flatMap(x=>monthly(x).map(p=>({b:x,p}))).sort((a,c)=>Math.abs(a.p.gb-target)-Math.abs(c.p.gb-target)||a.p.price-c.p.price).filter((x,i,a)=>a.findIndex(z=>z.b.id===x.b.id)===i).slice(0,3);
 function monthlySections(b,brands){
@@ -28,11 +29,12 @@ function paymentSections(b,brands){
  const annual=b.plans.filter(p=>p.cycle==='年付'),payg=b.plans.filter(p=>p.cycle==='一次性'),base=monthly(b)[0];
  const parts=[S('月付、年付、一次性：先写全额付款',facts(b),'月付金额、年付总价与整包金额属于不同付款承诺。下面把现金支出和流量周期分别计算，所有计算都基于表内参考值。')];
  parts.push(S('年包是否省钱，要比较相同权益',...annual.map(p=>`${p.name}一次付款¥${p.price}，流量标注为${quotaLabel(p)}；使用12个月的费用分摊为¥${money(p.price/12)}/月，若只使用6个月则为¥${money(p.price/6)}/使用月。${p.quotaPeriod==='unknown'?'重置周期不明确，不能与每月新增额度相除，也不能把年费/12当作可月付报价。':p.quotaPeriod==='year-total'?'这是年度总额，不是每个月新增同样流量。':'这是流量周期说明，平均月费用不会改变一次预付的性质。'}`),...(annual.length?[]:['当前记录没有年付价目。不推测隐藏年价或年付折扣。'])));
- parts.push(S('按量包的核心原因：用量寿命与资金占用',...payg.map(p=>`${p.name}付款¥${p.price}，${quotaLabel(p)}。${p.gb?`名义整包单价${(p.price/p.gb).toFixed(3)}元/GB；假设每月用10GB，可消耗约${money(p.gb/10)}个月；每月用50GB，约${money(p.gb/50)}个月。`:'容量待确认，不计算单价或使用寿命。'}消耗寿命是算例，服务存续、账号要求和完整条款可能缩短实际有效期。`),...(payg.length?[]:['当前记录没有完整一次性包价目。低频备用可以调查其他品牌，但月包剩余额度不能默认跨月保留。'])));
- const p=payg.find(p=>p.gb&&!p.capacityConflict&&!p.researchConflict);
+ parts.push(S('按量包的核心原因：用量寿命与资金占用',...payg.map(p=>`${p.name}付款¥${p.price}，${quotaLabel(p)}。${eligibleTotalPlan(b,p)?`名义整包单价${(p.price/p.gb).toFixed(3)}元/GB；假设每月用10GB，可消耗约${money(p.gb/10)}个月；每月用50GB，约${money(p.gb/50)}个月。消耗寿命是算例，服务存续、账号要求和完整条款可能缩短实际有效期。`:'此档的归属、容量、周期或公开版本尚有疑点，暂停单价和消耗寿命计算；保留原值供核对。'}`),...(payg.length?[]:['当前记录没有完整一次性包价目。低频备用可以调查其他品牌，但月包剩余额度不能默认跨月保留。'])));
+ const p=payg.find(p=>eligibleTotalPlan(b,p));
  if(base&&p)parts.push(S('低频备用和连续使用，费用拐点在哪里',`若按量${p.name}可以覆盖整段任务，¥${p.price}与月付${base.name}每期¥${base.price}的纯付款交点约为${money(p.price/base.price)}期。这个交点成立的前提是累计消耗不超过${p.gb}GB、月包需要每期付款，而且权益可比。`,`例如连续3期的月付账单为¥${money(base.price*3)}、6期为¥${money(base.price*6)}。若期间总消耗超过${p.gb}GB，一包已不够，需把加购费用计入。不能只用按量单价低或有效期长得出全年更便宜。`));
- const peers=brands.filter(x=>x.id!==b.id&&!excluded(x)).flatMap(x=>x.plans.filter(p=>p.cycle===(payg.length?'一次性':'年付')&&p.gb&&!p.capacityConflict&&!p.researchConflict).map(p=>({b:x,p}))).slice(0,3);
- parts.push(S('其他品牌的同周期参考',...peers.map(({b:x,p})=>`${x.name}${p.name}：¥${p.price}/${p.cycle}，${quotaLabel(p)}。对照本品牌时先看累计预算，再看额度能覆盖多久；额度单位不一致的两档不计算所谓折扣。`),sectionEvidence(b)));
+ const reference=p||annual.find(q=>!excluded(b)&&!q.capacityConflict&&!q.researchConflict&&q.quotaPeriod!=='unknown'&&Number.isFinite(q.gb)&&q.gb>0);
+ const peers=reference?brands.filter(x=>x.id!==b.id&&!excluded(x)).flatMap(x=>x.plans.filter(q=>q.cycle===reference.cycle&&q.quotaPeriod===reference.quotaPeriod&&Number.isFinite(q.gb)&&q.gb>0&&Number.isFinite(q.price)&&q.price>0&&!q.capacityConflict&&!q.researchConflict).map(q=>({b:x,p:q,score:Math.abs(q.gb-reference.gb)/reference.gb+Math.abs(q.price-reference.price)/reference.price}))).sort((a,b)=>a.score-b.score||a.b.rank-b.b.rank).filter((x,i,a)=>a.findIndex(z=>z.b.id===x.b.id)===i).slice(0,3):[];
+ parts.push(S('其他品牌的同周期参考',peers.length?`以${reference.name}的付款周期和额度口径为条件，再按容量与实际付款的相对差距选出近邻，每个品牌最多一档。这个选择规则用于费用对照，不评价性能。`:'本品牌尚无无争议、额度周期明确的长期参照档，不强行生成跨品牌近邻。',...peers.map(({b:x,p})=>`${x.name}${p.name}：¥${p.price}/${p.cycle}，${quotaLabel(p)}。对照本品牌时先看累计预算，再看额度能覆盖多久；权益与当前在售状态还需另外核对。`),sectionEvidence(b)));
  parts.push(S('结论：付款周期选择背后的核心原因',`对${b.name}，持续每期使用优先比较明确周期的月包；长期需求确定且条款完整时再评估年包；偶发任务再算一次性包库存。决定付款方式的是使用时间分布、额度重置和未消费资金，而不是把所有总价除以12后的最低数字。`));
  return parts;
 }
@@ -76,4 +78,4 @@ export function articleResearchHTML(a,brands,E){
  const cited=[...new Set([...bs.map(b=>b.id),...rows.map(r=>r.b.id)])].map(id=>brands.find(b=>b.id===id));
  return `<section id="research-comparison"><h2>对照数据与计算口径</h2><p>本篇以公开参考价目分析费用与容量；不同日期、套餐权益和付款周期需分别理解。名义单位成本＝金额÷标称额度，情景成本＝金额÷假设实际消耗。表内算例不属于性能测量。</p>${comparison}<p><a href="../../plans/">查看29品牌完整价格流量总表 ↗</a></p></section><section id="research-sources"><h2>本篇事实来源与冲突记录</h2>${cited.map(b=>`<h3>${E(b.name)}</h3>${sourceHTML(b,E)}`).join('')}<p>本站分析与计算为原创整理。公开价目转录保留出处；来源页面上的线路、解锁或客服宣传没有被换写成本站实测结论。</p></section>`;
 }
-export function allPlansHTML(brands,E){return `<div class="notice">参考价目与本轮查到的公开版本分别展示。所有品牌完整收录；未知字段明确保留，不把查阅日期标成官网验证日期。</div><nav class="plan-index">${brands.map(b=>`<a href="#p-${b.id}">${E(b.name)}</a>`).join('')}</nav>${brands.map(b=>`<section class="plan-catalog" id="p-${b.id}"><span class="eyebrow">BRAND / ${b.rank}</span><h2><a href="../brands/${b.id}/">${E(b.name)}</a></h2>${table(['全部已收录套餐','金额 / 周期','流量与重置','原记录日期','比较状态'],b.plans.map(p=>[E(p.name),E(`¥${p.price} / ${p.cycle}`),E(quotaLabel(p)),E(p.sourceDate||'未明确'),E(p.researchConflict?'网络资料冲突':p.quotaPeriod==='unknown'?'重置待核实':excluded(b)?'品牌状态待核实':'参考值，未核当前订单')]),E,`${b.name}完整原记录`)}${reportedHTML(b,E).replace('id="public-prices"','')}${sourceHTML(b,E)}</section>`).join('')}`;}
+export function allPlansHTML(brands,E){return `<div class="notice">参考价目与本轮查到的公开版本分别展示。所有品牌完整收录；未知字段明确保留，不把查阅日期标成官网验证日期。</div><nav class="plan-index">${brands.map(b=>`<a href="#p-${b.id}">${E(b.name)}</a>`).join('')}</nav>${brands.map(b=>`<section class="plan-catalog" id="p-${b.id}"><span class="eyebrow">BRAND / ${b.rank}</span><h2><a href="../brands/${b.id}/">${E(b.name)}</a></h2>${table(['全部已收录套餐','金额 / 周期','流量与重置','原记录日期','比较状态'],b.plans.map(p=>[E(p.name),E(`¥${p.price} / ${p.cycle}`),E(quotaLabel(p)),E(p.sourceDate||'未明确'),E(p.capacityConflict?'容量标注冲突':p.researchConflict?'网络资料冲突':p.quotaPeriod==='unknown'?'重置待核实':excluded(b)?'品牌状态待核实':'参考值，未核当前订单')]),E,`${b.name}完整原记录`)}${reportedHTML(b,E).replace('id="public-prices"','')}${sourceHTML(b,E)}</section>`).join('')}`;}

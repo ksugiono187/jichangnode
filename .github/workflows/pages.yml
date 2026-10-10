@@ -23,6 +23,7 @@ jobs:
       - run: node scripts/check-evidence.mjs
       - run: node scripts/check-reviews.mjs
       - run: node scripts/check-reader-tools.mjs
+      - run: node scripts/check-quality.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
